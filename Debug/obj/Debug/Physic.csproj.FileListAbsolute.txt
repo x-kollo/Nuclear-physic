@@ -1,0 +1,31 @@
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csproj.GenerateResource.Cache
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe.config
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.pdb
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csproj.GenerateResource.cache
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.exe
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.pdb
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csprojAssemblyReference.cache
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe.config
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.exe
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.pdb
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.pdb
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Izotop.resources
+C:\Users\novak\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csprojResolveAssemblyReference.cache
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Izotop.resources
+C:\Users\Heller\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csproj.CoreCompileInputs.cache
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe.config
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.exe
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\fysic.pdb
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.exe
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fysic.pdb
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csprojResolveAssemblyReference.cache
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Izotop.resources
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\novak\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Physic.csproj.GenerateResource.Cache

@@ -16,8 +16,6 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-
-        
         string[] TimeParams = { "-1", "-1", "-1", "-1", "-1", "-1" };
 
         int SelectedElement;
