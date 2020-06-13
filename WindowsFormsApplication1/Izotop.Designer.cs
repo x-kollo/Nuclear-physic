@@ -105,6 +105,7 @@
             this.button0.Text = "Ni";
             this.button0.UseVisualStyleBackColor = false;
             this.button0.Visible = false;
+            this.button0.Click += new System.EventHandler(this.click);
             // 
             // button1
             // 
@@ -119,6 +120,7 @@
             this.button1.Text = "Ni";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.click);
             // 
             // button2
             // 
@@ -133,6 +135,7 @@
             this.button2.Text = "Ni";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
+            this.button2.Click += new System.EventHandler(this.click);
             // 
             // button3
             // 
@@ -147,6 +150,7 @@
             this.button3.Text = "Ni";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.click);
             // 
             // button4
             // 
@@ -161,6 +165,7 @@
             this.button4.Text = "Ni";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Visible = false;
+            this.button4.Click += new System.EventHandler(this.click);
             // 
             // button5
             // 
@@ -175,6 +180,7 @@
             this.button5.Text = "Ni";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Visible = false;
+            this.button5.Click += new System.EventHandler(this.click);
             // 
             // button6
             // 
@@ -189,6 +195,7 @@
             this.button6.Text = "Ni";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Visible = false;
+            this.button6.Click += new System.EventHandler(this.click);
             // 
             // button7
             // 
@@ -203,6 +210,7 @@
             this.button7.Text = "Ni";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Visible = false;
+            this.button7.Click += new System.EventHandler(this.click);
             // 
             // button8
             // 
@@ -217,6 +225,7 @@
             this.button8.Text = "Ni";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Visible = false;
+            this.button8.Click += new System.EventHandler(this.click);
             // 
             // button9
             // 
@@ -231,6 +240,7 @@
             this.button9.Text = "Ni";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Visible = false;
+            this.button9.Click += new System.EventHandler(this.click);
             // 
             // button10
             // 
@@ -245,6 +255,7 @@
             this.button10.Text = "Ni";
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Visible = false;
+            this.button10.Click += new System.EventHandler(this.click);
             // 
             // button11
             // 
@@ -259,6 +270,7 @@
             this.button11.Text = "Ni";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Visible = false;
+            this.button11.Click += new System.EventHandler(this.click);
             // 
             // button12
             // 
@@ -273,6 +285,7 @@
             this.button12.Text = "Ni";
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Visible = false;
+            this.button12.Click += new System.EventHandler(this.click);
             // 
             // button13
             // 
@@ -287,6 +300,7 @@
             this.button13.Text = "Ni";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Visible = false;
+            this.button13.Click += new System.EventHandler(this.click);
             // 
             // button14
             // 
@@ -301,6 +315,7 @@
             this.button14.Text = "Ni";
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Visible = false;
+            this.button14.Click += new System.EventHandler(this.click);
             // 
             // button15
             // 
@@ -315,6 +330,7 @@
             this.button15.Text = "Ni";
             this.button15.UseVisualStyleBackColor = false;
             this.button15.Visible = false;
+            this.button15.Click += new System.EventHandler(this.click);
             // 
             // button16
             // 
@@ -329,6 +345,7 @@
             this.button16.Text = "Ni";
             this.button16.UseVisualStyleBackColor = false;
             this.button16.Visible = false;
+            this.button16.Click += new System.EventHandler(this.click);
             // 
             // button17
             // 
@@ -343,6 +360,7 @@
             this.button17.Text = "Ni";
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Visible = false;
+            this.button17.Click += new System.EventHandler(this.click);
             // 
             // button18
             // 
@@ -357,6 +375,7 @@
             this.button18.Text = "Ni";
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Visible = false;
+            this.button18.Click += new System.EventHandler(this.click);
             // 
             // button19
             // 
@@ -371,6 +390,7 @@
             this.button19.Text = "Ni";
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Visible = false;
+            this.button19.Click += new System.EventHandler(this.click);
             // 
             // button20
             // 
@@ -385,6 +405,7 @@
             this.button20.Text = "Ni";
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Visible = false;
+            this.button20.Click += new System.EventHandler(this.click);
             // 
             // button21
             // 
@@ -399,6 +420,7 @@
             this.button21.Text = "Ni";
             this.button21.UseVisualStyleBackColor = false;
             this.button21.Visible = false;
+            this.button21.Click += new System.EventHandler(this.click);
             // 
             // button22
             // 
@@ -413,6 +435,7 @@
             this.button22.Text = "Ni";
             this.button22.UseVisualStyleBackColor = false;
             this.button22.Visible = false;
+            this.button22.Click += new System.EventHandler(this.click);
             // 
             // button23
             // 
@@ -427,6 +450,7 @@
             this.button23.Text = "Ni";
             this.button23.UseVisualStyleBackColor = false;
             this.button23.Visible = false;
+            this.button23.Click += new System.EventHandler(this.click);
             // 
             // button24
             // 
@@ -441,6 +465,7 @@
             this.button24.Text = "Ni";
             this.button24.UseVisualStyleBackColor = false;
             this.button24.Visible = false;
+            this.button24.Click += new System.EventHandler(this.click);
             // 
             // button25
             // 
@@ -455,6 +480,7 @@
             this.button25.Text = "Ni";
             this.button25.UseVisualStyleBackColor = false;
             this.button25.Visible = false;
+            this.button25.Click += new System.EventHandler(this.click);
             // 
             // button26
             // 
@@ -469,6 +495,7 @@
             this.button26.Text = "Ni";
             this.button26.UseVisualStyleBackColor = false;
             this.button26.Visible = false;
+            this.button26.Click += new System.EventHandler(this.click);
             // 
             // button27
             // 
@@ -483,6 +510,7 @@
             this.button27.Text = "Ni";
             this.button27.UseVisualStyleBackColor = false;
             this.button27.Visible = false;
+            this.button27.Click += new System.EventHandler(this.click);
             // 
             // button28
             // 
@@ -497,6 +525,7 @@
             this.button28.Text = "Ni";
             this.button28.UseVisualStyleBackColor = false;
             this.button28.Visible = false;
+            this.button28.Click += new System.EventHandler(this.click);
             // 
             // button29
             // 
@@ -511,6 +540,7 @@
             this.button29.Text = "Ni";
             this.button29.UseVisualStyleBackColor = false;
             this.button29.Visible = false;
+            this.button29.Click += new System.EventHandler(this.click);
             // 
             // button30
             // 
@@ -525,6 +555,7 @@
             this.button30.Text = "Ni";
             this.button30.UseVisualStyleBackColor = false;
             this.button30.Visible = false;
+            this.button30.Click += new System.EventHandler(this.click);
             // 
             // button31
             // 
@@ -539,6 +570,7 @@
             this.button31.Text = "Ni";
             this.button31.UseVisualStyleBackColor = false;
             this.button31.Visible = false;
+            this.button31.Click += new System.EventHandler(this.click);
             // 
             // button32
             // 
@@ -553,6 +585,7 @@
             this.button32.Text = "Ni";
             this.button32.UseVisualStyleBackColor = false;
             this.button32.Visible = false;
+            this.button32.Click += new System.EventHandler(this.click);
             // 
             // button33
             // 
@@ -567,6 +600,7 @@
             this.button33.Text = "Ni";
             this.button33.UseVisualStyleBackColor = false;
             this.button33.Visible = false;
+            this.button33.Click += new System.EventHandler(this.click);
             // 
             // button34
             // 
@@ -581,6 +615,7 @@
             this.button34.Text = "Ni";
             this.button34.UseVisualStyleBackColor = false;
             this.button34.Visible = false;
+            this.button34.Click += new System.EventHandler(this.click);
             // 
             // button35
             // 
@@ -595,6 +630,7 @@
             this.button35.Text = "Ni";
             this.button35.UseVisualStyleBackColor = false;
             this.button35.Visible = false;
+            this.button35.Click += new System.EventHandler(this.click);
             // 
             // Izotop
             // 

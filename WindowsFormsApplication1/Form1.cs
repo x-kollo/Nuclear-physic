@@ -12,17 +12,14 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        static public Dictionary<string, double> period = new Dictionary<string, double>();   
-        public Form1()
+        static public Dictionary<string, Double> period = new Dictionary<string, Double>();
+        static public Dictionary<string, Double> mass = new Dictionary<string, Double>();
+        Double[] AtomMass = 
         {
-           InitializeComponent();
-           for(int i = 1;i<NameOfElements.Length;i++)
-           {
-               for(int j = IzotopsBegin[i-1];j<=IzotopsEnd[i-1];j++)
-                   period.Add(NameOfElements[i]+j, Periods[i+j-1]);     
-           } 
-        }
-
+            1.007,4.002602,6.941,9.0121,10.811,
+            12.0096,14.007,15.99,18.99,20.17,22.98, 24.30,26.98,28.08,30.97,
+            32.06,	35.45,	39.94 //Ar
+        };
         Double[] Periods = { //in secs 
             -1, 0,0,387892800, // H1-H3
             0,0, //He3-He4
@@ -42,8 +39,19 @@ namespace WindowsFormsApplication1
             0.01,0.0155,0.125,0.187,1.178,2.572,0,0,0,7560864,0,303,10218,11.5,8.8,1.99,1.013,0.26,480E-8,0.1,0.068,0.05,0.02,0.01,200E-8,//S26-S49
             0,20E-8,30E-8,0.15,0.298,2.511,1.5264,1920,0,9492336000129,0,2234.4,0.715,3336,81,38.4,6.8,3.07,0.56,0.4,0.232,0.101,0.1,0.05,0.02,0.002,//Cl28-Cl51
             20E-8,0.014,0.098,0,0.173,0.845,1,775,0,3027456,0,8483184000,0,6576.6,1037534400,322.2,712.2,21.48,8.4,0.58,0.5,0.17,0.085,0.06,0.01,0.003//Ar30-Ar53
-
       };
+        public Form1()
+        {
+           InitializeComponent();
+           for (int i = 1; i < 19; i++) // // 19 to NameOfElements.Lenght;
+           {
+               for (int j = IzotopsBegin[i - 1]; j <= IzotopsEnd[i - 1]; j++)
+                   period.Add(NameOfElements[i] + j, Periods[i + j - 1]);
+           }
+           for (int i = 0; i < 18; i++)  // 19 to NameOfElements.Lenght;
+               mass.Add(NameOfElements[i], AtomMass[i]);
+        }
+
         bool[] IzotopAccessTable ={ //DONE 17
         true,true,true,true,true,true,true,false,true,true,true,true,true,true,true, //15 
         true,true,true,true,true,false,true,true,true,true,true,true,true,true,true,
@@ -1974,8 +1982,10 @@ namespace WindowsFormsApplication1
         }
         void ShowCodingForm(int I_Begin, int I_End)
         {
+            period.Clear();
+            mass.Clear();
             Izotop form2 = new Izotop(IzotopsBegin[SelectedElement], IzotopsEnd[SelectedElement], IzotopsEnd[SelectedElement] - IzotopsBegin[SelectedElement] + 1,NameOfElements[SelectedElement+1]);
-
+     
             form2.updateEvent += new EventHandler(handleUpdateEvent);
             form2.FormClosed += new FormClosedEventHandler(form2_FormClosed);
             Visible = false;
@@ -2120,22 +2130,35 @@ namespace WindowsFormsApplication1
                     // 0.235 молярна маса
                     Double Result;
                     Result = (6.02 * 1E23); // скільки атомів в заданій масі
-                    Result = ((Convert.ToDouble(TimeParams[1]) / 1000) / 0.235) * Result;
+                    Result = ((Convert.ToDouble(TimeParams[1]) / 1000) / (mass[NameOfElements[SelectedElement + 1]] / 1000)) * Result;
                     Double N0 = Result;
       
                     Double time = C_Years + C_Days + C_Days + Convert.ToDouble(TimeParams[5]);
-                    Double ttime = (7.1E8 * 31556926);
+                    if (Program.Element == null)
+                    {
+                        label8.Text = "ВИБЕРІТЬ ІЗОТОП!";
+                        label8.Visible = true;
+                        break;
+                    }
+                    if(period[Program.Element] == 0)
+                    {
+                        label8.Text = "ІЗОТОП СТАБІЛЬНИЙ!";
+                        label8.Visible = true;
+                        break;
+                    }
+                    Double ttime = period[Program.Element];
                     Double temp = (Math.Pow(2.71828182846, (time*-0.69 / ttime)));
                     Result = N0 - (N0 * temp); // N0 * temp - скільки НЕ роспалось
+
                     // Result = Convert.ToDouble((0.693) / ((C_Years + C_Days + C_Days + Convert.ToDouble(TimeParams[5])) * 4.5E9));
                     // Result = Convert.ToDouble((Result * (6E23 / 238)));
                     // Result = Convert.ToInt32(Result * Convert.ToDouble(TimeParams[1]));
-                    if (N0 <= Result)
+                    if (Result > 0)
                     {
                         label8.Text = "РОЗПАДЕТЬСЯ: " + Convert.ToString(Result) + " ЯДЕР\nЗАЛИШИТЬСЯ: " + Convert.ToString(N0 * temp);
                         label8.Visible = true;
                     }
-                    else
+                    else 
                     {
                         label8.Text = "ВСІ ЯДРА РОЗПАЛИСЬ";
                         label8.Visible = true;

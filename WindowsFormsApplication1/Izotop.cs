@@ -57,7 +57,7 @@ namespace WindowsFormsApplication1
             {
                 if(i <= I_End)
                 {
-                    btt.Text = i + I_Name;
+                    btt.Text = I_Name+i;
                     btt.Visible = true;
                     IzotopShown[i - I_Begin] = true;
                     i++;
@@ -87,6 +87,28 @@ namespace WindowsFormsApplication1
             form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);
             Visible = false;
         }
-
+        
+        private void click(object sender, EventArgs e)
+        {
+            Button[] buttons = 
+            {
+                button0,button1,button2,button3,button4,button5,
+                button6,button7,button8,button9,button10,button11,
+                button12,button13,button14,button15,button16,button17,
+                button18,button19,button20,button21,button22,button23,
+                button24,button25,button26,button27,button28,button29,
+                button30,button31,button32,button33,button34,button35,
+            };
+            Button btn = (Button)sender;
+            foreach (Button btt in buttons)
+            {
+                if (btt.BackColor == Color.Green)
+                {
+                    btt.BackColor = Color.LightSkyBlue;
+                }
+            }
+            btn.BackColor = Color.Green;
+            Program.Element = btn.Text;
+        }
     }
 }
