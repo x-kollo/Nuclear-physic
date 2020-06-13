@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
         string[] TimeParams = { "-1", "-1", "-1", "-1", "-1", "-1" };
 
         int SelectedElement;
@@ -109,8 +110,34 @@ namespace WindowsFormsApplication1
       };
         double[] energypernucleon =
         {
-            2.827,//H
+            1.1,//H
             7.074,//He
+            5.606,
+            6.463,
+            6.928,
+            7.68,
+            7.475,
+            7.976,
+            7.779,
+            7.972,
+            8.112,
+            8.26,
+            8.332,//Al
+            8.38,
+            8.481,
+            8.583,
+            8.57,
+            8.614,
+            8.576,
+            8.6,
+            8.619,
+            8.723,
+            8.696,
+            8.776,
+            8.765,
+            8.79,
+            8.768,
+            8.765,//Ni
         };
         string[] TextBoxTip = {
             " ", "МАССА (г)", "РОКИ", "ДНІ","ГОДИНИ","СЕКУНДИ"
@@ -400,7 +427,6 @@ namespace WindowsFormsApplication1
             this.button87 = new System.Windows.Forms.Button();
             this.button88 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button89 = new System.Windows.Forms.Button();
             this.button93 = new System.Windows.Forms.Button();
             this.button94 = new System.Windows.Forms.Button();
@@ -1454,11 +1480,11 @@ namespace WindowsFormsApplication1
             this.button75.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button75.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button75.Location = new System.Drawing.Point(120, 480);
+            this.button75.Location = new System.Drawing.Point(120, 481);
             this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(48, 46);
+            this.button75.Size = new System.Drawing.Size(65, 46);
             this.button75.TabIndex = 74;
-            this.button75.Text = "*Ac";
+            this.button75.Text = "**Ac";
             this.button75.UseVisualStyleBackColor = false;
             this.button75.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
@@ -1468,7 +1494,7 @@ namespace WindowsFormsApplication1
             this.button76.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button76.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button76.Location = new System.Drawing.Point(174, 480);
+            this.button76.Location = new System.Drawing.Point(191, 481);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(48, 46);
             this.button76.TabIndex = 75;
@@ -1482,7 +1508,7 @@ namespace WindowsFormsApplication1
             this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button77.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button77.Location = new System.Drawing.Point(228, 480);
+            this.button77.Location = new System.Drawing.Point(245, 481);
             this.button77.Name = "button77";
             this.button77.Size = new System.Drawing.Size(48, 46);
             this.button77.TabIndex = 76;
@@ -1496,7 +1522,7 @@ namespace WindowsFormsApplication1
             this.button78.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button78.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button78.Location = new System.Drawing.Point(282, 480);
+            this.button78.Location = new System.Drawing.Point(299, 481);
             this.button78.Name = "button78";
             this.button78.Size = new System.Drawing.Size(48, 46);
             this.button78.TabIndex = 77;
@@ -1510,7 +1536,7 @@ namespace WindowsFormsApplication1
             this.button79.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button79.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button79.Location = new System.Drawing.Point(336, 480);
+            this.button79.Location = new System.Drawing.Point(353, 481);
             this.button79.Name = "button79";
             this.button79.Size = new System.Drawing.Size(48, 46);
             this.button79.TabIndex = 78;
@@ -1524,7 +1550,7 @@ namespace WindowsFormsApplication1
             this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button80.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button80.Location = new System.Drawing.Point(390, 480);
+            this.button80.Location = new System.Drawing.Point(407, 481);
             this.button80.Name = "button80";
             this.button80.Size = new System.Drawing.Size(48, 46);
             this.button80.TabIndex = 79;
@@ -1538,7 +1564,7 @@ namespace WindowsFormsApplication1
             this.button81.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button81.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button81.Location = new System.Drawing.Point(444, 480);
+            this.button81.Location = new System.Drawing.Point(461, 480);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(48, 46);
             this.button81.TabIndex = 80;
@@ -1552,7 +1578,7 @@ namespace WindowsFormsApplication1
             this.button82.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button82.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button82.Location = new System.Drawing.Point(498, 480);
+            this.button82.Location = new System.Drawing.Point(515, 480);
             this.button82.Name = "button82";
             this.button82.Size = new System.Drawing.Size(48, 46);
             this.button82.TabIndex = 81;
@@ -1566,7 +1592,7 @@ namespace WindowsFormsApplication1
             this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(759, 432);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(78, 23);
+            this.textBox1.Size = new System.Drawing.Size(78, 27);
             this.textBox1.TabIndex = 82;
             this.textBox1.Text = "МАССА (г)";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1581,7 +1607,7 @@ namespace WindowsFormsApplication1
             this.label6.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(750, 404);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(360, 18);
+            this.label6.Size = new System.Drawing.Size(450, 22);
             this.label6.TabIndex = 92;
             this.label6.Text = "РОЗРАХУНОК КІЛЬКОСТІ МОЛЕКУЛ, ЩО РОЗПАДЕТЬСЯ";
             this.label6.Visible = false;
@@ -1591,7 +1617,7 @@ namespace WindowsFormsApplication1
             this.textBox3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(918, 432);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(65, 23);
+            this.textBox3.Size = new System.Drawing.Size(65, 27);
             this.textBox3.TabIndex = 95;
             this.textBox3.Text = "ДНІ";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1607,7 +1633,7 @@ namespace WindowsFormsApplication1
             this.textBox4.Location = new System.Drawing.Point(988, 432);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 23);
+            this.textBox4.Size = new System.Drawing.Size(65, 27);
             this.textBox4.TabIndex = 96;
             this.textBox4.Text = "ГОДИНИ";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1622,7 +1648,7 @@ namespace WindowsFormsApplication1
             this.textBox5.Location = new System.Drawing.Point(1060, 432);
             this.textBox5.MaxLength = 4;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(73, 23);
+            this.textBox5.Size = new System.Drawing.Size(73, 27);
             this.textBox5.TabIndex = 97;
             this.textBox5.Tag = "";
             this.textBox5.Text = "CЕКУНДИ";
@@ -1636,9 +1662,9 @@ namespace WindowsFormsApplication1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(865, 480);
+            this.label8.Location = new System.Drawing.Point(822, 480);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 15);
+            this.label8.Size = new System.Drawing.Size(90, 20);
             this.label8.TabIndex = 102;
             this.label8.Text = "РЕЗУЛЬТАТ";
             this.label8.Visible = false;
@@ -1657,7 +1683,7 @@ namespace WindowsFormsApplication1
             this.label9.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.Location = new System.Drawing.Point(750, 591);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 15);
+            this.label9.Size = new System.Drawing.Size(144, 20);
             this.label9.TabIndex = 104;
             this.label9.Text = "ОБРАНИЙ ЕЛЕМЕНТ";
             // 
@@ -1723,7 +1749,7 @@ namespace WindowsFormsApplication1
             this.textBox2.Location = new System.Drawing.Point(843, 432);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox2.Size = new System.Drawing.Size(69, 23);
+            this.textBox2.Size = new System.Drawing.Size(69, 27);
             this.textBox2.TabIndex = 94;
             this.textBox2.Text = "РОКИ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1731,19 +1757,6 @@ namespace WindowsFormsApplication1
             this.textBox2.TextChanged += new System.EventHandler(this.OnTextBox_Change);
             this.textBox2.Enter += new System.EventHandler(this.OnTextBox_Enter);
             this.textBox2.Leave += new System.EventHandler(this.OnTextBox_Leave);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label1.Location = new System.Drawing.Point(756, 507);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 15);
-            this.label1.TabIndex = 112;
-            this.label1.Text = "РЕЗУЛЬТАТ:";
-            this.label1.Visible = false;
             // 
             // button89
             // 
@@ -1852,7 +1865,6 @@ namespace WindowsFormsApplication1
             this.Controls.Add(this.button94);
             this.Controls.Add(this.button93);
             this.Controls.Add(this.button89);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button88);
             this.Controls.Add(this.button87);
             this.Controls.Add(this.button86);
@@ -2030,11 +2042,10 @@ namespace WindowsFormsApplication1
             button93.Visible = false;
             button90.Visible = true;
         }
-
+        Int32 ex2 = 0;
         private void OnClickButton_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-
             for (int i = 1; i <= 85; i++)
             {
                 if (btn.Name == ("button" + i))
@@ -2044,6 +2055,7 @@ namespace WindowsFormsApplication1
                         button83.Text = btn.Text;
                         button83.BackColor = btn.BackColor;
                         SelectedElement = btn.TabIndex;
+                        ex2 = i;
                         break;
                 }
             }
@@ -2143,12 +2155,9 @@ namespace WindowsFormsApplication1
                 case 2:
                 {
                     double Result;
-                    int i;
-                    i = 0;
                     Result = Convert.ToDouble(TimeParams[1]);
-                    Result *= energypernucleon[i];
-                    label1.Visible = true;
-                    label8.Text = Convert.ToString(Result);
+                    Result *= energypernucleon[ex2-1];
+                    label8.Text = "Енергія на нуклон буде дорівнювати: " + Convert.ToString(Result)+"MeB";
                     label8.Visible = true;
                     break;
                 }
@@ -2189,8 +2198,8 @@ namespace WindowsFormsApplication1
             button86.Visible = true;
             button87.Visible = true;
             button88.Visible = false;
-            label1.Visible = false;
             button84.Visible = false;
+            ex = 0;
         }
 
         private void button86_Click(object sender, EventArgs e)
