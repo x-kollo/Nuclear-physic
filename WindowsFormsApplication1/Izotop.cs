@@ -33,82 +33,36 @@ namespace WindowsFormsApplication1
         public int Limit;
         public string I_Name;
         bool[] IzotopShown = {
-                                 false,false,false,
-                                 false,false,false,
-                                 false,false,false
+                                 false,false,false,false,false,false,
+                                 false,false,false,false,false,false,
+                                 false,false,false,false,false,false,
+                                 false,false,false,false,false,false,
+                                 false,false,false,false,false,false,
+                                 false,false,false,false,false,false,
                              };
         public Izotop(int I_Begin, int I_End, int Limit, string I_Name)
         {
             InitializeComponent();
-            for (int i = I_Begin; i <= I_End; i++)
+            Button[] buttons = 
             {
-
-                if (button0.TabIndex == 0 && Limit > 0 && IzotopShown[0] == false)
+                button0,button1,button2,button3,button4,button5,
+                button6,button7,button8,button9,button10,button11,
+                button12,button13,button14,button15,button16,button17,
+                button18,button19,button20,button21,button22,button23,
+                button24,button25,button26,button27,button28,button29,
+                button30,button31,button32,button33,button34,button35,
+            };
+            int i = I_Begin;
+            foreach (Button btt in buttons)
+            {
+                if(i <= I_End)
                 {
-                    button0.Text = i + I_Name;
-                    button0.Visible = true;
-                    Limit--;
-                    IzotopShown[0] = true;
+                    btt.Text = i + I_Name;
+                    btt.Visible = true;
+                    IzotopShown[i - I_Begin] = true;
+                    i++;
                 }
-                else if (button1.TabIndex == 1 && Limit > 0 && IzotopShown[1] == false)
-                {
-                    button1.Text = i + I_Name;
-                    button1.Visible = true;
-                    Limit--;
-                    IzotopShown[1] = true;
-                }
-                else if (button2.TabIndex == 2 && Limit > 0 && IzotopShown[2] == false)
-                {
-                    button2.Text = i + I_Name;
-                    button2.Visible = true;
-                    Limit--;
-                    IzotopShown[2] = true;
-                }
-                else if (button3.TabIndex == 3 && Limit > 0 && IzotopShown[3] == false)
-                {
-                    button3.Text = i + I_Name;
-                    button3.Visible = true;
-                    Limit--;
-                    IzotopShown[3] = true;
-                }
-                else if (button4.TabIndex == 4 && Limit > 0 && IzotopShown[4] == false)
-                {
-                    button4.Text = i + I_Name;
-                    button4.Visible = true;
-                    Limit--;
-                    IzotopShown[4] = true;
-                }
-                else if (button5.TabIndex == 5 && Limit > 0 && IzotopShown[5] == false)
-                {
-                    button5.Text = i + I_Name;
-                    button5.Visible = true;
-                    Limit--;
-                    IzotopShown[5] = true;
-                }
-                else if (button6.TabIndex == 6 && Limit > 0 && IzotopShown[6] == false)
-                {
-                    button6.Text = i + I_Name;
-                    button6.Visible = true;
-                    Limit--;
-                    IzotopShown[6] = true;
-                }
-                else if (button7.TabIndex == 7 && Limit > 0 && IzotopShown[7] == false)
-                {
-                    button7.Text = i + I_Name;
-                    button7.Visible = true;
-                    Limit--;
-                    IzotopShown[7] = true;
-                }
-                else if (button8.TabIndex == 8 && Limit > 0 && IzotopShown[8] == false)
-                {
-                    button8.Text = i + I_Name;
-                    button8.Visible = true;
-                    Limit--;
-                    IzotopShown[8] = true;
-                }
-
-            }
-           // button1.Text = NameOfElements[]
+            }       
         }
         void form1_FormClosed(object sender, FormClosedEventArgs e)
         {

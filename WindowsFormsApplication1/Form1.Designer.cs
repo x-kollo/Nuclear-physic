@@ -116,7 +116,6 @@
         private System.Windows.Forms.Button button87;
         private System.Windows.Forms.Button button88;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button89;
         private System.Windows.Forms.Button button93;
         private System.Windows.Forms.Button button94;

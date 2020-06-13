@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
+    
     static class Program
     {
         static void Main()
@@ -14,5 +15,6 @@ namespace WindowsFormsApplication1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        
     }
 }
