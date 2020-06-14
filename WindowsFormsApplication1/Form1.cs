@@ -2237,13 +2237,17 @@ namespace WindowsFormsApplication1
         {
             this.Visible = true;
         }
-        void Showform3(int I_Begin, int I_End)
+        void Showform3()
         {
-            Ex3.Show();
+            Ex3 form3 = new Ex3();
+            form3.updateEvent += new EventHandler(handleUpdateEvent);
+            form3.FormClosed += new FormClosedEventHandler(form3_FormClosed);
+            Visible = false;
+            form3.Show();
         }
         private void button87_Click(object sender, EventArgs e)
         {
-
+            Showform3();
         }
     }
 }
