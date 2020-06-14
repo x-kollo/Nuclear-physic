@@ -326,7 +326,6 @@ namespace WindowsFormsApplication1
             button88.Visible = true;
         }
 
-
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
@@ -1727,8 +1726,9 @@ namespace WindowsFormsApplication1
             this.button87.Name = "button87";
             this.button87.Size = new System.Drawing.Size(120, 42);
             this.button87.TabIndex = 110;
-            this.button87.Text = "ЗАДАЧА №3";
+            this.button87.Text = "Перевід";
             this.button87.UseVisualStyleBackColor = true;
+            this.button87.Click += new System.EventHandler(this.button87_Click);
             // 
             // button88
             // 
@@ -2233,6 +2233,17 @@ namespace WindowsFormsApplication1
             button84.Visible = true;
             ex = 2;
         }
+        void form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Visible = true;
+        }
+        void Showform3(int I_Begin, int I_End)
+        {
+            Ex3.Show();
+        }
+        private void button87_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
