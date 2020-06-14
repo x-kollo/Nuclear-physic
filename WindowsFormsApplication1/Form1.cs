@@ -2233,5 +2233,6 @@ namespace WindowsFormsApplication1
             button84.Visible = true;
             ex = 2;
         }
+
     }
 }
