@@ -123,6 +123,40 @@
         private System.Windows.Forms.Button button90;
         private System.Windows.Forms.Button button91;
         private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button izotopbtn;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button109;
+        private System.Windows.Forms.Button button108;
+        private System.Windows.Forms.Button button107;
+        private System.Windows.Forms.Button button104;
+        private System.Windows.Forms.Button button105;
+        private System.Windows.Forms.Button button106;
+        private System.Windows.Forms.Button button101;
+        private System.Windows.Forms.Button button102;
+        private System.Windows.Forms.Button button103;
+        private System.Windows.Forms.Button button98;
+        private System.Windows.Forms.Button button99;
+        private System.Windows.Forms.Button button100;
+        private System.Windows.Forms.Button button97;
+        private System.Windows.Forms.Button button96;
+        private System.Windows.Forms.Button button92;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button110;
+        private System.Windows.Forms.Button button111;
+        private System.Windows.Forms.Button button112;
+        private System.Windows.Forms.Button button113;
+        private System.Windows.Forms.Button button114;
+        private System.Windows.Forms.Button button115;
+        private System.Windows.Forms.Button button116;
+        private System.Windows.Forms.Button button117;
+        private System.Windows.Forms.Button button118;
+        private System.Windows.Forms.Button button119;
+        private System.Windows.Forms.Button button120;
+        private System.Windows.Forms.Button button121;
+        private System.Windows.Forms.Button button122;
+        private System.Windows.Forms.Button button123;
+        private System.Windows.Forms.Button button124;
     }
 }
 

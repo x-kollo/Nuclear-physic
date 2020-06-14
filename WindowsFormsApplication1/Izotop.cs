@@ -79,12 +79,12 @@ namespace WindowsFormsApplication1
 
         private void button88_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
             this.Close();
             Form1 form1 = new Form1();
 
             form1.updateEvent += new EventHandler(handleUpdateEvent);
-            form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);
+            form1.Update();
+            form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);      
             Visible = false;
         }
         

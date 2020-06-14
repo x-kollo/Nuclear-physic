@@ -51,3 +51,4 @@ E:\git\Nuclear-physic\WindowsFormsApplication1\obj\Debug\Physic.csproj.GenerateR
 E:\git\Nuclear-physic\WindowsFormsApplication1\obj\Debug\fysic.exe
 E:\git\Nuclear-physic\WindowsFormsApplication1\obj\Debug\fysic.pdb
 C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Ex3.resources
+E:\git\Nuclear-physic\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Ex3.resources
