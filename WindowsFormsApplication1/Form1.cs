@@ -2816,9 +2816,10 @@ namespace WindowsFormsApplication1
         void Showform3()
         {
             Ex3 form3 = new Ex3();
+      
             form3.updateEvent += new EventHandler(handleUpdateEvent);
             form3.FormClosed += new FormClosedEventHandler(form3_FormClosed);
-            Visible = false;
+            this.Visible = false;
             form3.Show();
         }
         private void button87_Click(object sender, EventArgs e)

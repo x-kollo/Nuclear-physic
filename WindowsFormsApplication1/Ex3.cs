@@ -12,11 +12,12 @@ namespace WindowsFormsApplication1
 {
     public partial class Ex3 : Form
     {
+
         public event EventHandler updateEvent;
-        bool[] IzotopShown = {
-                                 false,false,false,
-                                 false,false,false,
-                             };
+        public Ex3()
+        {
+            InitializeComponent();
+        }
         void form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Visible = false;
@@ -27,13 +28,13 @@ namespace WindowsFormsApplication1
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
             this.Close();
-            Form1 form1 = new Form1();
+            Ex3 form1 = new Ex3();
 
             form1.updateEvent += new EventHandler(handleUpdateEvent);
+            form1.Update();
             form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);
             Visible = false;
-        }
+        }      
     }
 }
