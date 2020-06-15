@@ -81,7 +81,6 @@ namespace WindowsFormsApplication1
         {
             this.Close();
             Form1 form1 = new Form1();
-
             form1.updateEvent += new EventHandler(handleUpdateEvent);
             form1.Update();
             form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);      

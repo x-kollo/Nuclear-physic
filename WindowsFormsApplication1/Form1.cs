@@ -2704,7 +2704,6 @@ namespace WindowsFormsApplication1
                     //4.5 = період з Period[]
                     //238 поняв шо
                     //timeparams[1] = маса
-
                     // час треба перевести в секунди
                     // 0.235 молярна маса
                     Double Result;
@@ -2752,11 +2751,10 @@ namespace WindowsFormsApplication1
                     break;
                 }
                 default:
-                    break;
+                break;
             }
            
         }
-
         private void button85_Click(object sender, EventArgs e)
         {
             textBox1.Visible = true;

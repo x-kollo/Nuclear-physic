@@ -101,9 +101,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(390, 415);
+            this.button1.Location = new System.Drawing.Point(314, 412);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(123, 26);
             this.button1.TabIndex = 85;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
