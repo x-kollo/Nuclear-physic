@@ -1783,7 +1783,7 @@ namespace WindowsFormsApplication1
             this.button87.Name = "button87";
             this.button87.Size = new System.Drawing.Size(120, 42);
             this.button87.TabIndex = 110;
-            this.button87.Text = "Перевід";
+            this.button87.Text = "ПЕРЕВІД";
             this.button87.UseVisualStyleBackColor = true;
             this.button87.Click += new System.EventHandler(this.button87_Click);
             // 
@@ -2682,11 +2682,11 @@ namespace WindowsFormsApplication1
         {
             TextBox tbx = (TextBox)sender;
 
-            if (tbx.Name == "textBox1") TimeParams[1] = textBox1.Text;
-            if (tbx.Name == "textBox2") TimeParams[2] = textBox2.Text;
-            if (tbx.Name == "textBox3") TimeParams[3] = textBox3.Text;
-            if (tbx.Name == "textBox4") TimeParams[4] = textBox4.Text;
-            if (tbx.Name == "textBox5") TimeParams[5] = textBox5.Text;
+            if (tbx.Name == "textBox1" && tbx.Text != null) TimeParams[1] = textBox1.Text;
+            if (tbx.Name == "textBox2" && tbx.Text != null) TimeParams[2] = textBox2.Text;
+            if (tbx.Name == "textBox3" && tbx.Text != null) TimeParams[3] = textBox3.Text;
+            if (tbx.Name == "textBox4" && tbx.Text != null) TimeParams[4] = textBox4.Text;
+            if (tbx.Name == "textBox5" && tbx.Text != null) TimeParams[5] = textBox5.Text;
         }
 
         private void button84_Click(object sender, EventArgs e)    //result line

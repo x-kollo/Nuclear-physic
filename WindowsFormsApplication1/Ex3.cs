@@ -68,29 +68,38 @@ namespace WindowsFormsApplication1
             tbx.Text = null;
             button2.Enabled = true;
             button3.Enabled = true;
-
+  
         }
+        Double txtbvalue = 0;
+        Double txtbvalue1 = 0;
         private void OnTextBox_Change(object sender, EventArgs e)
         {
             TextBox tbx = (TextBox)sender;
-            if (tbx.Name == "textBox1") TimeParams[1] = textBox1.Text;
-            if (tbx.Name == "textBox2") TimeParams[2] = textBox2.Text;
+            if (tbx.Name == "textBox1" && tbx.Text != "")
+                txtbvalue = Convert.ToDouble(textBox1.Text);
+            if (tbx.Name == "textBox2" && tbx.Text != "")
+                txtbvalue1 = Convert.ToDouble(textBox2.Text);
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            double Result;
-            Result = Convert.ToDouble(TimeParams[1]);
+            Double Result;
+            Result = txtbvalue;
             Result = Result * 0.1602176565;
-            label4.Text = "Енергія в пікоДжоулях буде дорівнювати: " + Convert.ToString(Result) + " пДж";
+            label4.Text = Convert.ToString(Result) + " пДж";
             label4.Visible = true;
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            double Result;
-            Result = Convert.ToDouble(TimeParams[2]);
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Double Result;
+            Result = txtbvalue1;
             Result = Result * 3600;
-            label4.Text = "Енергія в кілоДжоулях буде дорівнювати: " + Convert.ToString(Result) + " кДж";
-            label4.Visible = true;
+            label5.Text = Convert.ToString(Result) + " кДж";
+            label5.Visible = true;
         }
     }
 }
