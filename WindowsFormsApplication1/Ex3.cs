@@ -71,6 +71,7 @@ namespace WindowsFormsApplication1
   
         }
         Double txtbvalue = 0;
+
         Double txtbvalue1 = 0;
         private void OnTextBox_Change(object sender, EventArgs e)
         {
