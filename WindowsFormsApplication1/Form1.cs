@@ -491,6 +491,24 @@ namespace WindowsFormsApplication1
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button127 = new System.Windows.Forms.Button();
+            this.button128 = new System.Windows.Forms.Button();
+            this.button129 = new System.Windows.Forms.Button();
+            this.button130 = new System.Windows.Forms.Button();
+            this.button131 = new System.Windows.Forms.Button();
+            this.button132 = new System.Windows.Forms.Button();
+            this.button133 = new System.Windows.Forms.Button();
+            this.button134 = new System.Windows.Forms.Button();
+            this.button125 = new System.Windows.Forms.Button();
+            this.button126 = new System.Windows.Forms.Button();
+            this.button135 = new System.Windows.Forms.Button();
+            this.button136 = new System.Windows.Forms.Button();
+            this.button137 = new System.Windows.Forms.Button();
+            this.button138 = new System.Windows.Forms.Button();
+            this.button139 = new System.Windows.Forms.Button();
+            this.button140 = new System.Windows.Forms.Button();
+            this.button141 = new System.Windows.Forms.Button();
+            this.button142 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -498,7 +516,7 @@ namespace WindowsFormsApplication1
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Pink;
+            this.button1.BackColor = System.Drawing.Color.LawnGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -513,7 +531,7 @@ namespace WindowsFormsApplication1
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Pink;
+            this.button2.BackColor = System.Drawing.Color.Aqua;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -527,7 +545,7 @@ namespace WindowsFormsApplication1
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Pink;
+            this.button3.BackColor = System.Drawing.Color.Crimson;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -541,7 +559,7 @@ namespace WindowsFormsApplication1
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Pink;
+            this.button4.BackColor = System.Drawing.Color.Gold;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -555,7 +573,7 @@ namespace WindowsFormsApplication1
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Khaki;
+            this.button5.BackColor = System.Drawing.Color.Olive;
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -569,7 +587,7 @@ namespace WindowsFormsApplication1
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.Khaki;
+            this.button6.BackColor = System.Drawing.Color.LawnGreen;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -583,7 +601,7 @@ namespace WindowsFormsApplication1
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.Khaki;
+            this.button7.BackColor = System.Drawing.Color.LawnGreen;
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -597,7 +615,7 @@ namespace WindowsFormsApplication1
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.Khaki;
+            this.button8.BackColor = System.Drawing.Color.LawnGreen;
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -611,7 +629,7 @@ namespace WindowsFormsApplication1
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.Khaki;
+            this.button9.BackColor = System.Drawing.Color.Yellow;
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -625,7 +643,7 @@ namespace WindowsFormsApplication1
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.Khaki;
+            this.button10.BackColor = System.Drawing.Color.Aqua;
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -639,7 +657,7 @@ namespace WindowsFormsApplication1
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.Pink;
+            this.button11.BackColor = System.Drawing.Color.Crimson;
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button11.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -653,7 +671,7 @@ namespace WindowsFormsApplication1
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.Pink;
+            this.button12.BackColor = System.Drawing.Color.Gold;
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -667,7 +685,7 @@ namespace WindowsFormsApplication1
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.Khaki;
+            this.button13.BackColor = System.Drawing.Color.Silver;
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button13.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -681,7 +699,7 @@ namespace WindowsFormsApplication1
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.Color.Khaki;
+            this.button14.BackColor = System.Drawing.Color.Olive;
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button14.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -695,7 +713,7 @@ namespace WindowsFormsApplication1
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.Color.Khaki;
+            this.button15.BackColor = System.Drawing.Color.LawnGreen;
             this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button15.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -709,7 +727,7 @@ namespace WindowsFormsApplication1
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.Color.Khaki;
+            this.button16.BackColor = System.Drawing.Color.LawnGreen;
             this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button16.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -723,7 +741,7 @@ namespace WindowsFormsApplication1
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.Color.Khaki;
+            this.button17.BackColor = System.Drawing.Color.Yellow;
             this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button17.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -737,7 +755,7 @@ namespace WindowsFormsApplication1
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.Khaki;
+            this.button18.BackColor = System.Drawing.Color.Aqua;
             this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button18.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -751,7 +769,7 @@ namespace WindowsFormsApplication1
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.Color.Pink;
+            this.button19.BackColor = System.Drawing.Color.Crimson;
             this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button19.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -765,7 +783,7 @@ namespace WindowsFormsApplication1
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.Color.Pink;
+            this.button20.BackColor = System.Drawing.Color.Gold;
             this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button20.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -779,7 +797,7 @@ namespace WindowsFormsApplication1
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.Color.PaleGreen;
+            this.button21.BackColor = System.Drawing.Color.Khaki;
             this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button21.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -793,7 +811,7 @@ namespace WindowsFormsApplication1
             // 
             // button22
             // 
-            this.button22.BackColor = System.Drawing.Color.PaleGreen;
+            this.button22.BackColor = System.Drawing.Color.Khaki;
             this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button22.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -807,7 +825,7 @@ namespace WindowsFormsApplication1
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.Color.PaleGreen;
+            this.button23.BackColor = System.Drawing.Color.Khaki;
             this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button23.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -821,7 +839,7 @@ namespace WindowsFormsApplication1
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.Color.PaleGreen;
+            this.button24.BackColor = System.Drawing.Color.Khaki;
             this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button24.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -835,7 +853,7 @@ namespace WindowsFormsApplication1
             // 
             // button25
             // 
-            this.button25.BackColor = System.Drawing.Color.PaleGreen;
+            this.button25.BackColor = System.Drawing.Color.Khaki;
             this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button25.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -849,7 +867,7 @@ namespace WindowsFormsApplication1
             // 
             // button26
             // 
-            this.button26.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button26.BackColor = System.Drawing.Color.Khaki;
             this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button26.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -863,7 +881,7 @@ namespace WindowsFormsApplication1
             // 
             // button27
             // 
-            this.button27.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button27.BackColor = System.Drawing.Color.Khaki;
             this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button27.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -877,7 +895,7 @@ namespace WindowsFormsApplication1
             // 
             // button28
             // 
-            this.button28.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button28.BackColor = System.Drawing.Color.Khaki;
             this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button28.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -891,7 +909,7 @@ namespace WindowsFormsApplication1
             // 
             // button29
             // 
-            this.button29.BackColor = System.Drawing.Color.Orchid;
+            this.button29.BackColor = System.Drawing.Color.Khaki;
             this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button29.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -905,7 +923,7 @@ namespace WindowsFormsApplication1
             // 
             // button30
             // 
-            this.button30.BackColor = System.Drawing.Color.Orchid;
+            this.button30.BackColor = System.Drawing.Color.Khaki;
             this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button30.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -919,7 +937,7 @@ namespace WindowsFormsApplication1
             // 
             // button31
             // 
-            this.button31.BackColor = System.Drawing.Color.Khaki;
+            this.button31.BackColor = System.Drawing.Color.Silver;
             this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button31.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -933,7 +951,7 @@ namespace WindowsFormsApplication1
             // 
             // button32
             // 
-            this.button32.BackColor = System.Drawing.Color.Khaki;
+            this.button32.BackColor = System.Drawing.Color.Olive;
             this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button32.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -947,7 +965,7 @@ namespace WindowsFormsApplication1
             // 
             // button33
             // 
-            this.button33.BackColor = System.Drawing.Color.Khaki;
+            this.button33.BackColor = System.Drawing.Color.Olive;
             this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button33.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -961,7 +979,7 @@ namespace WindowsFormsApplication1
             // 
             // button34
             // 
-            this.button34.BackColor = System.Drawing.Color.Khaki;
+            this.button34.BackColor = System.Drawing.Color.LawnGreen;
             this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button34.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -975,7 +993,7 @@ namespace WindowsFormsApplication1
             // 
             // button35
             // 
-            this.button35.BackColor = System.Drawing.Color.Khaki;
+            this.button35.BackColor = System.Drawing.Color.Yellow;
             this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button35.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -989,7 +1007,7 @@ namespace WindowsFormsApplication1
             // 
             // button36
             // 
-            this.button36.BackColor = System.Drawing.Color.Khaki;
+            this.button36.BackColor = System.Drawing.Color.Aqua;
             this.button36.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button36.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1003,7 +1021,7 @@ namespace WindowsFormsApplication1
             // 
             // button37
             // 
-            this.button37.BackColor = System.Drawing.Color.Pink;
+            this.button37.BackColor = System.Drawing.Color.Crimson;
             this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button37.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1017,7 +1035,7 @@ namespace WindowsFormsApplication1
             // 
             // button38
             // 
-            this.button38.BackColor = System.Drawing.Color.Pink;
+            this.button38.BackColor = System.Drawing.Color.Gold;
             this.button38.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button38.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1031,7 +1049,7 @@ namespace WindowsFormsApplication1
             // 
             // button39
             // 
-            this.button39.BackColor = System.Drawing.Color.PaleGreen;
+            this.button39.BackColor = System.Drawing.Color.Khaki;
             this.button39.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button39.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1045,7 +1063,7 @@ namespace WindowsFormsApplication1
             // 
             // button40
             // 
-            this.button40.BackColor = System.Drawing.Color.PaleGreen;
+            this.button40.BackColor = System.Drawing.Color.Khaki;
             this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button40.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1059,7 +1077,7 @@ namespace WindowsFormsApplication1
             // 
             // button41
             // 
-            this.button41.BackColor = System.Drawing.Color.PaleGreen;
+            this.button41.BackColor = System.Drawing.Color.Khaki;
             this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button41.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1073,7 +1091,7 @@ namespace WindowsFormsApplication1
             // 
             // button42
             // 
-            this.button42.BackColor = System.Drawing.Color.PaleGreen;
+            this.button42.BackColor = System.Drawing.Color.Khaki;
             this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button42.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1087,7 +1105,7 @@ namespace WindowsFormsApplication1
             // 
             // button43
             // 
-            this.button43.BackColor = System.Drawing.Color.PaleGreen;
+            this.button43.BackColor = System.Drawing.Color.Khaki;
             this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button43.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1101,7 +1119,7 @@ namespace WindowsFormsApplication1
             // 
             // button45
             // 
-            this.button45.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button45.BackColor = System.Drawing.Color.Khaki;
             this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button45.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1115,7 +1133,7 @@ namespace WindowsFormsApplication1
             // 
             // button44
             // 
-            this.button44.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button44.BackColor = System.Drawing.Color.Khaki;
             this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button44.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1129,7 +1147,7 @@ namespace WindowsFormsApplication1
             // 
             // button46
             // 
-            this.button46.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button46.BackColor = System.Drawing.Color.Khaki;
             this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button46.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1143,7 +1161,7 @@ namespace WindowsFormsApplication1
             // 
             // button47
             // 
-            this.button47.BackColor = System.Drawing.Color.Orchid;
+            this.button47.BackColor = System.Drawing.Color.Khaki;
             this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button47.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1157,7 +1175,7 @@ namespace WindowsFormsApplication1
             // 
             // button48
             // 
-            this.button48.BackColor = System.Drawing.Color.Orchid;
+            this.button48.BackColor = System.Drawing.Color.Khaki;
             this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button48.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1171,7 +1189,7 @@ namespace WindowsFormsApplication1
             // 
             // button49
             // 
-            this.button49.BackColor = System.Drawing.Color.Khaki;
+            this.button49.BackColor = System.Drawing.Color.Silver;
             this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button49.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1185,7 +1203,7 @@ namespace WindowsFormsApplication1
             // 
             // button50
             // 
-            this.button50.BackColor = System.Drawing.Color.Khaki;
+            this.button50.BackColor = System.Drawing.Color.Silver;
             this.button50.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button50.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1199,7 +1217,7 @@ namespace WindowsFormsApplication1
             // 
             // button51
             // 
-            this.button51.BackColor = System.Drawing.Color.Khaki;
+            this.button51.BackColor = System.Drawing.Color.Olive;
             this.button51.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button51.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1213,7 +1231,7 @@ namespace WindowsFormsApplication1
             // 
             // button52
             // 
-            this.button52.BackColor = System.Drawing.Color.Khaki;
+            this.button52.BackColor = System.Drawing.Color.Olive;
             this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button52.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1227,7 +1245,7 @@ namespace WindowsFormsApplication1
             // 
             // button53
             // 
-            this.button53.BackColor = System.Drawing.Color.Khaki;
+            this.button53.BackColor = System.Drawing.Color.Yellow;
             this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button53.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1241,7 +1259,7 @@ namespace WindowsFormsApplication1
             // 
             // button54
             // 
-            this.button54.BackColor = System.Drawing.Color.Khaki;
+            this.button54.BackColor = System.Drawing.Color.Aqua;
             this.button54.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button54.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1255,7 +1273,7 @@ namespace WindowsFormsApplication1
             // 
             // button55
             // 
-            this.button55.BackColor = System.Drawing.Color.Pink;
+            this.button55.BackColor = System.Drawing.Color.Crimson;
             this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button55.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1269,7 +1287,7 @@ namespace WindowsFormsApplication1
             // 
             // button56
             // 
-            this.button56.BackColor = System.Drawing.Color.Pink;
+            this.button56.BackColor = System.Drawing.Color.Gold;
             this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button56.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1283,7 +1301,7 @@ namespace WindowsFormsApplication1
             // 
             // button57
             // 
-            this.button57.BackColor = System.Drawing.Color.PaleGreen;
+            this.button57.BackColor = System.Drawing.Color.MediumOrchid;
             this.button57.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button57.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1297,7 +1315,7 @@ namespace WindowsFormsApplication1
             // 
             // button58
             // 
-            this.button58.BackColor = System.Drawing.Color.PaleGreen;
+            this.button58.BackColor = System.Drawing.Color.Khaki;
             this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button58.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1311,7 +1329,7 @@ namespace WindowsFormsApplication1
             // 
             // button59
             // 
-            this.button59.BackColor = System.Drawing.Color.PaleGreen;
+            this.button59.BackColor = System.Drawing.Color.Khaki;
             this.button59.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button59.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1325,7 +1343,7 @@ namespace WindowsFormsApplication1
             // 
             // button60
             // 
-            this.button60.BackColor = System.Drawing.Color.PaleGreen;
+            this.button60.BackColor = System.Drawing.Color.Khaki;
             this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button60.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1339,7 +1357,7 @@ namespace WindowsFormsApplication1
             // 
             // button61
             // 
-            this.button61.BackColor = System.Drawing.Color.PaleGreen;
+            this.button61.BackColor = System.Drawing.Color.Khaki;
             this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button61.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1353,7 +1371,7 @@ namespace WindowsFormsApplication1
             // 
             // button62
             // 
-            this.button62.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button62.BackColor = System.Drawing.Color.Khaki;
             this.button62.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button62.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1367,7 +1385,7 @@ namespace WindowsFormsApplication1
             // 
             // button63
             // 
-            this.button63.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button63.BackColor = System.Drawing.Color.Khaki;
             this.button63.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button63.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1381,7 +1399,7 @@ namespace WindowsFormsApplication1
             // 
             // button64
             // 
-            this.button64.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button64.BackColor = System.Drawing.Color.Khaki;
             this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button64.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1395,7 +1413,7 @@ namespace WindowsFormsApplication1
             // 
             // button65
             // 
-            this.button65.BackColor = System.Drawing.Color.Orchid;
+            this.button65.BackColor = System.Drawing.Color.Khaki;
             this.button65.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button65.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1409,7 +1427,7 @@ namespace WindowsFormsApplication1
             // 
             // button66
             // 
-            this.button66.BackColor = System.Drawing.Color.Orchid;
+            this.button66.BackColor = System.Drawing.Color.Khaki;
             this.button66.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button66.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1423,7 +1441,7 @@ namespace WindowsFormsApplication1
             // 
             // button67
             // 
-            this.button67.BackColor = System.Drawing.Color.Khaki;
+            this.button67.BackColor = System.Drawing.Color.Silver;
             this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button67.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1437,7 +1455,7 @@ namespace WindowsFormsApplication1
             // 
             // button68
             // 
-            this.button68.BackColor = System.Drawing.Color.Khaki;
+            this.button68.BackColor = System.Drawing.Color.Silver;
             this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button68.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1451,7 +1469,7 @@ namespace WindowsFormsApplication1
             // 
             // button69
             // 
-            this.button69.BackColor = System.Drawing.Color.Khaki;
+            this.button69.BackColor = System.Drawing.Color.Silver;
             this.button69.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button69.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1465,7 +1483,7 @@ namespace WindowsFormsApplication1
             // 
             // button70
             // 
-            this.button70.BackColor = System.Drawing.Color.Khaki;
+            this.button70.BackColor = System.Drawing.Color.Olive;
             this.button70.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button70.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1479,7 +1497,7 @@ namespace WindowsFormsApplication1
             // 
             // button71
             // 
-            this.button71.BackColor = System.Drawing.Color.Khaki;
+            this.button71.BackColor = System.Drawing.Color.Yellow;
             this.button71.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button71.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1493,7 +1511,7 @@ namespace WindowsFormsApplication1
             // 
             // button72
             // 
-            this.button72.BackColor = System.Drawing.Color.Khaki;
+            this.button72.BackColor = System.Drawing.Color.Aqua;
             this.button72.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button72.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1507,7 +1525,7 @@ namespace WindowsFormsApplication1
             // 
             // button73
             // 
-            this.button73.BackColor = System.Drawing.Color.Pink;
+            this.button73.BackColor = System.Drawing.Color.Crimson;
             this.button73.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button73.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1521,7 +1539,7 @@ namespace WindowsFormsApplication1
             // 
             // button74
             // 
-            this.button74.BackColor = System.Drawing.Color.Pink;
+            this.button74.BackColor = System.Drawing.Color.Gold;
             this.button74.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button74.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1535,7 +1553,7 @@ namespace WindowsFormsApplication1
             // 
             // button75
             // 
-            this.button75.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button75.BackColor = System.Drawing.Color.MediumPurple;
             this.button75.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button75.Font = new System.Drawing.Font("Consolas", 11.25F);
@@ -1549,7 +1567,7 @@ namespace WindowsFormsApplication1
             // 
             // button76
             // 
-            this.button76.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button76.BackColor = System.Drawing.Color.Khaki;
             this.button76.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button76.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1563,7 +1581,7 @@ namespace WindowsFormsApplication1
             // 
             // button77
             // 
-            this.button77.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button77.BackColor = System.Drawing.Color.Khaki;
             this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button77.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1577,7 +1595,7 @@ namespace WindowsFormsApplication1
             // 
             // button78
             // 
-            this.button78.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button78.BackColor = System.Drawing.Color.Khaki;
             this.button78.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button78.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1591,7 +1609,7 @@ namespace WindowsFormsApplication1
             // 
             // button79
             // 
-            this.button79.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button79.BackColor = System.Drawing.Color.Khaki;
             this.button79.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button79.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1605,7 +1623,7 @@ namespace WindowsFormsApplication1
             // 
             // button80
             // 
-            this.button80.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button80.BackColor = System.Drawing.Color.Khaki;
             this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button80.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1619,7 +1637,7 @@ namespace WindowsFormsApplication1
             // 
             // button81
             // 
-            this.button81.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button81.BackColor = System.Drawing.Color.Khaki;
             this.button81.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button81.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1633,7 +1651,7 @@ namespace WindowsFormsApplication1
             // 
             // button82
             // 
-            this.button82.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button82.BackColor = System.Drawing.Color.Khaki;
             this.button82.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button82.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1649,7 +1667,7 @@ namespace WindowsFormsApplication1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(759, 432);
+            this.textBox1.Location = new System.Drawing.Point(940, 435);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(78, 27);
             this.textBox1.TabIndex = 82;
@@ -1664,7 +1682,7 @@ namespace WindowsFormsApplication1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(750, 404);
+            this.label6.Location = new System.Drawing.Point(902, 407);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(450, 22);
             this.label6.TabIndex = 92;
@@ -1674,7 +1692,7 @@ namespace WindowsFormsApplication1
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(918, 432);
+            this.textBox3.Location = new System.Drawing.Point(1099, 435);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(65, 27);
             this.textBox3.TabIndex = 95;
@@ -1689,7 +1707,7 @@ namespace WindowsFormsApplication1
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.Window;
             this.textBox4.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(988, 432);
+            this.textBox4.Location = new System.Drawing.Point(1169, 435);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(65, 27);
@@ -1704,7 +1722,7 @@ namespace WindowsFormsApplication1
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(1060, 432);
+            this.textBox5.Location = new System.Drawing.Point(1241, 435);
             this.textBox5.MaxLength = 4;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(73, 27);
@@ -1721,7 +1739,7 @@ namespace WindowsFormsApplication1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(822, 480);
+            this.label8.Location = new System.Drawing.Point(1003, 483);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(90, 20);
             this.label8.TabIndex = 102;
@@ -1730,7 +1748,7 @@ namespace WindowsFormsApplication1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(631, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(815, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(529, 369);
             this.pictureBox1.TabIndex = 103;
@@ -1740,7 +1758,7 @@ namespace WindowsFormsApplication1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(971, 624);
+            this.label9.Location = new System.Drawing.Point(1152, 627);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(72, 20);
             this.label9.TabIndex = 104;
@@ -1751,7 +1769,7 @@ namespace WindowsFormsApplication1
             this.button83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button83.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button83.Location = new System.Drawing.Point(1102, 574);
+            this.button83.Location = new System.Drawing.Point(1283, 577);
             this.button83.Name = "button83";
             this.button83.Size = new System.Drawing.Size(48, 46);
             this.button83.TabIndex = 105;
@@ -1762,7 +1780,7 @@ namespace WindowsFormsApplication1
             // 
             this.button85.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button85.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button85.Location = new System.Drawing.Point(756, 462);
+            this.button85.Location = new System.Drawing.Point(937, 465);
             this.button85.Name = "button85";
             this.button85.Size = new System.Drawing.Size(120, 42);
             this.button85.TabIndex = 108;
@@ -1774,7 +1792,7 @@ namespace WindowsFormsApplication1
             // 
             this.button86.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button86.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button86.Location = new System.Drawing.Point(887, 462);
+            this.button86.Location = new System.Drawing.Point(1068, 465);
             this.button86.Name = "button86";
             this.button86.Size = new System.Drawing.Size(120, 42);
             this.button86.TabIndex = 109;
@@ -1786,7 +1804,7 @@ namespace WindowsFormsApplication1
             // 
             this.button87.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button87.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button87.Location = new System.Drawing.Point(1013, 462);
+            this.button87.Location = new System.Drawing.Point(1194, 465);
             this.button87.Name = "button87";
             this.button87.Size = new System.Drawing.Size(120, 42);
             this.button87.TabIndex = 110;
@@ -1797,7 +1815,7 @@ namespace WindowsFormsApplication1
             // button88
             // 
             this.button88.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button88.Location = new System.Drawing.Point(1060, 527);
+            this.button88.Location = new System.Drawing.Point(1241, 530);
             this.button88.Name = "button88";
             this.button88.Size = new System.Drawing.Size(73, 27);
             this.button88.TabIndex = 111;
@@ -1809,7 +1827,7 @@ namespace WindowsFormsApplication1
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(843, 432);
+            this.textBox2.Location = new System.Drawing.Point(1024, 435);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.textBox2.Size = new System.Drawing.Size(69, 27);
@@ -1842,7 +1860,7 @@ namespace WindowsFormsApplication1
             this.button93.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button93.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button93.Location = new System.Drawing.Point(753, 315);
+            this.button93.Location = new System.Drawing.Point(937, 318);
             this.button93.Name = "button93";
             this.button93.Size = new System.Drawing.Size(377, 52);
             this.button93.TabIndex = 114;
@@ -1856,7 +1874,7 @@ namespace WindowsFormsApplication1
             this.button94.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button94.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button94.Location = new System.Drawing.Point(753, 256);
+            this.button94.Location = new System.Drawing.Point(937, 259);
             this.button94.Name = "button94";
             this.button94.Size = new System.Drawing.Size(377, 53);
             this.button94.TabIndex = 115;
@@ -1870,7 +1888,7 @@ namespace WindowsFormsApplication1
             this.button95.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button95.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button95.Location = new System.Drawing.Point(753, 198);
+            this.button95.Location = new System.Drawing.Point(937, 201);
             this.button95.Name = "button95";
             this.button95.Size = new System.Drawing.Size(377, 52);
             this.button95.TabIndex = 116;
@@ -1881,7 +1899,7 @@ namespace WindowsFormsApplication1
             // button90
             // 
             this.button90.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button90.Location = new System.Drawing.Point(1056, 373);
+            this.button90.Location = new System.Drawing.Point(1240, 376);
             this.button90.Name = "button90";
             this.button90.Size = new System.Drawing.Size(77, 28);
             this.button90.TabIndex = 117;
@@ -1895,7 +1913,7 @@ namespace WindowsFormsApplication1
             this.button91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button91.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button91.Location = new System.Drawing.Point(887, 574);
+            this.button91.Location = new System.Drawing.Point(1068, 577);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(209, 46);
             this.button91.TabIndex = 118;
@@ -1910,7 +1928,7 @@ namespace WindowsFormsApplication1
             this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button84.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button84.ForeColor = System.Drawing.Color.Black;
-            this.button84.Location = new System.Drawing.Point(889, 525);
+            this.button84.Location = new System.Drawing.Point(1070, 528);
             this.button84.Name = "button84";
             this.button84.Size = new System.Drawing.Size(118, 29);
             this.button84.TabIndex = 107;
@@ -1923,7 +1941,7 @@ namespace WindowsFormsApplication1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(827, 624);
+            this.label1.Location = new System.Drawing.Point(1008, 627);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 119;
@@ -1934,7 +1952,7 @@ namespace WindowsFormsApplication1
             this.izotopbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.izotopbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.izotopbtn.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.izotopbtn.Location = new System.Drawing.Point(825, 575);
+            this.izotopbtn.Location = new System.Drawing.Point(1006, 578);
             this.izotopbtn.Name = "izotopbtn";
             this.izotopbtn.Size = new System.Drawing.Size(56, 46);
             this.izotopbtn.TabIndex = 120;
@@ -1958,7 +1976,7 @@ namespace WindowsFormsApplication1
             this.panel1.Controls.Add(this.button97);
             this.panel1.Controls.Add(this.button96);
             this.panel1.Controls.Add(this.button92);
-            this.panel1.Location = new System.Drawing.Point(174, 373);
+            this.panel1.Location = new System.Drawing.Point(174, 341);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(335, 80);
             this.panel1.TabIndex = 121;
@@ -1966,7 +1984,7 @@ namespace WindowsFormsApplication1
             // 
             // button109
             // 
-            this.button109.BackColor = System.Drawing.Color.LightCoral;
+            this.button109.BackColor = System.Drawing.Color.MediumOrchid;
             this.button109.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button109.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -1980,7 +1998,7 @@ namespace WindowsFormsApplication1
             // 
             // button108
             // 
-            this.button108.BackColor = System.Drawing.Color.LightCoral;
+            this.button108.BackColor = System.Drawing.Color.MediumOrchid;
             this.button108.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button108.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -1994,7 +2012,7 @@ namespace WindowsFormsApplication1
             // 
             // button107
             // 
-            this.button107.BackColor = System.Drawing.Color.LightCoral;
+            this.button107.BackColor = System.Drawing.Color.MediumOrchid;
             this.button107.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button107.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2008,7 +2026,7 @@ namespace WindowsFormsApplication1
             // 
             // button104
             // 
-            this.button104.BackColor = System.Drawing.Color.LightCoral;
+            this.button104.BackColor = System.Drawing.Color.MediumOrchid;
             this.button104.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button104.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2022,7 +2040,7 @@ namespace WindowsFormsApplication1
             // 
             // button105
             // 
-            this.button105.BackColor = System.Drawing.Color.LightCoral;
+            this.button105.BackColor = System.Drawing.Color.MediumOrchid;
             this.button105.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button105.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2036,7 +2054,7 @@ namespace WindowsFormsApplication1
             // 
             // button106
             // 
-            this.button106.BackColor = System.Drawing.Color.LightCoral;
+            this.button106.BackColor = System.Drawing.Color.MediumOrchid;
             this.button106.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button106.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2050,7 +2068,7 @@ namespace WindowsFormsApplication1
             // 
             // button101
             // 
-            this.button101.BackColor = System.Drawing.Color.LightCoral;
+            this.button101.BackColor = System.Drawing.Color.MediumOrchid;
             this.button101.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button101.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2064,7 +2082,7 @@ namespace WindowsFormsApplication1
             // 
             // button102
             // 
-            this.button102.BackColor = System.Drawing.Color.LightCoral;
+            this.button102.BackColor = System.Drawing.Color.MediumOrchid;
             this.button102.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button102.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2078,7 +2096,7 @@ namespace WindowsFormsApplication1
             // 
             // button103
             // 
-            this.button103.BackColor = System.Drawing.Color.LightCoral;
+            this.button103.BackColor = System.Drawing.Color.MediumOrchid;
             this.button103.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button103.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2092,7 +2110,7 @@ namespace WindowsFormsApplication1
             // 
             // button98
             // 
-            this.button98.BackColor = System.Drawing.Color.LightCoral;
+            this.button98.BackColor = System.Drawing.Color.MediumOrchid;
             this.button98.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button98.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2106,7 +2124,7 @@ namespace WindowsFormsApplication1
             // 
             // button99
             // 
-            this.button99.BackColor = System.Drawing.Color.LightCoral;
+            this.button99.BackColor = System.Drawing.Color.MediumOrchid;
             this.button99.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button99.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2120,7 +2138,7 @@ namespace WindowsFormsApplication1
             // 
             // button100
             // 
-            this.button100.BackColor = System.Drawing.Color.LightCoral;
+            this.button100.BackColor = System.Drawing.Color.MediumOrchid;
             this.button100.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button100.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2134,7 +2152,7 @@ namespace WindowsFormsApplication1
             // 
             // button97
             // 
-            this.button97.BackColor = System.Drawing.Color.LightCoral;
+            this.button97.BackColor = System.Drawing.Color.MediumOrchid;
             this.button97.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button97.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2148,7 +2166,7 @@ namespace WindowsFormsApplication1
             // 
             // button96
             // 
-            this.button96.BackColor = System.Drawing.Color.LightCoral;
+            this.button96.BackColor = System.Drawing.Color.MediumOrchid;
             this.button96.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button96.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2162,7 +2180,7 @@ namespace WindowsFormsApplication1
             // 
             // button92
             // 
-            this.button92.BackColor = System.Drawing.Color.LightCoral;
+            this.button92.BackColor = System.Drawing.Color.MediumOrchid;
             this.button92.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button92.Font = new System.Drawing.Font("Consolas", 12.75F);
@@ -2192,7 +2210,7 @@ namespace WindowsFormsApplication1
             this.panel2.Controls.Add(this.button122);
             this.panel2.Controls.Add(this.button123);
             this.panel2.Controls.Add(this.button124);
-            this.panel2.Location = new System.Drawing.Point(174, 459);
+            this.panel2.Location = new System.Drawing.Point(174, 447);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(335, 80);
             this.panel2.TabIndex = 122;
@@ -2411,7 +2429,7 @@ namespace WindowsFormsApplication1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 575);
+            this.label2.Location = new System.Drawing.Point(5, 619);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 17);
             this.label2.TabIndex = 1000;
@@ -2420,7 +2438,7 @@ namespace WindowsFormsApplication1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(77, 574);
+            this.label3.Location = new System.Drawing.Point(70, 618);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 17);
             this.label3.TabIndex = 1001;
@@ -2429,7 +2447,7 @@ namespace WindowsFormsApplication1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(77, 592);
+            this.label4.Location = new System.Drawing.Point(70, 636);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 17);
             this.label4.TabIndex = 1002;
@@ -2438,15 +2456,267 @@ namespace WindowsFormsApplication1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 621);
+            this.label5.Location = new System.Drawing.Point(5, 665);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(252, 17);
             this.label5.TabIndex = 1003;
             this.label5.Text = "Alma mater: NU LP KI-14 2019-2020 ©";
             // 
+            // button127
+            // 
+            this.button127.BackColor = System.Drawing.Color.Aqua;
+            this.button127.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button127.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button127.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button127.Location = new System.Drawing.Point(390, 531);
+            this.button127.Name = "button127";
+            this.button127.Size = new System.Drawing.Size(48, 46);
+            this.button127.TabIndex = 117;
+            this.button127.Text = "Og";
+            this.button127.UseVisualStyleBackColor = false;
+            // 
+            // button128
+            // 
+            this.button128.BackColor = System.Drawing.Color.Yellow;
+            this.button128.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button128.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button128.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button128.Location = new System.Drawing.Point(336, 531);
+            this.button128.Name = "button128";
+            this.button128.Size = new System.Drawing.Size(48, 46);
+            this.button128.TabIndex = 116;
+            this.button128.Text = "Ts";
+            this.button128.UseVisualStyleBackColor = false;
+            // 
+            // button129
+            // 
+            this.button129.BackColor = System.Drawing.Color.Silver;
+            this.button129.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button129.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button129.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button129.Location = new System.Drawing.Point(282, 531);
+            this.button129.Name = "button129";
+            this.button129.Size = new System.Drawing.Size(48, 46);
+            this.button129.TabIndex = 115;
+            this.button129.Text = "Lv";
+            this.button129.UseVisualStyleBackColor = false;
+            // 
+            // button130
+            // 
+            this.button130.BackColor = System.Drawing.Color.Silver;
+            this.button130.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button130.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button130.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button130.Location = new System.Drawing.Point(228, 531);
+            this.button130.Name = "button130";
+            this.button130.Size = new System.Drawing.Size(48, 46);
+            this.button130.TabIndex = 114;
+            this.button130.Text = "Mc";
+            this.button130.UseVisualStyleBackColor = false;
+            // 
+            // button131
+            // 
+            this.button131.BackColor = System.Drawing.Color.Silver;
+            this.button131.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button131.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button131.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button131.Location = new System.Drawing.Point(174, 531);
+            this.button131.Name = "button131";
+            this.button131.Size = new System.Drawing.Size(48, 46);
+            this.button131.TabIndex = 113;
+            this.button131.Text = "Fl";
+            this.button131.UseVisualStyleBackColor = false;
+            // 
+            // button132
+            // 
+            this.button132.BackColor = System.Drawing.Color.Silver;
+            this.button132.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button132.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button132.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button132.Location = new System.Drawing.Point(120, 531);
+            this.button132.Name = "button132";
+            this.button132.Size = new System.Drawing.Size(48, 46);
+            this.button132.TabIndex = 112;
+            this.button132.Text = "Nh";
+            this.button132.UseVisualStyleBackColor = false;
+            // 
+            // button133
+            // 
+            this.button133.BackColor = System.Drawing.Color.Khaki;
+            this.button133.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button133.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button133.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button133.Location = new System.Drawing.Point(66, 531);
+            this.button133.Name = "button133";
+            this.button133.Size = new System.Drawing.Size(48, 46);
+            this.button133.TabIndex = 111;
+            this.button133.Text = "Cn";
+            this.button133.UseVisualStyleBackColor = false;
+            // 
+            // button134
+            // 
+            this.button134.BackColor = System.Drawing.Color.Khaki;
+            this.button134.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button134.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button134.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button134.Location = new System.Drawing.Point(12, 531);
+            this.button134.Name = "button134";
+            this.button134.Size = new System.Drawing.Size(48, 46);
+            this.button134.TabIndex = 110;
+            this.button134.Text = "Rg";
+            this.button134.UseVisualStyleBackColor = false;
+            // 
+            // button125
+            // 
+            this.button125.BackColor = System.Drawing.Color.MediumPurple;
+            this.button125.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button125.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.button125.Location = new System.Drawing.Point(573, 533);
+            this.button125.Name = "button125";
+            this.button125.Size = new System.Drawing.Size(236, 46);
+            this.button125.TabIndex = 111;
+            this.button125.Text = " Актиноїди";
+            this.button125.UseVisualStyleBackColor = false;
+            // 
+            // button126
+            // 
+            this.button126.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button126.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button126.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button126.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button126.Location = new System.Drawing.Point(573, 481);
+            this.button126.Name = "button126";
+            this.button126.Size = new System.Drawing.Size(236, 46);
+            this.button126.TabIndex = 110;
+            this.button126.Text = " Лантаноїди";
+            this.button126.UseVisualStyleBackColor = false;
+            // 
+            // button135
+            // 
+            this.button135.BackColor = System.Drawing.Color.Silver;
+            this.button135.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button135.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button135.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button135.Location = new System.Drawing.Point(573, 220);
+            this.button135.Name = "button135";
+            this.button135.Size = new System.Drawing.Size(236, 46);
+            this.button135.TabIndex = 1019;
+            this.button135.Text = "Метали ";
+            this.button135.UseVisualStyleBackColor = false;
+            // 
+            // button136
+            // 
+            this.button136.BackColor = System.Drawing.Color.Khaki;
+            this.button136.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button136.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button136.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button136.Location = new System.Drawing.Point(573, 272);
+            this.button136.Name = "button136";
+            this.button136.Size = new System.Drawing.Size(236, 46);
+            this.button136.TabIndex = 1018;
+            this.button136.Text = " Перехідні метали";
+            this.button136.UseVisualStyleBackColor = false;
+            // 
+            // button137
+            // 
+            this.button137.BackColor = System.Drawing.Color.Aqua;
+            this.button137.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button137.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button137.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button137.Location = new System.Drawing.Point(573, 428);
+            this.button137.Name = "button137";
+            this.button137.Size = new System.Drawing.Size(236, 46);
+            this.button137.TabIndex = 1017;
+            this.button137.Text = " Інертні гази";
+            this.button137.UseVisualStyleBackColor = false;
+            // 
+            // button138
+            // 
+            this.button138.BackColor = System.Drawing.Color.Yellow;
+            this.button138.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button138.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button138.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button138.Location = new System.Drawing.Point(573, 376);
+            this.button138.Name = "button138";
+            this.button138.Size = new System.Drawing.Size(236, 46);
+            this.button138.TabIndex = 1016;
+            this.button138.Text = " Галогени";
+            this.button138.UseVisualStyleBackColor = false;
+            // 
+            // button139
+            // 
+            this.button139.BackColor = System.Drawing.Color.LawnGreen;
+            this.button139.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button139.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button139.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button139.Location = new System.Drawing.Point(573, 324);
+            this.button139.Name = "button139";
+            this.button139.Size = new System.Drawing.Size(236, 46);
+            this.button139.TabIndex = 1015;
+            this.button139.Text = " Неметали";
+            this.button139.UseVisualStyleBackColor = false;
+            // 
+            // button140
+            // 
+            this.button140.BackColor = System.Drawing.Color.Olive;
+            this.button140.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button140.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button140.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button140.Location = new System.Drawing.Point(573, 168);
+            this.button140.Name = "button140";
+            this.button140.Size = new System.Drawing.Size(236, 46);
+            this.button140.TabIndex = 1014;
+            this.button140.Text = " Напівметали ";
+            this.button140.UseVisualStyleBackColor = false;
+            // 
+            // button141
+            // 
+            this.button141.BackColor = System.Drawing.Color.Gold;
+            this.button141.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button141.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button141.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button141.Location = new System.Drawing.Point(573, 83);
+            this.button141.Name = "button141";
+            this.button141.Size = new System.Drawing.Size(236, 79);
+            this.button141.TabIndex = 1013;
+            this.button141.Text = " Лужноземельні метали";
+            this.button141.UseVisualStyleBackColor = false;
+            // 
+            // button142
+            // 
+            this.button142.BackColor = System.Drawing.Color.Crimson;
+            this.button142.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button142.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button142.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button142.Location = new System.Drawing.Point(573, 31);
+            this.button142.Name = "button142";
+            this.button142.Size = new System.Drawing.Size(236, 46);
+            this.button142.TabIndex = 1012;
+            this.button142.Text = " Лужні метали";
+            this.button142.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1184, 642);
+            this.ClientSize = new System.Drawing.Size(1352, 691);
+            this.Controls.Add(this.button125);
+            this.Controls.Add(this.button126);
+            this.Controls.Add(this.button135);
+            this.Controls.Add(this.button136);
+            this.Controls.Add(this.button137);
+            this.Controls.Add(this.button138);
+            this.Controls.Add(this.button139);
+            this.Controls.Add(this.button140);
+            this.Controls.Add(this.button141);
+            this.Controls.Add(this.button142);
+            this.Controls.Add(this.button127);
+            this.Controls.Add(this.button128);
+            this.Controls.Add(this.button129);
+            this.Controls.Add(this.button130);
+            this.Controls.Add(this.button131);
+            this.Controls.Add(this.button132);
+            this.Controls.Add(this.button133);
+            this.Controls.Add(this.button134);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -2646,7 +2916,7 @@ namespace WindowsFormsApplication1
         private void OnClickButton_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            for (int i = 1; i <= 125; i++)
+            for (int i = 1; i <= 134; i++)
             {
                 if (btn == button57)
                 {
@@ -2684,7 +2954,7 @@ namespace WindowsFormsApplication1
                     break;
                 }
             }
-            for (int i = 0; i <= 125; i++)
+            for (int i = 0; i <= 134; i++)
             {
                 if (IzotopAccessTable[SelectedElement] == true) button89.Visible = true;
                 else button89.Visible = false;

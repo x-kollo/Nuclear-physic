@@ -161,6 +161,24 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button127;
+        private System.Windows.Forms.Button button128;
+        private System.Windows.Forms.Button button129;
+        private System.Windows.Forms.Button button130;
+        private System.Windows.Forms.Button button131;
+        private System.Windows.Forms.Button button132;
+        private System.Windows.Forms.Button button133;
+        private System.Windows.Forms.Button button134;
+        private System.Windows.Forms.Button button125;
+        private System.Windows.Forms.Button button126;
+        private System.Windows.Forms.Button button135;
+        private System.Windows.Forms.Button button136;
+        private System.Windows.Forms.Button button137;
+        private System.Windows.Forms.Button button138;
+        private System.Windows.Forms.Button button139;
+        private System.Windows.Forms.Button button140;
+        private System.Windows.Forms.Button button141;
+        private System.Windows.Forms.Button button142;
     }
 }
 
