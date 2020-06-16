@@ -1,0 +1,12 @@
+C:\git\Nuclear-physic\WindowsFormsApplication1\bin\Release\fysic.exe.config
+C:\git\Nuclear-physic\WindowsFormsApplication1\bin\Release\fysic.exe
+C:\git\Nuclear-physic\WindowsFormsApplication1\bin\Release\fysic.pdb
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\Physic.csprojAssemblyReference.cache
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Ex3.resources
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Izotop.resources
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\Physic.csproj.GenerateResource.cache
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\Physic.csproj.CoreCompileInputs.cache
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\fysic.exe
+C:\git\Nuclear-physic\WindowsFormsApplication1\obj\Release\fysic.pdb
