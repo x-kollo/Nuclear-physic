@@ -51,7 +51,7 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                else if (tbx.Name == ("textBox" + 2))
+                 if (tbx.Name == ("textBox" + 2))
                 {
                     if (tbx.Text != "")
                     {
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                else if (tbx.Name == ("textBox" + 3))
+                 if (tbx.Name == ("textBox" + 3))
                 {
                     if (tbx.Text != "")
                     {
@@ -67,7 +67,7 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                else if (tbx.Name == ("textBox" + 4))
+                 if (tbx.Name == ("textBox" + 4))
                 {
                     if (tbx.Text != "")
                     {
@@ -75,7 +75,7 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                else if (tbx.Name == ("textBox" + 5))
+                 if (tbx.Name == ("textBox" + 5))
                 {
                     if (tbx.Text != "")
                     {
@@ -83,7 +83,7 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                else if (tbx.Name == ("textBox" + 6))
+                 if (tbx.Name == ("textBox" + 6))
                 {
                     if (tbx.Text != "")
                     {
@@ -114,17 +114,17 @@ namespace WindowsFormsApplication1
         {
             TextBox tbx = (TextBox)sender;
             if (tbx.Name == "textBox1" && tbx.Text != "")
-                txtbvalue1 = Convert.ToDouble(textBox1.Text);
-           else if (tbx.Name == "textBox2" && tbx.Text != "")
-                txtbvalue2 = Convert.ToDouble(textBox2.Text);
+            { txtbvalue1 = Convert.ToDouble(textBox1.Text); }
+            else if (tbx.Name == "textBox2" && tbx.Text != "")
+            { txtbvalue2 = Convert.ToDouble(textBox2.Text); }
             else if (tbx.Name == "textBox3" && tbx.Text != "")
-                txtbvalue3 = Convert.ToDouble(textBox3.Text);
+            { txtbvalue3 = Convert.ToDouble(textBox3.Text); }
             else if (tbx.Name == "textBox4" && tbx.Text != "")
-                txtbvalue4 = Convert.ToDouble(textBox4.Text);
+            { txtbvalue4 = Convert.ToDouble(textBox4.Text); }
             else if (tbx.Name == "textBox5" && tbx.Text != "")
-                txtbvalue5 = Convert.ToDouble(textBox5.Text);
+            { txtbvalue5 = Convert.ToDouble(textBox5.Text); }
             else if (tbx.Name == "textBox6" && tbx.Text != "")
-                txtbvalue6 = Convert.ToDouble(textBox6.Text);
+            { txtbvalue6 = Convert.ToDouble(textBox6.Text); }
         }
         private void button2_Click(object sender, EventArgs e)
         {

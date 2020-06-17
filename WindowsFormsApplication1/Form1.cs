@@ -2474,6 +2474,7 @@ namespace WindowsFormsApplication1
             this.button127.TabIndex = 117;
             this.button127.Text = "Og";
             this.button127.UseVisualStyleBackColor = false;
+            this.button127.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button128
             // 
@@ -2487,6 +2488,7 @@ namespace WindowsFormsApplication1
             this.button128.TabIndex = 116;
             this.button128.Text = "Ts";
             this.button128.UseVisualStyleBackColor = false;
+            this.button128.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button129
             // 
@@ -2500,6 +2502,7 @@ namespace WindowsFormsApplication1
             this.button129.TabIndex = 115;
             this.button129.Text = "Lv";
             this.button129.UseVisualStyleBackColor = false;
+            this.button129.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button130
             // 
@@ -2513,6 +2516,7 @@ namespace WindowsFormsApplication1
             this.button130.TabIndex = 114;
             this.button130.Text = "Mc";
             this.button130.UseVisualStyleBackColor = false;
+            this.button130.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button131
             // 
@@ -2526,6 +2530,7 @@ namespace WindowsFormsApplication1
             this.button131.TabIndex = 113;
             this.button131.Text = "Fl";
             this.button131.UseVisualStyleBackColor = false;
+            this.button131.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button132
             // 
@@ -2539,6 +2544,7 @@ namespace WindowsFormsApplication1
             this.button132.TabIndex = 112;
             this.button132.Text = "Nh";
             this.button132.UseVisualStyleBackColor = false;
+            this.button132.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button133
             // 
@@ -2552,6 +2558,7 @@ namespace WindowsFormsApplication1
             this.button133.TabIndex = 111;
             this.button133.Text = "Cn";
             this.button133.UseVisualStyleBackColor = false;
+            this.button133.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button134
             // 
@@ -2565,11 +2572,13 @@ namespace WindowsFormsApplication1
             this.button134.TabIndex = 110;
             this.button134.Text = "Rg";
             this.button134.UseVisualStyleBackColor = false;
+            this.button134.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // button125
             // 
             this.button125.BackColor = System.Drawing.Color.MediumPurple;
-            this.button125.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button125.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button125.Enabled = false;
             this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button125.Font = new System.Drawing.Font("Consolas", 14.25F);
             this.button125.Location = new System.Drawing.Point(573, 533);
@@ -2577,12 +2586,14 @@ namespace WindowsFormsApplication1
             this.button125.Size = new System.Drawing.Size(236, 46);
             this.button125.TabIndex = 111;
             this.button125.Text = " Актиноїди";
+            this.button125.UseMnemonic = false;
             this.button125.UseVisualStyleBackColor = false;
             // 
             // button126
             // 
             this.button126.BackColor = System.Drawing.Color.MediumOrchid;
-            this.button126.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button126.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button126.Enabled = false;
             this.button126.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button126.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button126.Location = new System.Drawing.Point(573, 481);
@@ -2590,12 +2601,14 @@ namespace WindowsFormsApplication1
             this.button126.Size = new System.Drawing.Size(236, 46);
             this.button126.TabIndex = 110;
             this.button126.Text = " Лантаноїди";
+            this.button126.UseMnemonic = false;
             this.button126.UseVisualStyleBackColor = false;
             // 
             // button135
             // 
             this.button135.BackColor = System.Drawing.Color.Silver;
-            this.button135.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button135.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button135.Enabled = false;
             this.button135.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button135.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button135.Location = new System.Drawing.Point(573, 220);
@@ -2603,12 +2616,14 @@ namespace WindowsFormsApplication1
             this.button135.Size = new System.Drawing.Size(236, 46);
             this.button135.TabIndex = 1019;
             this.button135.Text = "Метали ";
+            this.button135.UseMnemonic = false;
             this.button135.UseVisualStyleBackColor = false;
             // 
             // button136
             // 
             this.button136.BackColor = System.Drawing.Color.Khaki;
-            this.button136.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button136.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button136.Enabled = false;
             this.button136.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button136.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button136.Location = new System.Drawing.Point(573, 272);
@@ -2616,12 +2631,14 @@ namespace WindowsFormsApplication1
             this.button136.Size = new System.Drawing.Size(236, 46);
             this.button136.TabIndex = 1018;
             this.button136.Text = " Перехідні метали";
+            this.button136.UseMnemonic = false;
             this.button136.UseVisualStyleBackColor = false;
             // 
             // button137
             // 
             this.button137.BackColor = System.Drawing.Color.Aqua;
-            this.button137.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button137.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button137.Enabled = false;
             this.button137.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button137.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button137.Location = new System.Drawing.Point(573, 428);
@@ -2629,12 +2646,14 @@ namespace WindowsFormsApplication1
             this.button137.Size = new System.Drawing.Size(236, 46);
             this.button137.TabIndex = 1017;
             this.button137.Text = " Інертні гази";
+            this.button137.UseMnemonic = false;
             this.button137.UseVisualStyleBackColor = false;
             // 
             // button138
             // 
             this.button138.BackColor = System.Drawing.Color.Yellow;
-            this.button138.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button138.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button138.Enabled = false;
             this.button138.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button138.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button138.Location = new System.Drawing.Point(573, 376);
@@ -2642,12 +2661,14 @@ namespace WindowsFormsApplication1
             this.button138.Size = new System.Drawing.Size(236, 46);
             this.button138.TabIndex = 1016;
             this.button138.Text = " Галогени";
+            this.button138.UseMnemonic = false;
             this.button138.UseVisualStyleBackColor = false;
             // 
             // button139
             // 
             this.button139.BackColor = System.Drawing.Color.LawnGreen;
-            this.button139.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button139.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button139.Enabled = false;
             this.button139.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button139.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button139.Location = new System.Drawing.Point(573, 324);
@@ -2655,12 +2676,14 @@ namespace WindowsFormsApplication1
             this.button139.Size = new System.Drawing.Size(236, 46);
             this.button139.TabIndex = 1015;
             this.button139.Text = " Неметали";
+            this.button139.UseMnemonic = false;
             this.button139.UseVisualStyleBackColor = false;
             // 
             // button140
             // 
             this.button140.BackColor = System.Drawing.Color.Olive;
-            this.button140.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button140.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button140.Enabled = false;
             this.button140.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button140.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button140.Location = new System.Drawing.Point(573, 168);
@@ -2668,12 +2691,14 @@ namespace WindowsFormsApplication1
             this.button140.Size = new System.Drawing.Size(236, 46);
             this.button140.TabIndex = 1014;
             this.button140.Text = " Напівметали ";
+            this.button140.UseMnemonic = false;
             this.button140.UseVisualStyleBackColor = false;
             // 
             // button141
             // 
             this.button141.BackColor = System.Drawing.Color.Gold;
-            this.button141.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button141.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button141.Enabled = false;
             this.button141.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button141.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button141.Location = new System.Drawing.Point(573, 83);
@@ -2681,12 +2706,14 @@ namespace WindowsFormsApplication1
             this.button141.Size = new System.Drawing.Size(236, 79);
             this.button141.TabIndex = 1013;
             this.button141.Text = " Лужноземельні метали";
+            this.button141.UseMnemonic = false;
             this.button141.UseVisualStyleBackColor = false;
             // 
             // button142
             // 
             this.button142.BackColor = System.Drawing.Color.Crimson;
-            this.button142.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button142.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button142.Enabled = false;
             this.button142.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button142.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button142.Location = new System.Drawing.Point(573, 31);
@@ -2694,6 +2721,7 @@ namespace WindowsFormsApplication1
             this.button142.Size = new System.Drawing.Size(236, 46);
             this.button142.TabIndex = 1012;
             this.button142.Text = " Лужні метали";
+            this.button142.UseMnemonic = false;
             this.button142.UseVisualStyleBackColor = false;
             // 
             // Form1
@@ -2916,7 +2944,7 @@ namespace WindowsFormsApplication1
         private void OnClickButton_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            for (int i = 1; i <= 134; i++)
+            for (int i = 1; i <= 135; i++)
             {
                 if (btn == button57)
                 {
@@ -2954,7 +2982,7 @@ namespace WindowsFormsApplication1
                     break;
                 }
             }
-            for (int i = 0; i <= 134; i++)
+            for (int i = 0; i <= 135; i++)
             {
                 if (IzotopAccessTable[SelectedElement] == true) button89.Visible = true;
                 else button89.Visible = false;
