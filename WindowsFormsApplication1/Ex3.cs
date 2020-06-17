@@ -16,6 +16,19 @@ namespace WindowsFormsApplication1
         string[] TextBoxTip = {
             " ", "МеВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
         };
+
+        List<string> energy = new List<string>()
+        {
+             "кВт/год","Джоулі","МеВ"
+        };   
+        List<string> mass = new List<string>()
+        {
+            "грами","кілограми","тони","центнери","а.о.м."
+        };
+        List<string> time = new List<string>()
+        {
+           "мілісекунди","мікросекунди","наносекунди", "cекунди","хвилини","години","дні","роки"
+        };
         public Ex3()
         {
             InitializeComponent();
@@ -51,46 +64,6 @@ namespace WindowsFormsApplication1
                     }
                     else tbx.Text = TextBoxTip[i];
                 }
-                 if (tbx.Name == ("textBox" + 2))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button3.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
-                 if (tbx.Name == ("textBox" + 3))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button4.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
-                 if (tbx.Name == ("textBox" + 4))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button5.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
-                 if (tbx.Name == ("textBox" + 5))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button6.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
-                 if (tbx.Name == ("textBox" + 6))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button7.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
             }
         }
         private void OnTextBox_Enter(object sender, EventArgs e)
@@ -98,11 +71,7 @@ namespace WindowsFormsApplication1
             TextBox tbx = (TextBox)sender;
             tbx.Text = null;
             button2.Enabled = true;
-            button3.Enabled = true;
-            button4.Enabled = true;
-            button5.Enabled = true;
-            button6.Enabled = true;
-            button7.Enabled = true;
+         
         }
         Double txtbvalue1 = 0;
         Double txtbvalue2 = 0;
@@ -115,20 +84,14 @@ namespace WindowsFormsApplication1
             TextBox tbx = (TextBox)sender;
             if (tbx.Name == "textBox1" && tbx.Text != "")
             { txtbvalue1 = Convert.ToDouble(textBox1.Text); }
-            else if (tbx.Name == "textBox2" && tbx.Text != "")
-            { txtbvalue2 = Convert.ToDouble(textBox2.Text); }
-            else if (tbx.Name == "textBox3" && tbx.Text != "")
-            { txtbvalue3 = Convert.ToDouble(textBox3.Text); }
-            else if (tbx.Name == "textBox4" && tbx.Text != "")
-            { txtbvalue4 = Convert.ToDouble(textBox4.Text); }
-            else if (tbx.Name == "textBox5" && tbx.Text != "")
-            { txtbvalue5 = Convert.ToDouble(textBox5.Text); }
-            else if (tbx.Name == "textBox6" && tbx.Text != "")
-            { txtbvalue6 = Convert.ToDouble(textBox6.Text); }
         }
         private void button2_Click(object sender, EventArgs e)
         {
             Double Result;
+            switch(comboBox1.SelectedIndex)
+            {
+
+            }
             Result = txtbvalue1;
             Result = Result * 0.1602176565;
             label4.Text = Convert.ToString(Result) + "  пДж";
@@ -139,8 +102,8 @@ namespace WindowsFormsApplication1
             Double Result;
             Result = txtbvalue2;
             Result = Result * 3600;
-            label5.Text = Convert.ToString(Result) + "  кДж";
-            label5.Visible = true;
+     //       label5.Text = Convert.ToString(Result) + "  кДж";
+    //        label5.Visible = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -148,8 +111,8 @@ namespace WindowsFormsApplication1
             Double Result;
             Result = txtbvalue3;
             Result = Result * 0.60221417912066701211790570510273;
-            label6.Text = Convert.ToString(Result) + "  а.о.м.";
-            label6.Visible = true;
+      //      label6.Text = Convert.ToString(Result) + "  а.о.м.";
+     //       label6.Visible = true;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -157,17 +120,17 @@ namespace WindowsFormsApplication1
             Double Result;
             Result = txtbvalue4;
             Result = Result / 3.6;
-            label10.Text = Convert.ToString(Result) + "  годинват";
-            label10.Visible = true;
-        }
+   //         label10.Text = Convert.ToString(Result) + "  годинват";
+    //        label10.Visible = true;
+       }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Double Result;
             Result = txtbvalue5;
             Result = Result * 0.1602176565;
-            label11.Text = Convert.ToString(Result) + "  ексаеВ";
-            label11.Visible = true;
+      //      label11.Text = Convert.ToString(Result) + "  ексаеВ";
+      //      label11.Visible = true;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -175,8 +138,47 @@ namespace WindowsFormsApplication1
             Double Result;
             Result = txtbvalue6;
             Result = Result * 1.66053878283;
-            label12.Text = Convert.ToString(Result) + "  йоктограм";
-            label12.Visible = true;
+     //       label12.Text = Convert.ToString(Result) + "  йоктограм";
+     //       label12.Visible = true;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox3.SelectedIndex == 0)
+            {
+                comboBox1.Items.Clear();
+                comboBox2.Items.Clear();
+                for (int i = 0; i < energy.Count; i++)
+                {
+                    comboBox1.Items.Add(energy[i]);
+                    comboBox2.Items.Add(energy[i]);
+                }
+            }
+            if (comboBox3.SelectedIndex == 1)
+            {
+                comboBox1.Items.Clear();             
+                comboBox2.Items.Clear();
+                for (int i = 0; i < mass.Count;i++)
+                {
+                    comboBox1.Items.Add(mass[i]);
+                    comboBox2.Items.Add(mass[i]);
+                }
+            }
+            if (comboBox3.SelectedIndex == 2)
+            {
+                comboBox1.Items.Clear();
+                comboBox2.Items.Clear();
+                for (int i = 0; i < time.Count; i++)
+                {
+                    comboBox1.Items.Add(time[i]);
+                    comboBox2.Items.Add(time[i]);
+                }
+            }
         }
     }
 }
