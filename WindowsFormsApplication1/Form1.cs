@@ -97,11 +97,14 @@ namespace WindowsFormsApplication1
             "Na","Mg","Al","Si","P","S","Cl","Ar",
             "K", "Ca","Sc","Ti","V","Cr","Mn","Fe","Co","Ni",
             "Cu", "Zn","Ga","Ge","As","Se","Br","Kr",
-            "Rb","Sr","Y","Zr","Nb","Mo","Tc",
+            "Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd",
             "Ag","Cd","In","Sn","Sb","Te","I","Xe",
-            "Cs","Ba","*La","Hf","Ta","W","Re","Os","Ir","Pt",
+            "Cs","Ba","*La",/*Написати лантаноїди*/
+            "Hf","Ta","W","Re","Os","Ir","Pt",
             "Au","Hg","Ti","Pb","Bi","Po","At","Rn",
-            "Fr","Ra","*Ac","Unq","Unp","Unh","Uns","Uno","Une","Unn"
+            "Fr","Ra","*Ac",/*актиноїди*/
+            "Rf","Db","Sg","Bh","Hs","Mt","Ds",
+            "Rg","Cn","Nh","Fl","Mc","Lv","Ts","Og"
         };
         
         string[] FullNameOfElement = {
