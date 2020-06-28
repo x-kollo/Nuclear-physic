@@ -197,11 +197,10 @@ namespace WindowsFormsApplication1
         private void Button95_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
-            string Addres = "img\\";
-            Addres = Addres + NameOfElements[SelectedElement + 1] + "_A.jpg";
-            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
-            curFile = curFile + NameOfElements[SelectedElement + 1] + "_A.jpg";
-            if (File.Exists(curFile))
+            string Addres = "img\\";         
+            Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
+
+            try
             {
                 pictureBox1.Image = Image.FromFile(Addres);
                 pictureBox1.Visible = true;
@@ -210,16 +209,15 @@ namespace WindowsFormsApplication1
                 button93.Visible = false;
                 button90.Visible = true;
             }
-            else
+            catch
             {
-                Addres = "img\\";
-                Addres = Addres + "error.jpg";
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ", 
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
             }
         }
 
@@ -227,10 +225,8 @@ namespace WindowsFormsApplication1
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";
-            Addres = Addres + NameOfElements[SelectedElement + 1] + "_H.jpg";
-            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
-            curFile = curFile + NameOfElements[SelectedElement + 1] + "_H.jpg";
-            if (File.Exists(curFile))
+            Addres += NameOfElements[SelectedElement + 1] + "_H.jpg";
+            try
             {
                 pictureBox1.Image = Image.FromFile(Addres);
                 pictureBox1.Visible = true;
@@ -239,16 +235,15 @@ namespace WindowsFormsApplication1
                 button93.Visible = false;
                 button90.Visible = true;
             }
-            else
+            catch
             {
-                Addres = "img\\";
-                Addres = Addres + "error.jpg";
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ",
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
             }
         }
 
@@ -256,10 +251,8 @@ namespace WindowsFormsApplication1
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";
-            Addres = Addres + NameOfElements[SelectedElement + 1] + "_T.jpg";
-            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
-            curFile = curFile + NameOfElements[SelectedElement + 1] + "_T.jpg";
-            if (File.Exists(curFile))
+            Addres += NameOfElements[SelectedElement + 1] + "_T.jpg";
+            try
             {
                 pictureBox1.Image = Image.FromFile(Addres);
                 pictureBox1.Visible = true;
@@ -268,16 +261,15 @@ namespace WindowsFormsApplication1
                 button93.Visible = false;
                 button90.Visible = true;
             }
-            else
+            catch
             {
-                Addres = "img\\";
-                Addres = Addres + "error.jpg";
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ",
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
             }
         }
         Int32 ex2 = 0;
