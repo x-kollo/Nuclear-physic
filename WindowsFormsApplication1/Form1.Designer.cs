@@ -174,6 +174,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.інформаціяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button125 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -2247,14 +2248,14 @@
             this.інформаціяToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1344, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1344, 30);
             this.menuStrip1.TabIndex = 1020;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // інформаціяToolStripMenuItem
             // 
             this.інформаціяToolStripMenuItem.Name = "інформаціяToolStripMenuItem";
-            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
             this.інформаціяToolStripMenuItem.Text = "Інформація";
             this.інформаціяToolStripMenuItem.Click += new System.EventHandler(this.інформаціяToolStripMenuItem_Click);
             // 
@@ -2269,6 +2270,14 @@
             this.button125.UseVisualStyleBackColor = true;
             this.button125.Visible = false;
             this.button125.Click += new System.EventHandler(this.button125_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(829, 35);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(440, 168);
+            this.panel3.TabIndex = 1022;
+            this.panel3.Visible = false;
             // 
             // Form1
             // 
@@ -2303,7 +2312,6 @@
             this.Controls.Add(this.button84);
             this.Controls.Add(this.button83);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -2394,6 +2402,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -2560,6 +2570,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem інформаціяToolStripMenuItem;
         private System.Windows.Forms.Button button125;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

@@ -194,12 +194,35 @@ namespace WindowsFormsApplication1
             button93.Visible = true;
             button90.Visible = false;
         }
-        private void Button95_Click(object sender, EventArgs e)
+        public void PanelforMissPict()
+        {
+            Panel panel3 = new Panel();
+            Label label99 = new Label();
+            panel3.Location = new Point(1010, 27);
+            panel3.Size = new Size(264, 152);
+            panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel3.BackColor = Color.Crimson;
+            label99.Location = new Point(16, 16);
+            label99.Text = "Помилка, Зображення не знайдено";
+            label99.Size = new Size(263, 151);
+            this.Controls.Add(panel3);
+            panel3.Controls.Add(label99);
+        }
+        private void FormClick(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            try
+            {
+                this.Controls["label99"].Visible = false;
+                this.Controls["panel3"].Visible = false;
+            }
+            catch { }
+        }
+            private void Button95_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";         
             Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
-
             try
             {
                 pictureBox1.Image = Image.FromFile(Addres);
@@ -211,13 +234,7 @@ namespace WindowsFormsApplication1
             }
             catch
             {
-                MessageBox.Show(
-                 " Не знайдено інформацію про елемент ", 
-                 "Помилка! Файл не знайдено",
-                 MessageBoxButtons.OK,
-                 MessageBoxIcon.Error,
-                 MessageBoxDefaultButton.Button1,
-                 MessageBoxOptions.DefaultDesktopOnly);
+                PanelforMissPict();
             }
         }
 
@@ -237,13 +254,7 @@ namespace WindowsFormsApplication1
             }
             catch
             {
-                MessageBox.Show(
-                 " Не знайдено інформацію про елемент ",
-                 "Помилка! Файл не знайдено",
-                 MessageBoxButtons.OK,
-                 MessageBoxIcon.Error,
-                 MessageBoxDefaultButton.Button1,
-                 MessageBoxOptions.DefaultDesktopOnly);
+                PanelforMissPict();
             }
         }
 
@@ -263,13 +274,7 @@ namespace WindowsFormsApplication1
             }
             catch
             {
-                MessageBox.Show(
-                 " Не знайдено інформацію про елемент ",
-                 "Помилка! Файл не знайдено",
-                 MessageBoxButtons.OK,
-                 MessageBoxIcon.Error,
-                 MessageBoxDefaultButton.Button1,
-                 MessageBoxOptions.DefaultDesktopOnly);
+                PanelforMissPict();
             }
         }
         Int32 ex2 = 0;
@@ -501,22 +506,6 @@ namespace WindowsFormsApplication1
         {
             Showform3();
         }
-     /*   private void FormClick(object sender, EventArgs e)
-        {
-            panel1.Visible = false;
-            panel2.Visible = false;
-            try
-            {
-                this.Controls["infopanel"].Visible = false;
-                this.Controls["infopanel_shadow"].Visible = false;
-                for (int i = 0; i < 10; i++)
-                {
-                    this.Controls["infotext" + i.ToString()].Visible = false;
-                    this.Controls["infocolored" + i.ToString()].Visible = false;
-                }
-            }
-            catch { }
-        }*/
 
         private void інформаціяToolStripMenuItem_Click(object sender, EventArgs e)
         {
