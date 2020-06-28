@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -99,10 +100,10 @@ namespace WindowsFormsApplication1
             "Cu", "Zn","Ga","Ge","As","Se","Br","Kr",
             "Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd",
             "Ag","Cd","In","Sn","Sb","Te","I","Xe",
-            "Cs","Ba","*La",/*Написати лантаноїди*/
+            "Cs","Ba","La",/*Написати лантаноїди*/
             "Hf","Ta","W","Re","Os","Ir","Pt",
             "Au","Hg","Ti","Pb","Bi","Po","At","Rn",
-            "Fr","Ra","*Ac",/*актиноїди*/
+            "Fr","Ra","Ac",/*актиноїди*/
             "Rf","Db","Sg","Bh","Hs","Mt","Ds",
             "Rg","Cn","Nh","Fl","Mc","Lv","Ts","Og"
         };
@@ -197,45 +198,87 @@ namespace WindowsFormsApplication1
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";
-
             Addres = Addres + NameOfElements[SelectedElement + 1] + "_A.jpg";
-
-            pictureBox1.Image = Image.FromFile(Addres);        
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
+            curFile = curFile + NameOfElements[SelectedElement + 1] + "_A.jpg";
+            if (File.Exists(curFile))
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
+            else
+            {
+                Addres = "img\\";
+                Addres = Addres + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
         }
 
         private void Button94_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";
-
             Addres = Addres + NameOfElements[SelectedElement + 1] + "_H.jpg";
-
-            pictureBox1.Image = Image.FromFile(Addres);
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
+            curFile = curFile + NameOfElements[SelectedElement + 1] + "_H.jpg";
+            if (File.Exists(curFile))
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
+            else
+            {
+                Addres = "img\\";
+                Addres = Addres + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
         }
 
         private void Button93_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";
-
             Addres = Addres + NameOfElements[SelectedElement + 1] + "_T.jpg";
-
-            pictureBox1.Image = Image.FromFile(Addres);
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            string curFile = @"c:\git\Nuclear-physic\WindowsFormsApplication1\bin\Debug\img\";
+            curFile = curFile + NameOfElements[SelectedElement + 1] + "_T.jpg";
+            if (File.Exists(curFile))
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
+            else
+            {
+                Addres = "img\\";
+                Addres = Addres + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
+            }
         }
         Int32 ex2 = 0;
         private void OnClickButton_Click(object sender, EventArgs e)
@@ -466,7 +509,7 @@ namespace WindowsFormsApplication1
         {
             Showform3();
         }
-        private void FormClick(object sender, EventArgs e)
+     /*   private void FormClick(object sender, EventArgs e)
         {
             panel1.Visible = false;
             panel2.Visible = false;
@@ -481,7 +524,7 @@ namespace WindowsFormsApplication1
                 }
             }
             catch { }
-        }
+        }*/
 
         private void інформаціяToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -566,7 +609,24 @@ namespace WindowsFormsApplication1
                     this.Controls["infocolored" + i.ToString()].Visible = true;
                 }
             }
+            button125.Visible = true;
         }
-       
+        private void button125_Click(object sender, EventArgs e)
+        {
+                panel1.Visible = false;
+                panel2.Visible = false;
+                try
+                {
+                    this.Controls["infopanel"].Visible = false;
+                    this.Controls["infopanel_shadow"].Visible = false;
+                    for (int i = 0; i < 10; i++)
+                    {
+                        this.Controls["infotext" + i.ToString()].Visible = false;
+                        this.Controls["infocolored" + i.ToString()].Visible = false;
+                    }
+                }
+                catch { }
+            button125.Visible = false;
+        }
     }
 }

@@ -173,6 +173,7 @@
             this.button134 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.інформаціяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button125 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -2246,20 +2247,33 @@
             this.інформаціяToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1344, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1344, 28);
             this.menuStrip1.TabIndex = 1020;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // інформаціяToolStripMenuItem
             // 
             this.інформаціяToolStripMenuItem.Name = "інформаціяToolStripMenuItem";
-            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.інформаціяToolStripMenuItem.Text = "Інформація";
             this.інформаціяToolStripMenuItem.Click += new System.EventHandler(this.інформаціяToolStripMenuItem_Click);
+            // 
+            // button125
+            // 
+            this.button125.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button125.Location = new System.Drawing.Point(617, 318);
+            this.button125.Name = "button125";
+            this.button125.Size = new System.Drawing.Size(92, 27);
+            this.button125.TabIndex = 1021;
+            this.button125.Text = "Сховати";
+            this.button125.UseVisualStyleBackColor = true;
+            this.button125.Visible = false;
+            this.button125.Click += new System.EventHandler(this.button125_Click);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(1344, 681);
+            this.Controls.Add(this.button125);
             this.Controls.Add(this.button127);
             this.Controls.Add(this.button128);
             this.Controls.Add(this.button129);
@@ -2385,7 +2399,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NUCLEAR PHYSIC";
-            this.Click += new System.EventHandler(this.FormClick);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -2546,6 +2559,7 @@
         private System.Windows.Forms.Button button134;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem інформаціяToolStripMenuItem;
+        private System.Windows.Forms.Button button125;
     }
 }
 
