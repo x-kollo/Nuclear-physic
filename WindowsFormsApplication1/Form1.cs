@@ -196,65 +196,81 @@ namespace WindowsFormsApplication1
         }
         private void Button95_Click(object sender, EventArgs e)
         {
-            string path = Directory.GetCurrentDirectory() ;
-            path = path + "\\img\\" + NameOfElements[SelectedElement + 1] + "_A.jpg";
             pictureBox1.Visible = false;
             string Addres = "img\\";         
             Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
-            if (File.Exists(path))
-            { }
-            else
+
+            try
             {
-                Addres = "img\\" + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
             }
-            pictureBox1.Image = Image.FromFile(Addres);
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            catch
+            {
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ", 
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
+            }
         }
 
         private void Button94_Click(object sender, EventArgs e)
         {
-            string path = Directory.GetCurrentDirectory();
-            path = path + "\\img\\" + NameOfElements[SelectedElement + 1] + "_H.jpg";
             pictureBox1.Visible = false;
             string Addres = "img\\";
             Addres += NameOfElements[SelectedElement + 1] + "_H.jpg";
-            if (File.Exists(path))
-            { }
-            else
+            try
             {
-                Addres = "img\\" + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
             }
-            pictureBox1.Image = Image.FromFile(Addres);
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            catch
+            {
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ",
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
+            }
         }
 
         private void Button93_Click(object sender, EventArgs e)
         {
-            string path = Directory.GetCurrentDirectory();
-            path = path + "\\img\\" + NameOfElements[SelectedElement + 1] + "_T.jpg";
             pictureBox1.Visible = false;
             string Addres = "img\\";
             Addres += NameOfElements[SelectedElement + 1] + "_T.jpg";
-            if (File.Exists(path))
-            { }
-            else
+            try
             {
-                Addres = "img\\" + "error.jpg";
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                button95.Visible = false;
+                button94.Visible = false;
+                button93.Visible = false;
+                button90.Visible = true;
             }
-            pictureBox1.Image = Image.FromFile(Addres);
-            pictureBox1.Visible = true;
-            button95.Visible = false;
-            button94.Visible = false;
-            button93.Visible = false;
-            button90.Visible = true;
+            catch
+            {
+                MessageBox.Show(
+                 " Не знайдено інформацію про елемент ",
+                 "Помилка! Файл не знайдено",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Error,
+                 MessageBoxDefaultButton.Button1,
+                 MessageBoxOptions.DefaultDesktopOnly);
+            }
         }
         Int32 ex2 = 0;
         private void OnClickButton_Click(object sender, EventArgs e)
