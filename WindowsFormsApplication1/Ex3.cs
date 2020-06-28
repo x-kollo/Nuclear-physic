@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -73,71 +74,6 @@ namespace WindowsFormsApplication1
             button2.Enabled = true;
          
         }
-        Double txtbvalue = 0;
-        Double comboboxindex=4;
-        private void OnTextBox_Change(object sender, EventArgs e)
-        {
-            TextBox tbx = (TextBox)sender;
-            if (tbx.Name == "textBox1" && tbx.Text != "")
-            { txtbvalue = Convert.ToDouble(textBox1.Text); }
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Double Result;
-            switch(comboBox1.SelectedIndex)
-            {
-
-            }
-            Result = txtbvalue;
-            Result = Result * 0.1602176565;
-            label4.Text = Convert.ToString(Result) + "  пДж";
-            label4.Visible = true;
-        }
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            Double Result;
-            Result = txtbvalue;
-            Result = Result * 3600;
-     //       label5.Text = Convert.ToString(Result) + "  кДж";
-    //        label5.Visible = true;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Double Result;
-            Result = txtbvalue;
-            Result = Result * 0.60221417912066701211790570510273;
-      //      label6.Text = Convert.ToString(Result) + "  а.о.м.";
-     //       label6.Visible = true;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Double Result;
-            Result = txtbvalue;
-            Result = Result / 3.6;
-   //         label10.Text = Convert.ToString(Result) + "  годинват";
-    //        label10.Visible = true;
-       }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Double Result;
-            Result = txtbvalue;
-            Result = Result * 0.1602176565;
-      //      label11.Text = Convert.ToString(Result) + "  ексаеВ";
-      //      label11.Visible = true;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Double Result;
-            Result = txtbvalue;
-            Result = Result * 1.66053878283;
-     //       label12.Text = Convert.ToString(Result) + "  йоктограм";
-     //       label12.Visible = true;
-        }
-
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(comboBox3.SelectedIndex == 0)
@@ -171,6 +107,34 @@ namespace WindowsFormsApplication1
                 }
             }
         }
-
-    }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Double Result;
+            Result = Convert.ToDouble(textBox1.Text);
+            switch (comboBox3.SelectedIndex)
+            {
+                case 0:
+                    if(comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+                    {
+                        label4.Text = Convert.ToString(Result) + "  Дж";
+                        label4.Visible = true;
+                    }
+                    break;
+                case 1:
+                    if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+                    {
+                        label4.Text = Convert.ToString(Result) + "  кг";
+                        label4.Visible = true;
+                    }
+                        break;
+                case 2:
+                    if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+                    {
+                        label4.Text = Convert.ToString(Result) + "  год";
+                        label4.Visible = true;
+                    }
+                    break;
+            }
+            }
+        }
 }

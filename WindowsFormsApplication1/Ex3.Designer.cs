@@ -61,7 +61,6 @@
             this.textBox1.TabIndex = 83;
             this.textBox1.Text = "Значення";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.OnTextBox_Change);
             this.textBox1.Enter += new System.EventHandler(this.OnTextBox_Enter);
             // 
             // button1
