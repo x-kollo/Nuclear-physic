@@ -15,9 +15,26 @@ namespace WindowsFormsApplication1
     {
         public event EventHandler updateEvent;
         string[] TextBoxTip = {
-            " ", "МеВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
+            "", "МеВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
         };
-
+        string[] answers00 = {
+            " кВт/год"," Дж"," МеВ "
+        };
+        string[] answers01 = {
+            " мВат/год"," МДж"," МеВ "," пДж"
+        };
+        string[] answers10 = {
+            " г"," кг"," тон"," центнерів"," а.о.м."
+        };
+        string[] answers11 = {
+            " г"," кг"," тон"," центнерів","йокта а.о.м."
+        };
+        string[] answers20 = {
+            " ",
+        };
+        string[] answers21 = {
+            " ",
+        };
         List<string> energy = new List<string>()
         {
              "кВт/год","Джоулі","МеВ"
@@ -116,25 +133,190 @@ namespace WindowsFormsApplication1
                 case 0:
                     if(comboBox1.SelectedIndex == comboBox2.SelectedIndex)
                     {
-                        label4.Text = Convert.ToString(Result) + "  Дж";
-                        label4.Visible = true;
+                        label4.Text = Convert.ToString(Result) + answers00[comboBox2.SelectedIndex];
+                    }
+
+                    else if (comboBox1.SelectedIndex==1&& comboBox2.SelectedIndex==0)
+                    {
+                        Result *= 0.27777777777778;
+                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                    }
+                    else if (comboBox1.SelectedIndex == 0 && comboBox2.SelectedIndex == 1)
+                    {
+                        Result *= 3.6;
+                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                    }
+                    else if (comboBox1.SelectedIndex == 1 && comboBox2.SelectedIndex == 2)
+                    {
+                        Result *= 6241509647120.4;
+                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                    }
+                    else if (comboBox1.SelectedIndex == 2 && comboBox2.SelectedIndex == 1)
+                    {
+                        Result *= 0.1602176487;
+                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex + comboBox1.SelectedIndex];
+                    }
+
+                    else
+                    {
+                        label4.Text = "Некоректна дія!";
                     }
                     break;
+
                 case 1:
                     if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
                     {
-                        label4.Text = Convert.ToString(Result) + "  кг";
-                        label4.Visible = true;
+                        label4.Text = Convert.ToString(Result) + answers10[comboBox2.SelectedIndex];
                     }
-                        break;
+
+                    else if (comboBox1.SelectedIndex == 0 && comboBox2.SelectedIndex == 4)
+                    {
+                        Result *= 602.21366516752;
+                        label4.Text = Convert.ToString(Result) + answers11[comboBox2.SelectedIndex];
+                    }
+                    else if (comboBox1.SelectedIndex == 1 && comboBox2.SelectedIndex == 4)
+                    {
+                        Result *= 0.60221366516752;
+                        label4.Text = Convert.ToString(Result) + answers11[comboBox2.SelectedIndex];
+                    }
+
+                    else
+                    {
+                        label4.Text = "Некоректна дія!";
+                    }
+                    break;
+
                 case 2:
                     if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
                     {
-                        label4.Text = Convert.ToString(Result) + "  год";
-                        label4.Visible = true;
+                        label4.Text = Convert.ToString(Result) + answers20[comboBox2.SelectedIndex];
+                    }
+
+
+
+                    else
+                    {
+                        label4.Text = "Некоректна дія!";
                     }
                     break;
+
             }
-            }
+            label4.Visible = true;
         }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            if (this.Controls.ContainsKey("panel1") == false)
+            {
+                Label[] convertor1 = new Label[10];
+
+                for (int i = 0; i < 10; i++)
+                {
+                    convertor1[i] = new Label();
+                    convertor1[i].Location = new Point(10, 37 + (i * 3) + (20 * i));
+                    convertor1[i].ForeColor = Color.Black;
+                    convertor1[i].BackColor = Color.LightGray;
+                    convertor1[i].Name = "convertor1" + i.ToString();
+                    convertor1[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                }
+                convertor1[0].Text = "Дека - 10^-1";
+                convertor1[1].Text = "Гекто - ";
+                convertor1[2].Text = "Кіло - ";
+                convertor1[3].Text = "Мега - ";
+                convertor1[4].Text = "Гіга - ";
+                convertor1[5].Text = "Тера - ";
+                convertor1[6].Text = "Пета - ";
+                convertor1[7].Text = "Екса - ";
+                convertor1[8].Text = "Зета -  ";
+                convertor1[9].Text = "Йота - ";
+
+                Panel panel1 = new Panel();
+                panel1.Location = new Point(30, 35);
+                panel1.Size = new Size(200, 404);
+                panel1.BackColor = Color.LightGray;
+                panel1.Name = "panel1";
+
+                for (int i = 0; i < 10; i++)
+                {
+                    panel1.Controls.Add(convertor1[i]);
+                    this.Controls.Add(convertor1[i]);
+                }
+
+                this.Controls.Add(panel1);
+            }
+            else
+            {
+                this.Controls["panel1"].Visible = true;
+                for (int i = 0; i < 10; i++)
+                {
+                    this.Controls["convertor1" + i.ToString()].Visible = true;
+                }
+            }
+            button3.Visible = true;
+        }
+        private void toolStripLabel2_Click_1(object sender, EventArgs e)
+        {
+            if (this.Controls.ContainsKey("panel2") == false)
+            {
+                Label[] convertor2 = new Label[10];
+
+                for (int i = 0; i < 10; i++)
+                {
+                    convertor2[i] = new Label();
+                    convertor2[i].Location = new Point(10, 37 + (i * 3) + (20 * i));
+                    convertor2[i].ForeColor = Color.Black;
+                    convertor2[i].BackColor = Color.LightGray;
+                    convertor2[i].Name = "convertor2" + i.ToString();
+                    convertor2[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                }
+                convertor2[0].Text = "Деци - ";
+                convertor2[1].Text = "Санти - ";
+                convertor2[2].Text = "Мілі - ";
+                convertor2[3].Text = "Мікро - ";
+                convertor2[4].Text = "Нано - ";
+                convertor2[5].Text = "Піко - ";
+                convertor2[6].Text = "Фемто - ";
+                convertor2[7].Text = "Ато - ";
+                convertor2[8].Text = "Зепто - ";
+                convertor2[9].Text = "Йокто - ";
+
+                Panel panel2 = new Panel();
+                panel2.Location = new Point(30, 35);
+                panel2.Size = new Size(200, 404);
+                panel2.BackColor = Color.LightGray;
+                panel2.Name = "panel2";
+
+                for (int i = 0; i < 10; i++)
+                {
+                    panel2.Controls.Add(convertor2[i]);
+                    this.Controls.Add(convertor2[i]);
+                }
+
+                this.Controls.Add(panel2);
+            }
+            else
+            {
+                this.Controls["panel2"].Visible = true;
+                for (int i = 0; i < 10; i++)
+                {
+                    this.Controls["convertor2" + i.ToString()].Visible = true;
+                }
+            }
+            button3.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Controls["panel1"].Visible = false;
+                for (int i = 0; i < 10; i++)
+                {
+                    this.Controls["convertor2" + i.ToString()].Visible = false;
+                }
+            }
+            catch { }
+            button3.Visible = false;
+        }
+    }
 }
