@@ -198,27 +198,36 @@ namespace WindowsFormsApplication1
         {
             Panel panel3 = new Panel();
             Label label99 = new Label();
-            panel3.Location = new Point(1010, 27);
-            panel3.Size = new Size(264, 152);
-            panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel3.Name = "misstakepanel";
+            label99.Name = "misstaketext";
+            panel3.Location = new Point(937, 27);
+            panel3.Size = new Size(377, 176);
+            panel3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             panel3.BackColor = Color.Crimson;
-            label99.Location = new Point(16, 16);
-            label99.Text = "Помилка, Зображення не знайдено";
-            label99.Size = new Size(263, 151);
-            this.Controls.Add(panel3);
+            label99.Location = new Point(64, 81);
+            label99.Font = new Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label99.Text = "ПОМИЛКА, ЗОБРАЖЕННЯ НЕ ЗНАЙДЕНО!";
+            label99.Size = new Size(293, 171);
             panel3.Controls.Add(label99);
+            this.Controls.Add(panel3);            
         }
         private void FormClick(object sender, EventArgs e)
         {
-            panel3.Visible = false;
+            panel1.Visible = false;
+            panel2.Visible = false;
             try
             {
-                this.Controls["label99"].Visible = false;
-                this.Controls["panel3"].Visible = false;
+                this.Controls["infopanel"].Visible = false;
+                this.Controls["infopanel_shadow"].Visible = false;
+                for (int i = 0; i < 10; i++)
+                {
+                    this.Controls["infotext" + i.ToString()].Visible = false;
+                    this.Controls["infocolored" + i.ToString()].Visible = false;
+                }
             }
             catch { }
         }
-            private void Button95_Click(object sender, EventArgs e)
+        private void Button95_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
             string Addres = "img\\";         
@@ -231,6 +240,14 @@ namespace WindowsFormsApplication1
                 button94.Visible = false;
                 button93.Visible = false;
                 button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
             }
             catch
             {
@@ -251,6 +268,14 @@ namespace WindowsFormsApplication1
                 button94.Visible = false;
                 button93.Visible = false;
                 button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
             }
             catch
             {
@@ -271,6 +296,14 @@ namespace WindowsFormsApplication1
                 button94.Visible = false;
                 button93.Visible = false;
                 button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
             }
             catch
             {
@@ -280,6 +313,15 @@ namespace WindowsFormsApplication1
         Int32 ex2 = 0;
         private void OnClickButton_Click(object sender, EventArgs e)
         {
+            button90.Visible = false;
+            try
+            {
+                this.Controls["misstakepanel"].Visible = false;
+                this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                this.Controls.Remove(this.Controls["misstakepanel"]);
+                this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+            }
+            catch { }
             Button btn = (Button)sender;
             for (int i = 1; i <= 135; i++)
             {
@@ -590,24 +632,17 @@ namespace WindowsFormsApplication1
                     this.Controls["infocolored" + i.ToString()].Visible = true;
                 }
             }
-            button125.Visible = true;
         }
-        private void button125_Click(object sender, EventArgs e)
+
+        private void авториToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                panel1.Visible = false;
-                panel2.Visible = false;
-                try
-                {
-                    this.Controls["infopanel"].Visible = false;
-                    this.Controls["infopanel_shadow"].Visible = false;
-                    for (int i = 0; i < 10; i++)
-                    {
-                        this.Controls["infotext" + i.ToString()].Visible = false;
-                        this.Controls["infocolored" + i.ToString()].Visible = false;
-                    }
-                }
-                catch { }
-            button125.Visible = false;
+            MessageBox.Show(
+                "Новак Богдан\nКорольчук Денис\n\nAlma mater: NU LP KI-14\n\r2019-2020 ©",
+                "\t\tАвтори",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information,
+                MessageBoxDefaultButton.Button1,
+                MessageBoxOptions.DefaultDesktopOnly);
         }
     }
 }

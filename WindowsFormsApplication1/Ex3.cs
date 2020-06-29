@@ -252,7 +252,6 @@ namespace WindowsFormsApplication1
                     this.Controls["convertor1" + i.ToString()].Visible = true;
                 }
             }
-            button3.Visible = true;
         }
         private void toolStripLabel2_Click_1(object sender, EventArgs e)
         {
@@ -302,7 +301,6 @@ namespace WindowsFormsApplication1
                     this.Controls["convertor2" + i.ToString()].Visible = true;
                 }
             }
-            button3.Visible = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -316,7 +314,6 @@ namespace WindowsFormsApplication1
                 }
             }
             catch { }
-            button3.Visible = false;
         }
     }
 }
