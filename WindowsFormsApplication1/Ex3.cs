@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
     {
         public event EventHandler updateEvent;
         string[] TextBoxTip = {
-            "", "МеВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
+            "", "еВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
         };
         string[] answers00 = {
             " кВт/год"," Дж"," МеВ "
@@ -38,7 +38,7 @@ namespace WindowsFormsApplication1
         };
         List<string> energy = new List<string>()
         {
-             "кВт/год","Джоулі","МеВ"
+           "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ТеВ","ГеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год"
         };   
         List<string> mass = new List<string>()
         {
@@ -125,6 +125,9 @@ namespace WindowsFormsApplication1
                     comboBox2.Items.Add(time[i]);
                 }
             }
+            comboBox1.Enabled = true;
+            comboBox2.Enabled = true;
+            button2.Enabled = true;
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -133,32 +136,30 @@ namespace WindowsFormsApplication1
             switch (comboBox3.SelectedIndex)
             {
                 case 0:
+                    /* "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ТеВ","ГеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год" */
                     if(comboBox1.SelectedIndex == comboBox2.SelectedIndex)
-                    {
-                        label4.Text = Convert.ToString(Result) + answers00[comboBox2.SelectedIndex];
-                    }
-
-                    else if (comboBox1.SelectedIndex==1&& comboBox2.SelectedIndex==0)
+                        label4.Text = "Некоректна дія!";
+                    // доробити (БОГДАН) //
+                    else if (comboBox1.SelectedIndex==1 && comboBox2.SelectedIndex==0)
                     {
                         Result *= 0.27777777777778;
-                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                        label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
                     }
                     else if (comboBox1.SelectedIndex == 0 && comboBox2.SelectedIndex == 1)
                     {
-                        Result *= 3.6;
-                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                        Result *= 3.1556926E10;
+                        label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
                     }
                     else if (comboBox1.SelectedIndex == 1 && comboBox2.SelectedIndex == 2)
                     {
-                        Result *= 6241509647120.4;
-                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex];
+                        Result *= 1.602176565E-19;
+                        label4.Text = Convert.ToString(Result) + " "  +comboBox2.SelectedItem;
                     }
                     else if (comboBox1.SelectedIndex == 2 && comboBox2.SelectedIndex == 1)
                     {
-                        Result *= 0.1602176487;
-                        label4.Text = Convert.ToString(Result) + answers01[comboBox2.SelectedIndex + comboBox1.SelectedIndex];
+                        Result *= 6.2415096471204E+18;
+                        label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
                     }
-
                     else
                     {
                         label4.Text = "Некоректна дія!";
@@ -322,11 +323,6 @@ namespace WindowsFormsApplication1
                     isCollapsed = true;
                 }
             }
-        }
-
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            timer1.Start();
         }
     }
 }
