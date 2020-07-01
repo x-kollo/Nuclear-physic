@@ -38,7 +38,7 @@ namespace WindowsFormsApplication1
         };
         List<string> energy = new List<string>()
         {
-           "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ТеВ","ГеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год"
+           "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ГеВ","ТеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год"
         };   
         List<string> mass = new List<string>()
         {
@@ -132,14 +132,99 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             Double Result;
+            Double left = 0;
+            Double right = 0;
             Result = Convert.ToDouble(textBox1.Text);
             switch (comboBox3.SelectedIndex)
             {
                 case 0:
-                    /* "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ТеВ","ГеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год" */
-                    if(comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+                    /* "Дж","кДж","МДж","ГДж","еВ","КеВ","МеВ","ГеВ","ТеВ","кал","ккал","Вт/сек","Вт/час","кВт/год","МВт/год" */
+                    if (comboBox1.SelectedItem == comboBox2.SelectedItem)
                         label4.Text = "Некоректна дія!";
-                    // доробити (БОГДАН) //
+
+                        // якщо дж в ев і навпаки
+                    else if((comboBox1.SelectedIndex >= 0 && comboBox1.SelectedIndex <= 3 && 
+                        comboBox2.SelectedIndex >= 4 && comboBox2.SelectedIndex <= 8) ||
+                        (comboBox2.SelectedIndex >= 0 && comboBox2.SelectedIndex <= 3 && 
+                        comboBox1.SelectedIndex >= 4 && comboBox1.SelectedIndex <= 8))
+                    {
+                        switch (comboBox1.SelectedIndex)
+                        {
+                            case 0: left = 1; break;
+                            case 1: left = 1E3; break;
+                            case 2: left = 1E6; break;
+                            case 3: left = 1E9; break;
+                            case 4: left = 1; break;
+                            case 5: left = 1E3; break;
+                            case 6: left = 1E6; break;
+                            case 7: left = 1E9; break;
+                            case 8: left = 1E12; break;
+                        }
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0: right = 1; break;
+                            case 1: right = 1E3; break;
+                            case 2: right = 1E6; break;
+                            case 3: right = 1E9; break;
+                            case 4: right = 1; break;
+                            case 5: right = 1E3; break;
+                            case 6: right = 1E6; break;
+                            case 7: right = 1E9; break;
+                            case 8: right = 1E12; break;
+                        }
+                        if (left > right)
+                        {// bugs here
+                            if (comboBox1.SelectedIndex <= 3)
+                                Result = (Result / (right / left) * 6.2415096471204E+18);
+                            else
+                                Result /= (left / right) * 6.2415096471204E+18;                   
+                        }          
+                        else
+                        {
+                            if (comboBox1.SelectedIndex <= 3)
+                                Result *= (left / right) * 6.2415096471204E+18;
+                            else
+                                Result *= (left / right) * 6.2415096471204E+18;
+                        }
+                        label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
+                    }
+                    //дж кдж мдж гдж ев кев мев гев тев
+                    else if((comboBox1.SelectedIndex >= 0 && comboBox1.SelectedIndex <= 3 &&
+                        comboBox2.SelectedIndex >= 0 && comboBox2.SelectedIndex <= 3
+                        )|| (comboBox1.SelectedIndex >= 4 && comboBox1.SelectedIndex <= 8 && 
+                        comboBox2.SelectedIndex >= 4 && comboBox2.SelectedIndex <= 8))
+                    {
+                       
+                        switch (comboBox1.SelectedIndex)
+                        {
+                            case 0: left = 1; break;
+                            case 1: left = 1E3; break;
+                            case 2: left = 1E6; break;
+                            case 3: left = 1E9; break;
+                            case 4: left = 1; break;
+                            case 5: left = 1E3; break;
+                            case 6: left = 1E6; break;
+                            case 7: left = 1E9; break;
+                            case 8: left = 1E12; break; 
+                        }
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0: right = 1; break;
+                            case 1: right = 1E3; break;
+                            case 2: right = 1E6; break;
+                            case 3: right = 1E9; break;
+                            case 4: right = 1; break;
+                            case 5: right = 1E3; break;
+                            case 6: right = 1E6; break;
+                            case 7: right = 1E9; break;
+                            case 8: right = 1E12; break; 
+                        }
+                        if (left > right)
+                            Result *= left / right;
+                        else 
+                            Result /= right / left;
+                        label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
+                    }
                     else if (comboBox1.SelectedIndex==1 && comboBox2.SelectedIndex==0)
                     {
                         Result *= 0.27777777777778;
@@ -323,6 +408,11 @@ namespace WindowsFormsApplication1
                     isCollapsed = true;
                 }
             }
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
     }
 }
