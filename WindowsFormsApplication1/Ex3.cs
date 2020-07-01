@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApplication1.Properties;
 
 namespace WindowsFormsApplication1
 {
@@ -47,6 +48,7 @@ namespace WindowsFormsApplication1
         {
            "мілісекунди","мікросекунди","наносекунди", "cекунди","хвилини","години","дні","роки"
         };
+        private bool isCollapsed ;
         public Ex3()
         {
             InitializeComponent();
@@ -204,9 +206,22 @@ namespace WindowsFormsApplication1
             label4.Visible = true;
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
+       /* private void button3_Click(object sender, EventArgs e)
         {
-            if (this.Controls.ContainsKey("panel1") == false)
+            try
+            {
+                this.Controls["panel1"].Visible = false;
+                for (int i = 0; i < 10; i++)
+                {
+                    this.Controls["convertor2" + i.ToString()].Visible = false;
+                }
+            }
+            catch { }
+        }*/
+
+        private void toolStripLabel1_Click_1(object sender, EventArgs e)
+        {
+            if (this.Controls.ContainsKey("helppanel1") == false)
             {
                 Label[] convertor1 = new Label[10];
 
@@ -219,7 +234,7 @@ namespace WindowsFormsApplication1
                     convertor1[i].Name = "convertor1" + i.ToString();
                     convertor1[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                 }
-                convertor1[0].Text = "Дека - 10^-1";
+                convertor1[0].Text = "Дека - 10<sup>1</sup>";
                 convertor1[1].Text = "Гекто - ";
                 convertor1[2].Text = "Кіло - ";
                 convertor1[3].Text = "Мега - ";
@@ -230,32 +245,24 @@ namespace WindowsFormsApplication1
                 convertor1[8].Text = "Зета -  ";
                 convertor1[9].Text = "Йота - ";
 
-                Panel panel1 = new Panel();
-                panel1.Location = new Point(30, 35);
-                panel1.Size = new Size(200, 404);
-                panel1.BackColor = Color.LightGray;
-                panel1.Name = "panel1";
+                Panel helppanel1 = new Panel();
+                helppanel1.Location = new Point(12, 33);
+                helppanel1.Size = new Size(195, 354);
+                helppanel1.BackColor = Color.LightGray;
+                helppanel1.Name = "helppanel1";
 
                 for (int i = 0; i < 10; i++)
                 {
-                    panel1.Controls.Add(convertor1[i]);
+                    helppanel1.Controls.Add(convertor1[i]);
                     this.Controls.Add(convertor1[i]);
                 }
-
-                this.Controls.Add(panel1);
-            }
-            else
-            {
-                this.Controls["panel1"].Visible = true;
-                for (int i = 0; i < 10; i++)
-                {
-                    this.Controls["convertor1" + i.ToString()].Visible = true;
-                }
+                this.Controls.Add(helppanel1);
             }
         }
+
         private void toolStripLabel2_Click_1(object sender, EventArgs e)
         {
-            if (this.Controls.ContainsKey("panel2") == false)
+            if (this.Controls.ContainsKey("helppanel2") == false)
             {
                 Label[] convertor2 = new Label[10];
 
@@ -268,7 +275,7 @@ namespace WindowsFormsApplication1
                     convertor2[i].Name = "convertor2" + i.ToString();
                     convertor2[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                 }
-                convertor2[0].Text = "Деци - ";
+                convertor2[0].Text = "Деци - 10<sup>-1</sup>";
                 convertor2[1].Text = "Санти - ";
                 convertor2[2].Text = "Мілі - ";
                 convertor2[3].Text = "Мікро - ";
@@ -279,41 +286,47 @@ namespace WindowsFormsApplication1
                 convertor2[8].Text = "Зепто - ";
                 convertor2[9].Text = "Йокто - ";
 
-                Panel panel2 = new Panel();
-                panel2.Location = new Point(30, 35);
-                panel2.Size = new Size(200, 404);
-                panel2.BackColor = Color.LightGray;
-                panel2.Name = "panel2";
+                Panel helppanel2 = new Panel();
+                helppanel2.Location = new Point(30, 35);
+                helppanel2.Size = new Size(200, 404);
+                helppanel2.BackColor = Color.LightGray;
+                helppanel2.Name = "helppanel2";
 
                 for (int i = 0; i < 10; i++)
                 {
-                    panel2.Controls.Add(convertor2[i]);
+                    helppanel2.Controls.Add(convertor2[i]);
                     this.Controls.Add(convertor2[i]);
                 }
-
-                this.Controls.Add(panel2);
+                this.Controls.Add(helppanel2);
+            }
+        }
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (isCollapsed)
+            {
+                button3.Image = Resources.Collapse_Arrow_20px;
+                panelDropDawn.Height += 10;
+                if (panelDropDawn.Size == panelDropDawn.MaximumSize)
+                {
+                    timer1.Stop();
+                    isCollapsed = false;
+                }
             }
             else
             {
-                this.Controls["panel2"].Visible = true;
-                for (int i = 0; i < 10; i++)
+                button3.Image = Resources.Expand_Arrow_20px;
+                panelDropDawn.Height -= 10;
+                if (panelDropDawn.Size == panelDropDawn.MinimumSize)
                 {
-                    this.Controls["convertor2" + i.ToString()].Visible = true;
+                    timer1.Stop();
+                    isCollapsed = true;
                 }
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
-            try
-            {
-                this.Controls["panel1"].Visible = false;
-                for (int i = 0; i < 10; i++)
-                {
-                    this.Controls["convertor2" + i.ToString()].Visible = false;
-                }
-            }
-            catch { }
+            timer1.Start();
         }
     }
 }
