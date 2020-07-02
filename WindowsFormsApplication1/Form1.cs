@@ -322,10 +322,11 @@ namespace WindowsFormsApplication1
                 this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
             }
             catch { }
-            Button btn = (Button)sender;
-            for (int i = 1; i <= 135; i++)
+
+            Physic.RoundedButton btn = (Physic.RoundedButton)sender;
+            for (int i = 1; i <= 120; i++)
             {
-                if (btn == button57)
+                if (btn == roundedButton57)
                 {
                     panel2.Visible = false;
                     if (panel1.Visible == true)
@@ -333,7 +334,7 @@ namespace WindowsFormsApplication1
                     else panel1.Visible = true;
                     break;
                 }
-                if(btn == button75)
+                if (btn == roundedButton97)
                 {
                     panel1.Visible = false;
                     if (panel2.Visible == true)
@@ -346,7 +347,7 @@ namespace WindowsFormsApplication1
                     panel1.Visible = false;
                     panel2.Visible = false;
                 }
-                if (btn.Name == ("button" + i))
+                if (btn.Name == ("roundedButton" + i))
                 {
                     if (btn.TabIndex == 998 || btn.TabIndex == 999)
                         break;
@@ -588,7 +589,7 @@ namespace WindowsFormsApplication1
                 info_colored_panel[0].BackColor = Color.Crimson;
                 info_colored_panel[1].BackColor = Color.Gold;
                 info_colored_panel[2].BackColor = Color.Olive;
-                info_colored_panel[3].BackColor = Color.Silver;
+                info_colored_panel[3].BackColor = Color.LightSlateGray;
                 info_colored_panel[4].BackColor = Color.Khaki;
                 info_colored_panel[5].BackColor = Color.LawnGreen;
                 info_colored_panel[6].BackColor = Color.Yellow;
@@ -644,5 +645,11 @@ namespace WindowsFormsApplication1
                 MessageBoxDefaultButton.Button1,
                 MessageBoxOptions.DefaultDesktopOnly);
         }
+
+        private void roundedButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

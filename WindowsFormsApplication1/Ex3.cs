@@ -15,9 +15,6 @@ namespace WindowsFormsApplication1
     public partial class Ex3 : Form
     {
         public event EventHandler updateEvent;
-        string[] TextBoxTip = {
-            "", "еВ", "кіловатгодини", "грами","Джоулі","Джоулі","а.о.м."
-        };
         string[] answers00 = {
             " кВт/год"," Дж"," МеВ "
         };
@@ -42,11 +39,11 @@ namespace WindowsFormsApplication1
         };   
         List<string> mass = new List<string>()
         {
-            "грами","кілограми","тони","центнери","а.о.м."
+            "г","кг","т","ц","а.о.м."
         };
         List<string> time = new List<string>()
         {
-           "мілісекунди","мікросекунди","наносекунди", "cекунди","хвилини","години","дні","роки"
+           "мс","мкс","нс", "с","хв","год","дні","роки"
         };
         private bool isCollapsed ;
         public Ex3()
@@ -69,22 +66,6 @@ namespace WindowsFormsApplication1
             form1.Update();
             form1.FormClosed += new FormClosedEventHandler(form1_FormClosed);
             Visible = false;
-        }
-        private void OnTextBox_Leave(object sender, EventArgs e)
-        {
-            TextBox tbx = (TextBox)sender;
-
-            for (int i = 1; i <= 6; i++)
-            {
-                if (tbx.Name == ("textBox" + 1))
-                {
-                    if (tbx.Text != "")
-                    {
-                        button2.Enabled = true;
-                    }
-                    else tbx.Text = TextBoxTip[i];
-                }
-            }
         }
         private void OnTextBox_Enter(object sender, EventArgs e)
         {
@@ -131,10 +112,19 @@ namespace WindowsFormsApplication1
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            Double Result;
+            Double Result = 0;
             Double left = 0;
             Double right = 0;
-            Result = Convert.ToDouble(textBox1.Text);
+            try
+            {
+                Result = Convert.ToDouble(textBox1.Text);
+            }
+            catch
+            {
+                textBox1.Text = "Введіть значення!";
+                textBox1.BackColor = Color.Brown;
+                return;
+            }
             switch (comboBox3.SelectedIndex)
             {
                 case 0:
@@ -172,19 +162,23 @@ namespace WindowsFormsApplication1
                             case 7: right = 1E9; break;
                             case 8: right = 1E12; break;
                         }
+                        /*if (left == right && comboBox1.SelectedItem != comboBox2.SelectedIndex)
+                        {
+                            Result *= 1.602176487E-19;
+                        } */
                         if (left > right)
                         {// bugs here
                             if (comboBox1.SelectedIndex <= 3)
                                 Result = (Result / (right / left) * 6.2415096471204E+18);
                             else
-                                Result /= (left / right) * 6.2415096471204E+18;                   
+                                Result = ((left / right) / 6.2415096471204E+18)*Result;                   
                         }          
                         else
                         {
                             if (comboBox1.SelectedIndex <= 3)
                                 Result *= (left / right) * 6.2415096471204E+18;
                             else
-                                Result *= (left / right) * 6.2415096471204E+18;
+                                Result *= (left / right) / 6.2415096471204E+18;
                         }
                         label4.Text = Convert.ToString(Result) + " " + comboBox2.SelectedItem;
                     }
@@ -413,6 +407,11 @@ namespace WindowsFormsApplication1
         private void button3_Click_1(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            this.textBox1.BackColor = Color.LightSteelBlue;
         }
     }
 }
