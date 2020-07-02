@@ -1332,7 +1332,7 @@
             this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(940, 435);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(78, 23);
+            this.textBox1.Size = new System.Drawing.Size(78, 27);
             this.textBox1.TabIndex = 82;
             this.textBox1.Text = "МАССА (г)";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1347,7 +1347,7 @@
             this.label6.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(902, 407);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(360, 18);
+            this.label6.Size = new System.Drawing.Size(450, 22);
             this.label6.TabIndex = 92;
             this.label6.Text = "РОЗРАХУНОК КІЛЬКОСТІ МОЛЕКУЛ, ЩО РОЗПАДЕТЬСЯ";
             this.label6.Visible = false;
@@ -1357,7 +1357,7 @@
             this.textBox3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(1099, 435);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(65, 23);
+            this.textBox3.Size = new System.Drawing.Size(65, 27);
             this.textBox3.TabIndex = 95;
             this.textBox3.Text = "ДНІ";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1373,7 +1373,7 @@
             this.textBox4.Location = new System.Drawing.Point(1169, 435);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 23);
+            this.textBox4.Size = new System.Drawing.Size(65, 27);
             this.textBox4.TabIndex = 96;
             this.textBox4.Text = "ГОДИНИ";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1388,7 +1388,7 @@
             this.textBox5.Location = new System.Drawing.Point(1241, 435);
             this.textBox5.MaxLength = 4;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(73, 23);
+            this.textBox5.Size = new System.Drawing.Size(73, 27);
             this.textBox5.TabIndex = 97;
             this.textBox5.Tag = "";
             this.textBox5.Text = "CЕКУНДИ";
@@ -1404,7 +1404,7 @@
             this.label8.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(1003, 483);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 15);
+            this.label8.Size = new System.Drawing.Size(90, 20);
             this.label8.TabIndex = 102;
             this.label8.Text = "РЕЗУЛЬТАТ";
             this.label8.Visible = false;
@@ -1423,15 +1423,17 @@
             this.label9.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.Location = new System.Drawing.Point(1132, 627);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 15);
+            this.label9.Size = new System.Drawing.Size(72, 20);
             this.label9.TabIndex = 104;
             this.label9.Text = "ЕЛЕМЕНТ";
             // 
             // button83
             // 
             this.button83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button83.Enabled = false;
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button83.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button83.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button83.Location = new System.Drawing.Point(1266, 577);
             this.button83.Name = "button83";
             this.button83.Size = new System.Drawing.Size(48, 46);
@@ -1493,7 +1495,7 @@
             this.textBox2.Location = new System.Drawing.Point(1024, 435);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox2.Size = new System.Drawing.Size(69, 23);
+            this.textBox2.Size = new System.Drawing.Size(69, 27);
             this.textBox2.TabIndex = 94;
             this.textBox2.Text = "РОКИ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1574,8 +1576,10 @@
             // button91
             // 
             this.button91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button91.Enabled = false;
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button91.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button91.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button91.Location = new System.Drawing.Point(1051, 578);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(209, 46);
@@ -1606,15 +1610,17 @@
             this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(996, 627);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 15);
+            this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 119;
             this.label1.Text = "ІЗОТОП";
             // 
             // izotopbtn
             // 
             this.izotopbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.izotopbtn.Enabled = false;
             this.izotopbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.izotopbtn.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.izotopbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.izotopbtn.Location = new System.Drawing.Point(989, 577);
             this.izotopbtn.Name = "izotopbtn";
             this.izotopbtn.Size = new System.Drawing.Size(56, 46);
@@ -2094,7 +2100,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 665);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.Size = new System.Drawing.Size(0, 17);
             this.label5.TabIndex = 1003;
             // 
             // button127
@@ -2217,27 +2223,27 @@
             this.авториToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1344, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1344, 28);
             this.menuStrip1.TabIndex = 1020;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // інформаціяToolStripMenuItem
             // 
             this.інформаціяToolStripMenuItem.Name = "інформаціяToolStripMenuItem";
-            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
+            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.інформаціяToolStripMenuItem.Text = "Інформація";
             this.інформаціяToolStripMenuItem.Click += new System.EventHandler(this.інформаціяToolStripMenuItem_Click);
             // 
             // авториToolStripMenuItem
             // 
             this.авториToolStripMenuItem.Name = "авториToolStripMenuItem";
-            this.авториToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.авториToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.авториToolStripMenuItem.Text = "Автори";
             this.авториToolStripMenuItem.Click += new System.EventHandler(this.авториToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1344, 681);
+            this.ClientSize = new System.Drawing.Size(1344, 648);
             this.Controls.Add(this.button127);
             this.Controls.Add(this.button128);
             this.Controls.Add(this.button129);

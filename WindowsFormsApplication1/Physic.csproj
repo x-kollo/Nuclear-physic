@@ -97,12 +97,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\Collapse_Arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\Expand_Arrow.png" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="bin\Debug\Collapse_Arrow_20px.png" />

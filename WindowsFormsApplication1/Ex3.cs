@@ -219,88 +219,6 @@ namespace WindowsFormsApplication1
             }
             catch { }
         }*/
-
-        private void toolStripLabel1_Click_1(object sender, EventArgs e)
-        {
-            if (this.Controls.ContainsKey("helppanel1") == false)
-            {
-                Label[] convertor1 = new Label[10];
-
-                for (int i = 0; i < 10; i++)
-                {
-                    convertor1[i] = new Label();
-                    convertor1[i].Location = new Point(10, 37 + (i * 3) + (20 * i));
-                    convertor1[i].ForeColor = Color.Black;
-                    convertor1[i].BackColor = Color.LightGray;
-                    convertor1[i].Name = "convertor1" + i.ToString();
-                    convertor1[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-                }
-                convertor1[0].Text = "Дека - 10<sup>1</sup>";
-                convertor1[1].Text = "Гекто - ";
-                convertor1[2].Text = "Кіло - ";
-                convertor1[3].Text = "Мега - ";
-                convertor1[4].Text = "Гіга - ";
-                convertor1[5].Text = "Тера - ";
-                convertor1[6].Text = "Пета - ";
-                convertor1[7].Text = "Екса - ";
-                convertor1[8].Text = "Зета -  ";
-                convertor1[9].Text = "Йота - ";
-
-                Panel helppanel1 = new Panel();
-                helppanel1.Location = new Point(12, 33);
-                helppanel1.Size = new Size(195, 354);
-                helppanel1.BackColor = Color.LightGray;
-                helppanel1.Name = "helppanel1";
-
-                for (int i = 0; i < 10; i++)
-                {
-                    helppanel1.Controls.Add(convertor1[i]);
-                    this.Controls.Add(convertor1[i]);
-                }
-                this.Controls.Add(helppanel1);
-            }
-        }
-
-        private void toolStripLabel2_Click_1(object sender, EventArgs e)
-        {
-            if (this.Controls.ContainsKey("helppanel2") == false)
-            {
-                Label[] convertor2 = new Label[10];
-
-                for (int i = 0; i < 10; i++)
-                {
-                    convertor2[i] = new Label();
-                    convertor2[i].Location = new Point(10, 37 + (i * 3) + (20 * i));
-                    convertor2[i].ForeColor = Color.Black;
-                    convertor2[i].BackColor = Color.LightGray;
-                    convertor2[i].Name = "convertor2" + i.ToString();
-                    convertor2[i].Font = new Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-                }
-                convertor2[0].Text = "Деци - 10<sup>-1</sup>";
-                convertor2[1].Text = "Санти - ";
-                convertor2[2].Text = "Мілі - ";
-                convertor2[3].Text = "Мікро - ";
-                convertor2[4].Text = "Нано - ";
-                convertor2[5].Text = "Піко - ";
-                convertor2[6].Text = "Фемто - ";
-                convertor2[7].Text = "Ато - ";
-                convertor2[8].Text = "Зепто - ";
-                convertor2[9].Text = "Йокто - ";
-
-                Panel helppanel2 = new Panel();
-                helppanel2.Location = new Point(30, 35);
-                helppanel2.Size = new Size(200, 404);
-                helppanel2.BackColor = Color.LightGray;
-                helppanel2.Name = "helppanel2";
-
-                for (int i = 0; i < 10; i++)
-                {
-                    helppanel2.Controls.Add(convertor2[i]);
-                    this.Controls.Add(convertor2[i]);
-                }
-                this.Controls.Add(helppanel2);
-            }
-        }
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             if (isCollapsed)
@@ -322,6 +240,93 @@ namespace WindowsFormsApplication1
                     timer1.Stop();
                     isCollapsed = true;
                 }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (this.Controls.ContainsKey("helppanel1") == false)
+            {
+                Label[] convertor1 = new Label[10];
+
+                for (int i = 0; i < 10; i++)
+                {
+                    convertor1[i] = new Label();
+                    convertor1[i].Location = new Point(244, 154 + (i * 3) + (20 * i));
+                    convertor1[i].ForeColor = Color.Black;
+                    convertor1[i].BackColor = Color.LightGray;
+                    convertor1[i].Name = "convertor1" + i.ToString();
+                    convertor1[i].Font = new Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                }
+                convertor1[0].Text = "Дека - 10\x00B9";
+                convertor1[1].Text = "Гекто - 10\x00B2";
+                convertor1[2].Text = "Кіло - 10\x00B3";
+                convertor1[3].Text = "Мега - 10\x2076";
+                convertor1[4].Text = "Гіга - 10\x2079";
+                convertor1[5].Text = "Тера - 10\x00B9\x00B2";
+                convertor1[6].Text = "Пета - 10\x00B9\x2075";
+                convertor1[7].Text = "Екса - 10\x00B9\x2078";
+                convertor1[8].Text = "Зета - 10\x00B2\x00B9";
+                convertor1[9].Text = "Йота - 10\x00B2\x2074";
+
+                Panel helppanel1 = new Panel();
+                helppanel1.Location = new Point(244, 144);
+                helppanel1.Size = new Size(317, 245);
+                helppanel1.BackColor = Color.LightGray;
+                helppanel1.Name = "helppanel1";
+
+                for (int i = 0; i < 10; i++)
+                {
+                    helppanel1.Controls.Add(convertor1[i]);
+                    this.Controls.Add(convertor1[i]);
+                }
+                this.Controls.Add(helppanel1);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (this.Controls.ContainsKey("helppanel2") == false)
+            {
+                Label[] convertor2 = new Label[10];
+
+                for (int i = 0; i < 10; i++)
+                {
+                    convertor2[i] = new Label();
+                    convertor2[i].Location = new Point(244, 154 + (i * 3) + (20 * i));
+                    convertor2[i].ForeColor = Color.Black;
+                    convertor2[i].BackColor = Color.LightGray;
+                    convertor2[i].Name = "convertor2" + i.ToString();
+                    convertor2[i].Font = new Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                }
+                convertor2[0].Text = "Деци - 10\x207B\x00B9";
+                convertor2[1].Text = "Санти - 10\x207B\x00B2";
+                convertor2[2].Text = "Мілі - 10\x207B\x00B3";
+                convertor2[3].Text = "Мікро - 10\x207B\x2076";
+                convertor2[4].Text = "Нано - 10\x207B\x2079";
+                convertor2[5].Text = "Піко - 10\x207B\x00B9\x00B2";
+                convertor2[6].Text = "Фемто - 10\x207B\x00B9\x2075";
+                convertor2[7].Text = "Ато - 10\x207B\x00B9\x2078";
+                convertor2[8].Text = "Зепто - 10\x207B\x00B2\x00B9";
+                convertor2[9].Text = "Йокто - 10\x207B\x00B2\x2074";
+
+                Panel helppanel2 = new Panel();
+                helppanel2.Location = new Point(244, 144);
+                helppanel2.Size = new Size(317, 245);
+                helppanel2.BackColor = Color.LightGray;
+                helppanel2.Name = "helppanel2";
+
+                for (int i = 0; i < 10; i++)
+                {
+                    helppanel2.Controls.Add(convertor2[i]);
+                    this.Controls.Add(convertor2[i]);
+                }
+                this.Controls.Add(helppanel2);
             }
         }
     }
