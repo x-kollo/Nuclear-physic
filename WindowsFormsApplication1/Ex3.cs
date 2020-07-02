@@ -167,7 +167,7 @@ namespace WindowsFormsApplication1
                             Result *= 1.602176487E-19;
                         } */
                         if (left > right)
-                        {// bugs here
+                        {
                             if (comboBox1.SelectedIndex <= 3)
                                 Result = (Result / (right / left) * 6.2415096471204E+18);
                             else
@@ -308,28 +308,34 @@ namespace WindowsFormsApplication1
                 for (int i = 0; i < 10; i++)
                 {
                     convertor1[i] = new Label();
-                    convertor1[i].Location = new Point(244, 154 + (i * 3) + (20 * i));
+                    convertor1[i].Location = new Point(190, 94 + (i * 3) + (18 * i));
                     convertor1[i].ForeColor = Color.Black;
                     convertor1[i].BackColor = Color.LightGray;
                     convertor1[i].Name = "convertor1" + i.ToString();
-                    convertor1[i].Font = new Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                    convertor1[i].Font = new Font("Verdana", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                 }
-                convertor1[0].Text = "Дека - 10\x00B9";
-                convertor1[1].Text = "Гекто - 10\x00B2";
-                convertor1[2].Text = "Кіло - 10\x00B3";
-                convertor1[3].Text = "Мега - 10\x2076";
-                convertor1[4].Text = "Гіга - 10\x2079";
-                convertor1[5].Text = "Тера - 10\x00B9\x00B2";
-                convertor1[6].Text = "Пета - 10\x00B9\x2075";
-                convertor1[7].Text = "Екса - 10\x00B9\x2078";
-                convertor1[8].Text = "Зета - 10\x00B2\x00B9";
-                convertor1[9].Text = "Йота - 10\x00B2\x2074";
+                convertor1[0].Text = "Дека   -  10\x00B9";
+                convertor1[1].Text = "Гекто  -  10\x00B2";
+                convertor1[2].Text = "Кіло   -  10\x00B3";
+                convertor1[3].Text = "Мега   -  10\x2076";
+                convertor1[4].Text = "Гіга   -  10\x2079";
+                convertor1[5].Text = "Тера   -  10\x00B9\x00B2";
+                convertor1[6].Text = "Пета   -  10\x00B9\x2075";
+                convertor1[7].Text = "Екса   -  10\x00B9\x2078";
+                convertor1[8].Text = "Зета   -  10\x00B2\x00B9";
+                convertor1[9].Text = "Йота   -  10\x00B2\x2074";
 
                 Panel helppanel1 = new Panel();
-                helppanel1.Location = new Point(244, 144);
-                helppanel1.Size = new Size(317, 245);
-                helppanel1.BackColor = Color.LightGray;
+                helppanel1.Location = new Point(190, 94);
+                helppanel1.Size = new Size(190, 245);
+                helppanel1.BackColor = Color.Azure;
                 helppanel1.Name = "helppanel1";
+
+                Panel helppanel1_shadow = new Panel();
+                helppanel1.Location = new Point(189, 93);
+                helppanel1.Size = new Size(102, 214);
+                helppanel1.BackColor = Color.Black;
+                helppanel1.Name = "helppanel1_shadow";
 
                 for (int i = 0; i < 10; i++)
                 {
