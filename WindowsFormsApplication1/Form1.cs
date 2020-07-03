@@ -189,25 +189,27 @@ namespace WindowsFormsApplication1
         private void button90_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
-            button95.Visible = true;
-            button94.Visible = true;
-            button93.Visible = true;
-            button90.Visible = false;
+            roundedButton122.Visible = true;
+            roundedButton123.Visible = true;
+            roundedButton124.Visible = true;
+     //       button90.Visible = false;
         }
         public void PanelforMissPict()
         {
             Panel panel3 = new Panel();
             Label label99 = new Label();
             panel3.Name = "misstakepanel";
-            label99.Name = "misstaketext";
-            panel3.Location = new Point(937, 27);
-            panel3.Size = new Size(377, 176);
+            label99.Name = "misstaketext";     
+            panel3.Location = new Point(900, 98);
+            panel3.Size = new Size(444, 156);
+            
             panel3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            panel3.BackColor = Color.Crimson;
-            label99.Location = new Point(64, 81);
-            label99.Font = new Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            panel3.BackColor = Color.Maroon;
+            label99.Location = new Point(86, 69);
+            
+            label99.Font = new Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             label99.Text = "ПОМИЛКА, ЗОБРАЖЕННЯ НЕ ЗНАЙДЕНО!";
-            label99.Size = new Size(293, 171);
+            label99.Size = new Size(444, 171);
             panel3.Controls.Add(label99);
             this.Controls.Add(panel3);            
         }
@@ -229,91 +231,22 @@ namespace WindowsFormsApplication1
         }
         private void Button95_Click(object sender, EventArgs e)
         {
-            pictureBox1.Visible = false;
-            string Addres = "img\\";         
-            Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
-            try
-            {
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
-                try
-                {
-                    this.Controls["misstakepanel"].Visible = false;
-                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
-                    this.Controls.Remove(this.Controls["misstakepanel"]);
-                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
-                }
-                catch { }
-            }
-            catch
-            {
-                PanelforMissPict();
-            }
+            
         }
 
         private void Button94_Click(object sender, EventArgs e)
         {
-            pictureBox1.Visible = false;
-            string Addres = "img\\";
-            Addres += NameOfElements[SelectedElement + 1] + "_H.jpg";
-            try
-            {
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
-                try
-                {
-                    this.Controls["misstakepanel"].Visible = false;
-                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
-                    this.Controls.Remove(this.Controls["misstakepanel"]);
-                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
-                }
-                catch { }
-            }
-            catch
-            {
-                PanelforMissPict();
-            }
+           
         }
 
         private void Button93_Click(object sender, EventArgs e)
         {
-            pictureBox1.Visible = false;
-            string Addres = "img\\";
-            Addres += NameOfElements[SelectedElement + 1] + "_T.jpg";
-            try
-            {
-                pictureBox1.Image = Image.FromFile(Addres);
-                pictureBox1.Visible = true;
-                button95.Visible = false;
-                button94.Visible = false;
-                button93.Visible = false;
-                button90.Visible = true;
-                try
-                {
-                    this.Controls["misstakepanel"].Visible = false;
-                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
-                    this.Controls.Remove(this.Controls["misstakepanel"]);
-                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
-                }
-                catch { }
-            }
-            catch
-            {
-                PanelforMissPict();
-            }
+           
         }
         Int32 ex2 = 0;
         private void OnClickButton_Click(object sender, EventArgs e)
         {
-            button90.Visible = false;
+          //  button90.Visible = false;
             try
             {
                 this.Controls["misstakepanel"].Visible = false;
@@ -364,24 +297,47 @@ namespace WindowsFormsApplication1
             }
             for (int i = 0; i <= 135; i++)
             {
-                if (IzotopAccessTable[SelectedElement] == true) button89.Visible = true;
-                else button89.Visible = false;
+                if (IzotopAccessTable[SelectedElement] == true) roundedButton121.Visible = true;
+                else roundedButton121.Visible = false;
             }
-            button95.Visible = true;
-            button94.Visible = true;
-            button93.Visible = true;
-            pictureBox1.Visible = false; 
+            roundedButton122.Visible = true;
+            roundedButton123.Visible = true;
+            roundedButton124.Visible = true;
+            pictureBox1.Visible = false;
+
+
+            pictureBox1.Visible = false;
+            string Addres = "img\\";
+            Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
+            try
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+                //   button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
+            }
+            catch
+            {
+                PanelforMissPict();
+            }
         }
         private void button89_Click(object sender, EventArgs e)
         {
-            ShowCodingForm(IzotopsBegin[SelectedElement], IzotopsEnd[SelectedElement]);
+            
         }
 
         private void OnTextBox_Enter(object sender, EventArgs e)
         {
             TextBox tbx = (TextBox)sender;
             tbx.Text = null;
-            button84.Enabled = true;
+            roundedButton129.Enabled = true;
         }
         private void OnTextBox_Leave(object sender, EventArgs e)
         {
@@ -393,7 +349,7 @@ namespace WindowsFormsApplication1
                 {
                     if (tbx.Text != "")
                     {
-                        button84.Enabled = true;
+                        roundedButton129.Enabled = true;
 
                         //    break;
                     }
@@ -478,59 +434,6 @@ namespace WindowsFormsApplication1
                     break;
             }
            
-        }
-
-        private void button85_Click(object sender, EventArgs e)
-        {
-            textBox1.Visible = true;
-            textBox2.Visible = true;
-            textBox3.Visible = true;
-            textBox4.Visible = true;
-            textBox5.Visible = true;
-            label6.Visible = true;
-            button84.Visible = true;
-            button85.Visible = false;
-            button86.Visible = false;
-            button87.Visible = false;
-            button88.Visible = true;
-            ex = 1;
-        }
-
-        private void button88_Click(object sender, EventArgs e)
-        {
-            /* hide buttons EX  */
-            textBox1.Visible = false;
-            textBox2.Visible = false;
-            textBox3.Visible = false;
-            textBox4.Visible = false;
-            textBox5.Visible = false;
-            label6.Visible = false;
-            label8.Visible = false;
-            button84.Visible = false;
-            button85.Visible = true;
-            button86.Visible = true;
-            button87.Visible = true;
-            button88.Visible = false;
-            button84.Visible = false;
-            ex = 0;
-        }
-
-        private void button86_Click(object sender, EventArgs e)
-        {
-            //ex 2.
-            textBox1.Visible = true;
-            textBox2.Visible = false;
-            textBox3.Visible = false;
-            textBox4.Visible = false;
-            textBox5.Visible = false;
-            label6.Visible = false;
-            button84.Visible = false;
-            button85.Visible = false;
-            button86.Visible = false;
-            button87.Visible = false;
-            button88.Visible = true;
-            button84.Visible = true;
-            ex = 2;
         }
         void form3_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -646,9 +549,205 @@ namespace WindowsFormsApplication1
                 MessageBoxOptions.DefaultDesktopOnly);
         }
 
-        private void roundedButton7_Click(object sender, EventArgs e)
+        private void roundedButton121_Click(object sender, EventArgs e)
         {
+            ShowCodingForm(IzotopsBegin[SelectedElement], IzotopsEnd[SelectedElement]);
+        }
 
+        private void roundedButton122_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            string Addres = "img\\";
+            Addres += NameOfElements[SelectedElement + 1] + "_A.jpg";
+            try
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+             //   button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
+            }
+            catch
+            {
+                PanelforMissPict();
+            }
+        }
+
+        private void roundedButton123_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            string Addres = "img\\";
+            Addres += NameOfElements[SelectedElement + 1] + "_H.jpg";
+            try
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+           //     button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
+            }
+            catch
+            {
+                PanelforMissPict();
+            }
+        }
+
+        private void roundedButton124_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            string Addres = "img\\";
+            Addres += NameOfElements[SelectedElement + 1] + "_T.jpg";
+            try
+            {
+                pictureBox1.Image = Image.FromFile(Addres);
+                pictureBox1.Visible = true;
+            //    button90.Visible = true;
+                try
+                {
+                    this.Controls["misstakepanel"].Visible = false;
+                    this.Controls["misstakepanel"].Controls["misstaketext"].Visible = false;
+                    this.Controls.Remove(this.Controls["misstakepanel"]);
+                    this.Controls.Remove(this.Controls["misstakepanel"].Controls["misstaketext"]);
+                }
+                catch { }
+            }
+            catch
+            {
+                PanelforMissPict();
+            }
+        }
+
+        private void roundedButton125_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+            textBox2.Visible = true;
+            textBox3.Visible = true;
+            textBox4.Visible = true;
+            textBox5.Visible = true;
+            label6.Visible = true;
+            roundedButton129.Visible = true;
+            roundedButton126.Visible = false;
+            roundedButton127.Visible = false;
+            roundedButton125.Visible = false;
+            roundedButton128.Visible = true;
+            ex = 1;
+        }
+
+        private void roundedButton126_Click(object sender, EventArgs e)
+        {
+            //ex 2.
+            textBox1.Visible = true;
+            textBox2.Visible = false;
+            textBox3.Visible = false;
+            textBox4.Visible = false;
+            textBox5.Visible = false;
+            roundedButton129.Visible = true;
+            roundedButton126.Visible = false;
+            roundedButton127.Visible = false;
+            roundedButton125.Visible = false;
+            roundedButton128.Visible = true;
+            ex = 2;
+        }
+
+        private void roundedButton127_Click(object sender, EventArgs e)
+        {
+            Showform3();
+        }
+
+        private void roundedButton129_Click(object sender, EventArgs e)
+        {
+            switch(ex)
+            {
+                case 1:
+                {
+                    Double C_Years, C_Days, C_Hours;
+                    C_Years = Convert.ToDouble(TimeParams[2]) * 365 * 24 * 60 * 60;
+                    //     C_Month = Convert.ToInt32(TimeParams[2]) * 24 * 60 * 60;
+                    C_Days = Convert.ToDouble(TimeParams[3]) * 24 * 60 * 60;
+                    C_Hours = Convert.ToDouble(TimeParams[4]) * 60 * 60;
+
+                    //4.5 = період з Period[]
+                    //238 поняв шо
+                    //timeparams[1] = маса
+
+                    // час треба перевести в секунди
+                    // 0.235 молярна маса
+                    Double Result;
+                    Result = (6.02 * 1E23); // скільки атомів в заданій масі
+                    Result = ((Convert.ToDouble(TimeParams[1]) / 1000) / (mass[NameOfElements[SelectedElement + 1]] / 1000)) * Result;
+                    Double N0 = Result;
+      
+                    Double time = C_Years + C_Days + C_Hours + Convert.ToDouble(TimeParams[5]);
+                    if (Program.Element == null)
+                    {
+                        label8.Text = "ВИБЕРІТЬ ІЗОТОП!";
+                        label8.Visible = true;
+                        break;
+                    }
+                    if(period[Program.Element] == 0)
+                    {
+                        label8.Text = "ІЗОТОП СТАБІЛЬНИЙ!";
+                        label8.Visible = true;
+                        break;
+                    }
+                    Double ttime = period[Program.Element];
+                    Double temp = (Math.Pow(2.71828182846, (time*-0.69 / ttime)));
+                    Result = N0 - (N0 * temp); // N0 * temp - скільки НЕ роспалось
+
+                    if ((N0 * temp) <= 1 || Result < 1E-1)
+                    {
+                        label8.Text = "ВСІ ЯДРА РОЗПАЛИСЬ";
+                        label8.Visible = true;
+                    }
+                    else if ((N0 * temp) > 0)
+                    {
+                        label8.Text = "РОЗПАДЕТЬСЯ: " + Convert.ToString(Result) + " ЯДЕР\nЗАЛИШИТЬСЯ: " + Convert.ToString(N0 * temp);
+                        label8.Visible = true;
+                    }
+                 
+                    break;
+                }
+                case 2:
+                {
+                    double Result;
+                    Result = Convert.ToDouble(TimeParams[1]);
+                    Result *= energypernucleon[ex2-1];
+                    label8.Text = "Енергія на нуклон буде дорівнювати: " + Convert.ToString(Result)+"MeB";
+                    label8.Visible = true;
+                    break;
+                }
+                default:
+                    break;      
+            }
+        }
+
+        private void roundedButton128_Click(object sender, EventArgs e)
+        {
+            /* hide buttons EX  */
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            textBox3.Visible = false;
+            textBox4.Visible = false;
+            textBox5.Visible = false;
+            label8.Visible = false;
+            roundedButton129.Visible = false;
+            roundedButton126.Visible = true;
+            roundedButton127.Visible = true;
+            roundedButton125.Visible = true;
+            roundedButton128.Visible = false;
+            ex = 0;
         }
 
     }

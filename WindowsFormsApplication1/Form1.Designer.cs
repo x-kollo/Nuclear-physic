@@ -31,26 +31,27 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.button83 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button89 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.button94 = new System.Windows.Forms.Button();
-            this.button95 = new System.Windows.Forms.Button();
-            this.button90 = new System.Windows.Forms.Button();
             this.button91 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.izotopbtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.roundedButton72 = new Physic.RoundedButton();
+            this.roundedButton71 = new Physic.RoundedButton();
+            this.roundedButton58 = new Physic.RoundedButton();
+            this.roundedButton70 = new Physic.RoundedButton();
+            this.roundedButton69 = new Physic.RoundedButton();
+            this.roundedButton59 = new Physic.RoundedButton();
+            this.roundedButton68 = new Physic.RoundedButton();
+            this.roundedButton60 = new Physic.RoundedButton();
+            this.roundedButton67 = new Physic.RoundedButton();
+            this.roundedButton61 = new Physic.RoundedButton();
+            this.roundedButton66 = new Physic.RoundedButton();
+            this.roundedButton62 = new Physic.RoundedButton();
+            this.roundedButton65 = new Physic.RoundedButton();
+            this.roundedButton63 = new Physic.RoundedButton();
+            this.roundedButton64 = new Physic.RoundedButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.інформаціяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.авториToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.roundedButton98 = new Physic.RoundedButton();
             this.roundedButton100 = new Physic.RoundedButton();
             this.roundedButton99 = new Physic.RoundedButton();
@@ -66,6 +67,21 @@
             this.roundedButton107 = new Physic.RoundedButton();
             this.roundedButton105 = new Physic.RoundedButton();
             this.roundedButton106 = new Physic.RoundedButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.інформаціяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.авториToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.roundedButton128 = new Physic.RoundedButton();
+            this.roundedButton129 = new Physic.RoundedButton();
+            this.roundedButton127 = new Physic.RoundedButton();
+            this.roundedButton126 = new Physic.RoundedButton();
+            this.roundedButton125 = new Physic.RoundedButton();
+            this.roundedButton124 = new Physic.RoundedButton();
+            this.roundedButton123 = new Physic.RoundedButton();
+            this.roundedButton122 = new Physic.RoundedButton();
+            this.roundedButton121 = new Physic.RoundedButton();
             this.roundedButton120 = new Physic.RoundedButton();
             this.roundedButton119 = new Physic.RoundedButton();
             this.roundedButton118 = new Physic.RoundedButton();
@@ -84,21 +100,6 @@
             this.roundedButton90 = new Physic.RoundedButton();
             this.roundedButton89 = new Physic.RoundedButton();
             this.roundedButton88 = new Physic.RoundedButton();
-            this.roundedButton72 = new Physic.RoundedButton();
-            this.roundedButton71 = new Physic.RoundedButton();
-            this.roundedButton58 = new Physic.RoundedButton();
-            this.roundedButton70 = new Physic.RoundedButton();
-            this.roundedButton69 = new Physic.RoundedButton();
-            this.roundedButton59 = new Physic.RoundedButton();
-            this.roundedButton68 = new Physic.RoundedButton();
-            this.roundedButton60 = new Physic.RoundedButton();
-            this.roundedButton67 = new Physic.RoundedButton();
-            this.roundedButton61 = new Physic.RoundedButton();
-            this.roundedButton66 = new Physic.RoundedButton();
-            this.roundedButton62 = new Physic.RoundedButton();
-            this.roundedButton65 = new Physic.RoundedButton();
-            this.roundedButton63 = new Physic.RoundedButton();
-            this.roundedButton64 = new Physic.RoundedButton();
             this.roundedButton87 = new Physic.RoundedButton();
             this.roundedButton86 = new Physic.RoundedButton();
             this.roundedButton85 = new Physic.RoundedButton();
@@ -175,15 +176,16 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(940, 435);
+            this.textBox1.Location = new System.Drawing.Point(29, 39);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(78, 27);
+            this.textBox1.Size = new System.Drawing.Size(78, 23);
             this.textBox1.TabIndex = 82;
             this.textBox1.Text = "МАССА (г)";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -195,20 +197,19 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(902, 407);
+            this.label6.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(151, 5);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(450, 22);
+            this.label6.Size = new System.Drawing.Size(164, 16);
             this.label6.TabIndex = 92;
-            this.label6.Text = "РОЗРАХУНОК КІЛЬКОСТІ МОЛЕКУЛ, ЩО РОЗПАДЕТЬСЯ";
-            this.label6.Visible = false;
+            this.label6.Text = "РОЗВ\'ЯЗАННЯ ЗАДАЧ";
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(1099, 435);
+            this.textBox3.Location = new System.Drawing.Point(196, 39);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(65, 27);
+            this.textBox3.Size = new System.Drawing.Size(65, 23);
             this.textBox3.TabIndex = 95;
             this.textBox3.Text = "ДНІ";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -221,10 +222,10 @@
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.Window;
             this.textBox4.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(1169, 435);
+            this.textBox4.Location = new System.Drawing.Point(266, 39);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 27);
+            this.textBox4.Size = new System.Drawing.Size(65, 23);
             this.textBox4.TabIndex = 96;
             this.textBox4.Text = "ГОДИНИ";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -236,10 +237,10 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(1241, 435);
+            this.textBox5.Location = new System.Drawing.Point(336, 39);
             this.textBox5.MaxLength = 4;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(73, 27);
+            this.textBox5.Size = new System.Drawing.Size(73, 23);
             this.textBox5.TabIndex = 97;
             this.textBox5.Tag = "";
             this.textBox5.Text = "CЕКУНДИ";
@@ -252,19 +253,19 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(1003, 483);
+            this.label8.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(21, 291);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 20);
+            this.label8.Size = new System.Drawing.Size(86, 16);
             this.label8.TabIndex = 102;
             this.label8.Text = "РЕЗУЛЬТАТ";
             this.label8.Visible = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(815, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(896, 98);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(529, 175);
+            this.pictureBox1.Size = new System.Drawing.Size(444, 156);
             this.pictureBox1.TabIndex = 103;
             this.pictureBox1.TabStop = false;
             // 
@@ -272,9 +273,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(1132, 627);
+            this.label9.Location = new System.Drawing.Point(151, 660);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 20);
+            this.label9.Size = new System.Drawing.Size(56, 15);
             this.label9.TabIndex = 104;
             this.label9.Text = "ЕЛЕМЕНТ";
             // 
@@ -285,68 +286,20 @@
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button83.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button83.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button83.Location = new System.Drawing.Point(1266, 577);
+            this.button83.Location = new System.Drawing.Point(296, 610);
             this.button83.Name = "button83";
             this.button83.Size = new System.Drawing.Size(48, 46);
             this.button83.TabIndex = 105;
             this.button83.Text = " ";
             this.button83.UseVisualStyleBackColor = false;
             // 
-            // button85
-            // 
-            this.button85.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button85.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button85.Location = new System.Drawing.Point(937, 465);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(120, 42);
-            this.button85.TabIndex = 108;
-            this.button85.Text = "КІЛЬКІСТЬ МОЛЕКУЛ";
-            this.button85.UseVisualStyleBackColor = true;
-            this.button85.Click += new System.EventHandler(this.button85_Click);
-            // 
-            // button86
-            // 
-            this.button86.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button86.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button86.Location = new System.Drawing.Point(1068, 465);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(120, 42);
-            this.button86.TabIndex = 109;
-            this.button86.Text = "ЕНЕРГІЯ ЗВ\'ЯЗКУ";
-            this.button86.UseVisualStyleBackColor = true;
-            this.button86.Click += new System.EventHandler(this.button86_Click);
-            // 
-            // button87
-            // 
-            this.button87.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button87.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button87.Location = new System.Drawing.Point(1194, 465);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(120, 42);
-            this.button87.TabIndex = 110;
-            this.button87.Text = "ПЕРЕВІД";
-            this.button87.UseVisualStyleBackColor = true;
-            this.button87.Click += new System.EventHandler(this.button87_Click);
-            // 
-            // button88
-            // 
-            this.button88.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button88.Location = new System.Drawing.Point(1241, 530);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(73, 27);
-            this.button88.TabIndex = 111;
-            this.button88.Text = "<< НАЗАД";
-            this.button88.UseVisualStyleBackColor = true;
-            this.button88.Visible = false;
-            this.button88.Click += new System.EventHandler(this.button88_Click);
-            // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(1024, 435);
+            this.textBox2.Location = new System.Drawing.Point(121, 39);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox2.Size = new System.Drawing.Size(69, 27);
+            this.textBox2.Size = new System.Drawing.Size(69, 23);
             this.textBox2.TabIndex = 94;
             this.textBox2.Text = "РОКИ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -355,75 +308,6 @@
             this.textBox2.Enter += new System.EventHandler(this.OnTextBox_Enter);
             this.textBox2.Leave += new System.EventHandler(this.OnTextBox_Leave);
             // 
-            // button89
-            // 
-            this.button89.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button89.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button89.Location = new System.Drawing.Point(109, 35);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(229, 46);
-            this.button89.TabIndex = 113;
-            this.button89.Text = "ВІДКРИТИ ТАБЛИЦЮ ІЗОТОПІВ";
-            this.button89.UseVisualStyleBackColor = false;
-            this.button89.Visible = false;
-            this.button89.Click += new System.EventHandler(this.button89_Click);
-            // 
-            // button93
-            // 
-            this.button93.BackColor = System.Drawing.Color.OliveDrab;
-            this.button93.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button93.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button93.Location = new System.Drawing.Point(937, 318);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(377, 52);
-            this.button93.TabIndex = 114;
-            this.button93.Text = "ТЕРМОДИНАМІЧНІ ВЛАСТИВОСТІ";
-            this.button93.UseVisualStyleBackColor = false;
-            this.button93.Click += new System.EventHandler(this.Button93_Click);
-            // 
-            // button94
-            // 
-            this.button94.BackColor = System.Drawing.Color.OliveDrab;
-            this.button94.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button94.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button94.Location = new System.Drawing.Point(937, 259);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(377, 53);
-            this.button94.TabIndex = 115;
-            this.button94.Text = "ХІМІЧНІ ВЛАСТИВОСТІ";
-            this.button94.UseVisualStyleBackColor = false;
-            this.button94.Click += new System.EventHandler(this.Button94_Click);
-            // 
-            // button95
-            // 
-            this.button95.BackColor = System.Drawing.Color.OliveDrab;
-            this.button95.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button95.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button95.Location = new System.Drawing.Point(937, 201);
-            this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(377, 52);
-            this.button95.TabIndex = 116;
-            this.button95.Text = "ВЛАСТИВОСТІ АТОМА";
-            this.button95.UseVisualStyleBackColor = false;
-            this.button95.Click += new System.EventHandler(this.Button95_Click);
-            // 
-            // button90
-            // 
-            this.button90.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button90.Location = new System.Drawing.Point(1240, 376);
-            this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(77, 28);
-            this.button90.TabIndex = 117;
-            this.button90.Text = "<< НАЗАД";
-            this.button90.UseVisualStyleBackColor = true;
-            this.button90.Visible = false;
-            this.button90.Click += new System.EventHandler(this.button90_Click);
-            // 
             // button91
             // 
             this.button91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -431,37 +315,20 @@
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button91.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button91.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button91.Location = new System.Drawing.Point(1051, 578);
+            this.button91.Location = new System.Drawing.Point(79, 610);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(209, 46);
             this.button91.TabIndex = 118;
             this.button91.Text = " ";
             this.button91.UseVisualStyleBackColor = false;
             // 
-            // button84
-            // 
-            this.button84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button84.Enabled = false;
-            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button84.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button84.ForeColor = System.Drawing.Color.Black;
-            this.button84.Location = new System.Drawing.Point(1070, 528);
-            this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(118, 29);
-            this.button84.TabIndex = 107;
-            this.button84.Text = "РОЗРАХУВАТИ";
-            this.button84.UseVisualStyleBackColor = false;
-            this.button84.Visible = false;
-            this.button84.Click += new System.EventHandler(this.button84_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(996, 627);
+            this.label1.Location = new System.Drawing.Point(20, 660);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.Size = new System.Drawing.Size(49, 15);
             this.label1.TabIndex = 119;
             this.label1.Text = "ІЗОТОП";
             // 
@@ -472,7 +339,7 @@
             this.izotopbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.izotopbtn.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.izotopbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.izotopbtn.Location = new System.Drawing.Point(989, 577);
+            this.izotopbtn.Location = new System.Drawing.Point(15, 610);
             this.izotopbtn.Name = "izotopbtn";
             this.izotopbtn.Size = new System.Drawing.Size(56, 46);
             this.izotopbtn.TabIndex = 120;
@@ -502,6 +369,411 @@
             this.panel1.TabIndex = 121;
             this.panel1.Visible = false;
             // 
+            // roundedButton72
+            // 
+            this.roundedButton72.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton72.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton72.BackColorGradientEnabled = true;
+            this.roundedButton72.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton72.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton72.BorderColorEnabled = false;
+            this.roundedButton72.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton72.BorderColorOnHoverEnabled = false;
+            this.roundedButton72.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton72.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton72.ForeColor = System.Drawing.Color.White;
+            this.roundedButton72.Location = new System.Drawing.Point(6, 43);
+            this.roundedButton72.Name = "roundedButton72";
+            this.roundedButton72.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton72.Rounding = 65;
+            this.roundedButton72.RoundingEnable = true;
+            this.roundedButton72.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton72.TabIndex = 64;
+            this.roundedButton72.Text = "Tb";
+            this.roundedButton72.TextHover = null;
+            this.roundedButton72.UseDownPressEffectOnClick = true;
+            this.roundedButton72.UseRippleEffect = false;
+            this.roundedButton72.UseZoomEffectOnHover = false;
+            this.roundedButton72.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton71
+            // 
+            this.roundedButton71.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton71.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton71.BackColorGradientEnabled = true;
+            this.roundedButton71.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton71.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton71.BorderColorEnabled = false;
+            this.roundedButton71.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton71.BorderColorOnHoverEnabled = false;
+            this.roundedButton71.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton71.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton71.ForeColor = System.Drawing.Color.White;
+            this.roundedButton71.Location = new System.Drawing.Point(235, 42);
+            this.roundedButton71.Name = "roundedButton71";
+            this.roundedButton71.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton71.Rounding = 65;
+            this.roundedButton71.RoundingEnable = true;
+            this.roundedButton71.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton71.TabIndex = 70;
+            this.roundedButton71.Text = "Lu";
+            this.roundedButton71.TextHover = null;
+            this.roundedButton71.UseDownPressEffectOnClick = true;
+            this.roundedButton71.UseRippleEffect = false;
+            this.roundedButton71.UseZoomEffectOnHover = false;
+            this.roundedButton71.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton58
+            // 
+            this.roundedButton58.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton58.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton58.BackColorGradientEnabled = true;
+            this.roundedButton58.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton58.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton58.BorderColorEnabled = false;
+            this.roundedButton58.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton58.BorderColorOnHoverEnabled = false;
+            this.roundedButton58.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton58.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton58.ForeColor = System.Drawing.Color.White;
+            this.roundedButton58.Location = new System.Drawing.Point(7, 4);
+            this.roundedButton58.Name = "roundedButton58";
+            this.roundedButton58.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton58.Rounding = 65;
+            this.roundedButton58.RoundingEnable = true;
+            this.roundedButton58.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton58.TabIndex = 56;
+            this.roundedButton58.Text = "La";
+            this.roundedButton58.TextHover = null;
+            this.roundedButton58.UseDownPressEffectOnClick = true;
+            this.roundedButton58.UseRippleEffect = false;
+            this.roundedButton58.UseZoomEffectOnHover = false;
+            this.roundedButton58.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton70
+            // 
+            this.roundedButton70.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton70.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton70.BackColorGradientEnabled = true;
+            this.roundedButton70.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton70.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton70.BorderColorEnabled = false;
+            this.roundedButton70.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton70.BorderColorOnHoverEnabled = false;
+            this.roundedButton70.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton70.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton70.ForeColor = System.Drawing.Color.White;
+            this.roundedButton70.Location = new System.Drawing.Point(197, 42);
+            this.roundedButton70.Name = "roundedButton70";
+            this.roundedButton70.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton70.Rounding = 65;
+            this.roundedButton70.RoundingEnable = true;
+            this.roundedButton70.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton70.TabIndex = 69;
+            this.roundedButton70.Text = "Yb";
+            this.roundedButton70.TextHover = null;
+            this.roundedButton70.UseDownPressEffectOnClick = true;
+            this.roundedButton70.UseRippleEffect = false;
+            this.roundedButton70.UseZoomEffectOnHover = false;
+            this.roundedButton70.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton69
+            // 
+            this.roundedButton69.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton69.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton69.BackColorGradientEnabled = true;
+            this.roundedButton69.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton69.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton69.BorderColorEnabled = false;
+            this.roundedButton69.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton69.BorderColorOnHoverEnabled = false;
+            this.roundedButton69.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton69.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton69.ForeColor = System.Drawing.Color.White;
+            this.roundedButton69.Location = new System.Drawing.Point(159, 42);
+            this.roundedButton69.Name = "roundedButton69";
+            this.roundedButton69.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton69.Rounding = 65;
+            this.roundedButton69.RoundingEnable = true;
+            this.roundedButton69.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton69.TabIndex = 68;
+            this.roundedButton69.Text = "Tm";
+            this.roundedButton69.TextHover = null;
+            this.roundedButton69.UseDownPressEffectOnClick = true;
+            this.roundedButton69.UseRippleEffect = false;
+            this.roundedButton69.UseZoomEffectOnHover = false;
+            this.roundedButton69.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton59
+            // 
+            this.roundedButton59.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton59.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton59.BackColorGradientEnabled = true;
+            this.roundedButton59.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton59.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton59.BorderColorEnabled = false;
+            this.roundedButton59.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton59.BorderColorOnHoverEnabled = false;
+            this.roundedButton59.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton59.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton59.ForeColor = System.Drawing.Color.White;
+            this.roundedButton59.Location = new System.Drawing.Point(44, 4);
+            this.roundedButton59.Name = "roundedButton59";
+            this.roundedButton59.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton59.Rounding = 65;
+            this.roundedButton59.RoundingEnable = true;
+            this.roundedButton59.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton59.TabIndex = 57;
+            this.roundedButton59.Text = "Ce";
+            this.roundedButton59.TextHover = null;
+            this.roundedButton59.UseDownPressEffectOnClick = true;
+            this.roundedButton59.UseRippleEffect = false;
+            this.roundedButton59.UseZoomEffectOnHover = false;
+            this.roundedButton59.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton68
+            // 
+            this.roundedButton68.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton68.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton68.BackColorGradientEnabled = true;
+            this.roundedButton68.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton68.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton68.BorderColorEnabled = false;
+            this.roundedButton68.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton68.BorderColorOnHoverEnabled = false;
+            this.roundedButton68.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton68.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton68.ForeColor = System.Drawing.Color.White;
+            this.roundedButton68.Location = new System.Drawing.Point(121, 42);
+            this.roundedButton68.Name = "roundedButton68";
+            this.roundedButton68.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton68.Rounding = 65;
+            this.roundedButton68.RoundingEnable = true;
+            this.roundedButton68.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton68.TabIndex = 67;
+            this.roundedButton68.Text = "Er";
+            this.roundedButton68.TextHover = null;
+            this.roundedButton68.UseDownPressEffectOnClick = true;
+            this.roundedButton68.UseRippleEffect = false;
+            this.roundedButton68.UseZoomEffectOnHover = false;
+            this.roundedButton68.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton60
+            // 
+            this.roundedButton60.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton60.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton60.BackColorGradientEnabled = true;
+            this.roundedButton60.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton60.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton60.BorderColorEnabled = false;
+            this.roundedButton60.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton60.BorderColorOnHoverEnabled = false;
+            this.roundedButton60.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton60.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton60.ForeColor = System.Drawing.Color.White;
+            this.roundedButton60.Location = new System.Drawing.Point(83, 4);
+            this.roundedButton60.Name = "roundedButton60";
+            this.roundedButton60.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton60.Rounding = 65;
+            this.roundedButton60.RoundingEnable = true;
+            this.roundedButton60.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton60.TabIndex = 58;
+            this.roundedButton60.Text = "Pr";
+            this.roundedButton60.TextHover = null;
+            this.roundedButton60.UseDownPressEffectOnClick = true;
+            this.roundedButton60.UseRippleEffect = false;
+            this.roundedButton60.UseZoomEffectOnHover = false;
+            this.roundedButton60.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton67
+            // 
+            this.roundedButton67.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton67.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton67.BackColorGradientEnabled = true;
+            this.roundedButton67.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton67.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton67.BorderColorEnabled = false;
+            this.roundedButton67.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton67.BorderColorOnHoverEnabled = false;
+            this.roundedButton67.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton67.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton67.ForeColor = System.Drawing.Color.White;
+            this.roundedButton67.Location = new System.Drawing.Point(83, 42);
+            this.roundedButton67.Name = "roundedButton67";
+            this.roundedButton67.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton67.Rounding = 65;
+            this.roundedButton67.RoundingEnable = true;
+            this.roundedButton67.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton67.TabIndex = 66;
+            this.roundedButton67.Text = "Ho";
+            this.roundedButton67.TextHover = null;
+            this.roundedButton67.UseDownPressEffectOnClick = true;
+            this.roundedButton67.UseRippleEffect = false;
+            this.roundedButton67.UseZoomEffectOnHover = false;
+            this.roundedButton67.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton61
+            // 
+            this.roundedButton61.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton61.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton61.BackColorGradientEnabled = true;
+            this.roundedButton61.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton61.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton61.BorderColorEnabled = false;
+            this.roundedButton61.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton61.BorderColorOnHoverEnabled = false;
+            this.roundedButton61.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton61.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton61.ForeColor = System.Drawing.Color.White;
+            this.roundedButton61.Location = new System.Drawing.Point(121, 4);
+            this.roundedButton61.Name = "roundedButton61";
+            this.roundedButton61.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton61.Rounding = 65;
+            this.roundedButton61.RoundingEnable = true;
+            this.roundedButton61.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton61.TabIndex = 59;
+            this.roundedButton61.Text = "Nd";
+            this.roundedButton61.TextHover = null;
+            this.roundedButton61.UseDownPressEffectOnClick = true;
+            this.roundedButton61.UseRippleEffect = false;
+            this.roundedButton61.UseZoomEffectOnHover = false;
+            this.roundedButton61.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton66
+            // 
+            this.roundedButton66.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton66.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton66.BackColorGradientEnabled = true;
+            this.roundedButton66.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton66.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton66.BorderColorEnabled = false;
+            this.roundedButton66.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton66.BorderColorOnHoverEnabled = false;
+            this.roundedButton66.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton66.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton66.ForeColor = System.Drawing.Color.White;
+            this.roundedButton66.Location = new System.Drawing.Point(44, 42);
+            this.roundedButton66.Name = "roundedButton66";
+            this.roundedButton66.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton66.Rounding = 65;
+            this.roundedButton66.RoundingEnable = true;
+            this.roundedButton66.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton66.TabIndex = 65;
+            this.roundedButton66.Text = "Dy";
+            this.roundedButton66.TextHover = null;
+            this.roundedButton66.UseDownPressEffectOnClick = true;
+            this.roundedButton66.UseRippleEffect = false;
+            this.roundedButton66.UseZoomEffectOnHover = false;
+            this.roundedButton66.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton62
+            // 
+            this.roundedButton62.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton62.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton62.BackColorGradientEnabled = true;
+            this.roundedButton62.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton62.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton62.BorderColorEnabled = false;
+            this.roundedButton62.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton62.BorderColorOnHoverEnabled = false;
+            this.roundedButton62.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton62.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton62.ForeColor = System.Drawing.Color.White;
+            this.roundedButton62.Location = new System.Drawing.Point(159, 4);
+            this.roundedButton62.Name = "roundedButton62";
+            this.roundedButton62.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton62.Rounding = 65;
+            this.roundedButton62.RoundingEnable = true;
+            this.roundedButton62.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton62.TabIndex = 60;
+            this.roundedButton62.Text = "Pm";
+            this.roundedButton62.TextHover = null;
+            this.roundedButton62.UseDownPressEffectOnClick = true;
+            this.roundedButton62.UseRippleEffect = false;
+            this.roundedButton62.UseZoomEffectOnHover = false;
+            this.roundedButton62.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton65
+            // 
+            this.roundedButton65.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton65.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton65.BackColorGradientEnabled = true;
+            this.roundedButton65.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton65.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton65.BorderColorEnabled = false;
+            this.roundedButton65.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton65.BorderColorOnHoverEnabled = false;
+            this.roundedButton65.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton65.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton65.ForeColor = System.Drawing.Color.White;
+            this.roundedButton65.Location = new System.Drawing.Point(274, 4);
+            this.roundedButton65.Name = "roundedButton65";
+            this.roundedButton65.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton65.Rounding = 65;
+            this.roundedButton65.RoundingEnable = true;
+            this.roundedButton65.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton65.TabIndex = 63;
+            this.roundedButton65.Text = "Gd";
+            this.roundedButton65.TextHover = null;
+            this.roundedButton65.UseDownPressEffectOnClick = true;
+            this.roundedButton65.UseRippleEffect = false;
+            this.roundedButton65.UseZoomEffectOnHover = false;
+            this.roundedButton65.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton63
+            // 
+            this.roundedButton63.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton63.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton63.BackColorGradientEnabled = true;
+            this.roundedButton63.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton63.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton63.BorderColorEnabled = false;
+            this.roundedButton63.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton63.BorderColorOnHoverEnabled = false;
+            this.roundedButton63.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton63.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton63.ForeColor = System.Drawing.Color.White;
+            this.roundedButton63.Location = new System.Drawing.Point(197, 4);
+            this.roundedButton63.Name = "roundedButton63";
+            this.roundedButton63.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton63.Rounding = 65;
+            this.roundedButton63.RoundingEnable = true;
+            this.roundedButton63.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton63.TabIndex = 61;
+            this.roundedButton63.Text = "Sm";
+            this.roundedButton63.TextHover = null;
+            this.roundedButton63.UseDownPressEffectOnClick = true;
+            this.roundedButton63.UseRippleEffect = false;
+            this.roundedButton63.UseZoomEffectOnHover = false;
+            this.roundedButton63.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // roundedButton64
+            // 
+            this.roundedButton64.BackColor = System.Drawing.Color.MediumOrchid;
+            this.roundedButton64.BackColorAdditional = System.Drawing.Color.DarkMagenta;
+            this.roundedButton64.BackColorGradientEnabled = true;
+            this.roundedButton64.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton64.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton64.BorderColorEnabled = false;
+            this.roundedButton64.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton64.BorderColorOnHoverEnabled = false;
+            this.roundedButton64.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton64.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton64.ForeColor = System.Drawing.Color.White;
+            this.roundedButton64.Location = new System.Drawing.Point(235, 4);
+            this.roundedButton64.Name = "roundedButton64";
+            this.roundedButton64.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton64.Rounding = 65;
+            this.roundedButton64.RoundingEnable = true;
+            this.roundedButton64.Size = new System.Drawing.Size(35, 32);
+            this.roundedButton64.TabIndex = 62;
+            this.roundedButton64.Text = "Eu";
+            this.roundedButton64.TextHover = null;
+            this.roundedButton64.UseDownPressEffectOnClick = true;
+            this.roundedButton64.UseRippleEffect = false;
+            this.roundedButton64.UseZoomEffectOnHover = false;
+            this.roundedButton64.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -525,40 +797,6 @@
             this.panel2.Size = new System.Drawing.Size(318, 80);
             this.panel2.TabIndex = 122;
             this.panel2.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 665);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 17);
-            this.label5.TabIndex = 1003;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.інформаціяToolStripMenuItem,
-            this.авториToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1344, 28);
-            this.menuStrip1.TabIndex = 1020;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // інформаціяToolStripMenuItem
-            // 
-            this.інформаціяToolStripMenuItem.Name = "інформаціяToolStripMenuItem";
-            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
-            this.інформаціяToolStripMenuItem.Text = "Інформація";
-            this.інформаціяToolStripMenuItem.Click += new System.EventHandler(this.інформаціяToolStripMenuItem_Click);
-            // 
-            // авториToolStripMenuItem
-            // 
-            this.авториToolStripMenuItem.Name = "авториToolStripMenuItem";
-            this.авториToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
-            this.авториToolStripMenuItem.Text = "Автори";
-            this.авториToolStripMenuItem.Click += new System.EventHandler(this.авториToolStripMenuItem_Click);
             // 
             // roundedButton98
             // 
@@ -964,6 +1202,316 @@
             this.roundedButton106.UseRippleEffect = false;
             this.roundedButton106.UseZoomEffectOnHover = false;
             this.roundedButton106.Click += new System.EventHandler(this.OnClickButton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 665);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 1003;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.інформаціяToolStripMenuItem,
+            this.авториToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1344, 24);
+            this.menuStrip1.TabIndex = 1020;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // інформаціяToolStripMenuItem
+            // 
+            this.інформаціяToolStripMenuItem.Name = "інформаціяToolStripMenuItem";
+            this.інформаціяToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
+            this.інформаціяToolStripMenuItem.Text = "Інформація";
+            this.інформаціяToolStripMenuItem.Click += new System.EventHandler(this.інформаціяToolStripMenuItem_Click);
+            // 
+            // авториToolStripMenuItem
+            // 
+            this.авториToolStripMenuItem.Name = "авториToolStripMenuItem";
+            this.авториToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.авториToolStripMenuItem.Text = "Автори";
+            this.авториToolStripMenuItem.Click += new System.EventHandler(this.авториToolStripMenuItem_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(898, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(444, 23);
+            this.label2.TabIndex = 1025;
+            this.label2.Text = "ІНФОРМАЦІЯ ПРО ВЛАСТИВОСТІ ЕЛЕМЕНТА\r\n";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.roundedButton128);
+            this.panel3.Controls.Add(this.roundedButton129);
+            this.panel3.Controls.Add(this.roundedButton127);
+            this.panel3.Controls.Add(this.roundedButton126);
+            this.panel3.Controls.Add(this.roundedButton125);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.textBox5);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Location = new System.Drawing.Point(897, 254);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(444, 340);
+            this.panel3.TabIndex = 1026;
+            // 
+            // roundedButton128
+            // 
+            this.roundedButton128.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton128.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton128.BackColorGradientEnabled = true;
+            this.roundedButton128.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton128.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton128.BorderColorEnabled = false;
+            this.roundedButton128.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton128.BorderColorOnHoverEnabled = false;
+            this.roundedButton128.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton128.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton128.ForeColor = System.Drawing.Color.White;
+            this.roundedButton128.Location = new System.Drawing.Point(336, 282);
+            this.roundedButton128.Name = "roundedButton128";
+            this.roundedButton128.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton128.Rounding = 65;
+            this.roundedButton128.RoundingEnable = true;
+            this.roundedButton128.Size = new System.Drawing.Size(97, 38);
+            this.roundedButton128.TabIndex = 1023;
+            this.roundedButton128.Text = "НАЗАД";
+            this.roundedButton128.TextHover = null;
+            this.roundedButton128.UseDownPressEffectOnClick = true;
+            this.roundedButton128.UseRippleEffect = false;
+            this.roundedButton128.UseZoomEffectOnHover = false;
+            this.roundedButton128.Visible = false;
+            this.roundedButton128.Click += new System.EventHandler(this.roundedButton128_Click);
+            // 
+            // roundedButton129
+            // 
+            this.roundedButton129.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton129.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton129.BackColorGradientEnabled = true;
+            this.roundedButton129.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton129.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton129.BorderColorEnabled = false;
+            this.roundedButton129.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton129.BorderColorOnHoverEnabled = false;
+            this.roundedButton129.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton129.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton129.ForeColor = System.Drawing.Color.White;
+            this.roundedButton129.Location = new System.Drawing.Point(180, 67);
+            this.roundedButton129.Name = "roundedButton129";
+            this.roundedButton129.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton129.Rounding = 65;
+            this.roundedButton129.RoundingEnable = true;
+            this.roundedButton129.Size = new System.Drawing.Size(115, 21);
+            this.roundedButton129.TabIndex = 1022;
+            this.roundedButton129.Text = "РОЗРАХУВАТИ";
+            this.roundedButton129.TextHover = null;
+            this.roundedButton129.UseDownPressEffectOnClick = true;
+            this.roundedButton129.UseRippleEffect = false;
+            this.roundedButton129.UseZoomEffectOnHover = false;
+            this.roundedButton129.Visible = false;
+            this.roundedButton129.Click += new System.EventHandler(this.roundedButton129_Click);
+            // 
+            // roundedButton127
+            // 
+            this.roundedButton127.BackColor = System.Drawing.SystemColors.GrayText;
+            this.roundedButton127.BackColorAdditional = System.Drawing.Color.SlateGray;
+            this.roundedButton127.BackColorGradientEnabled = false;
+            this.roundedButton127.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton127.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton127.BorderColorEnabled = false;
+            this.roundedButton127.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton127.BorderColorOnHoverEnabled = false;
+            this.roundedButton127.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton127.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton127.ForeColor = System.Drawing.Color.White;
+            this.roundedButton127.Location = new System.Drawing.Point(327, 34);
+            this.roundedButton127.Name = "roundedButton127";
+            this.roundedButton127.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton127.Rounding = 65;
+            this.roundedButton127.RoundingEnable = true;
+            this.roundedButton127.Size = new System.Drawing.Size(102, 28);
+            this.roundedButton127.TabIndex = 114;
+            this.roundedButton127.Text = "ПЕРЕВІД";
+            this.roundedButton127.TextHover = null;
+            this.roundedButton127.UseDownPressEffectOnClick = true;
+            this.roundedButton127.UseRippleEffect = false;
+            this.roundedButton127.UseZoomEffectOnHover = false;
+            this.roundedButton127.Click += new System.EventHandler(this.roundedButton127_Click);
+            // 
+            // roundedButton126
+            // 
+            this.roundedButton126.BackColor = System.Drawing.SystemColors.GrayText;
+            this.roundedButton126.BackColorAdditional = System.Drawing.Color.SlateGray;
+            this.roundedButton126.BackColorGradientEnabled = false;
+            this.roundedButton126.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton126.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton126.BorderColorEnabled = false;
+            this.roundedButton126.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton126.BorderColorOnHoverEnabled = false;
+            this.roundedButton126.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton126.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton126.ForeColor = System.Drawing.Color.White;
+            this.roundedButton126.Location = new System.Drawing.Point(180, 34);
+            this.roundedButton126.Name = "roundedButton126";
+            this.roundedButton126.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton126.Rounding = 65;
+            this.roundedButton126.RoundingEnable = true;
+            this.roundedButton126.Size = new System.Drawing.Size(142, 28);
+            this.roundedButton126.TabIndex = 113;
+            this.roundedButton126.Text = "ЕНЕРГІЯ ЗВ\'ЯЗКУ ";
+            this.roundedButton126.TextHover = null;
+            this.roundedButton126.UseDownPressEffectOnClick = true;
+            this.roundedButton126.UseRippleEffect = false;
+            this.roundedButton126.UseZoomEffectOnHover = false;
+            this.roundedButton126.Click += new System.EventHandler(this.roundedButton126_Click);
+            // 
+            // roundedButton125
+            // 
+            this.roundedButton125.BackColor = System.Drawing.SystemColors.GrayText;
+            this.roundedButton125.BackColorAdditional = System.Drawing.Color.SlateGray;
+            this.roundedButton125.BackColorGradientEnabled = false;
+            this.roundedButton125.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.roundedButton125.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton125.BorderColorEnabled = false;
+            this.roundedButton125.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton125.BorderColorOnHoverEnabled = false;
+            this.roundedButton125.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton125.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton125.ForeColor = System.Drawing.Color.White;
+            this.roundedButton125.Location = new System.Drawing.Point(19, 34);
+            this.roundedButton125.Name = "roundedButton125";
+            this.roundedButton125.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton125.Rounding = 65;
+            this.roundedButton125.RoundingEnable = true;
+            this.roundedButton125.Size = new System.Drawing.Size(155, 28);
+            this.roundedButton125.TabIndex = 112;
+            this.roundedButton125.Text = "КІЛЬКІСТЬ МОЛЕКУЛ";
+            this.roundedButton125.TextHover = null;
+            this.roundedButton125.UseDownPressEffectOnClick = true;
+            this.roundedButton125.UseRippleEffect = false;
+            this.roundedButton125.UseZoomEffectOnHover = false;
+            this.roundedButton125.Click += new System.EventHandler(this.roundedButton125_Click);
+            // 
+            // roundedButton124
+            // 
+            this.roundedButton124.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton124.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton124.BackColorGradientEnabled = true;
+            this.roundedButton124.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton124.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton124.BorderColorEnabled = false;
+            this.roundedButton124.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton124.BorderColorOnHoverEnabled = false;
+            this.roundedButton124.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton124.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton124.ForeColor = System.Drawing.Color.White;
+            this.roundedButton124.Location = new System.Drawing.Point(1145, 55);
+            this.roundedButton124.Name = "roundedButton124";
+            this.roundedButton124.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton124.Rounding = 65;
+            this.roundedButton124.RoundingEnable = true;
+            this.roundedButton124.Size = new System.Drawing.Size(195, 37);
+            this.roundedButton124.TabIndex = 1024;
+            this.roundedButton124.Text = "ТЕРМОДИНАМІЧНІ";
+            this.roundedButton124.TextHover = null;
+            this.roundedButton124.UseDownPressEffectOnClick = true;
+            this.roundedButton124.UseRippleEffect = false;
+            this.roundedButton124.UseZoomEffectOnHover = false;
+            this.roundedButton124.Click += new System.EventHandler(this.roundedButton124_Click);
+            // 
+            // roundedButton123
+            // 
+            this.roundedButton123.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton123.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton123.BackColorGradientEnabled = true;
+            this.roundedButton123.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton123.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton123.BorderColorEnabled = false;
+            this.roundedButton123.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton123.BorderColorOnHoverEnabled = false;
+            this.roundedButton123.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton123.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton123.ForeColor = System.Drawing.Color.White;
+            this.roundedButton123.Location = new System.Drawing.Point(1020, 55);
+            this.roundedButton123.Name = "roundedButton123";
+            this.roundedButton123.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton123.Rounding = 65;
+            this.roundedButton123.RoundingEnable = true;
+            this.roundedButton123.Size = new System.Drawing.Size(113, 37);
+            this.roundedButton123.TabIndex = 1023;
+            this.roundedButton123.Text = "ХІМІЧНІ";
+            this.roundedButton123.TextHover = null;
+            this.roundedButton123.UseDownPressEffectOnClick = true;
+            this.roundedButton123.UseRippleEffect = false;
+            this.roundedButton123.UseZoomEffectOnHover = false;
+            this.roundedButton123.Click += new System.EventHandler(this.roundedButton123_Click);
+            // 
+            // roundedButton122
+            // 
+            this.roundedButton122.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton122.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton122.BackColorGradientEnabled = true;
+            this.roundedButton122.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton122.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton122.BorderColorEnabled = false;
+            this.roundedButton122.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton122.BorderColorOnHoverEnabled = false;
+            this.roundedButton122.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton122.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton122.ForeColor = System.Drawing.Color.White;
+            this.roundedButton122.Location = new System.Drawing.Point(896, 55);
+            this.roundedButton122.Name = "roundedButton122";
+            this.roundedButton122.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton122.Rounding = 65;
+            this.roundedButton122.RoundingEnable = true;
+            this.roundedButton122.Size = new System.Drawing.Size(108, 37);
+            this.roundedButton122.TabIndex = 1022;
+            this.roundedButton122.Text = "АТОМА";
+            this.roundedButton122.TextHover = null;
+            this.roundedButton122.UseDownPressEffectOnClick = true;
+            this.roundedButton122.UseRippleEffect = false;
+            this.roundedButton122.UseZoomEffectOnHover = false;
+            this.roundedButton122.Click += new System.EventHandler(this.roundedButton122_Click);
+            // 
+            // roundedButton121
+            // 
+            this.roundedButton121.BackColor = System.Drawing.Color.Tomato;
+            this.roundedButton121.BackColorAdditional = System.Drawing.Color.LightSalmon;
+            this.roundedButton121.BackColorGradientEnabled = true;
+            this.roundedButton121.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.roundedButton121.BorderColor = System.Drawing.Color.Tomato;
+            this.roundedButton121.BorderColorEnabled = false;
+            this.roundedButton121.BorderColorOnHover = System.Drawing.Color.Empty;
+            this.roundedButton121.BorderColorOnHoverEnabled = false;
+            this.roundedButton121.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton121.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundedButton121.ForeColor = System.Drawing.Color.White;
+            this.roundedButton121.Location = new System.Drawing.Point(100, 35);
+            this.roundedButton121.Name = "roundedButton121";
+            this.roundedButton121.RippleColor = System.Drawing.Color.Empty;
+            this.roundedButton121.Rounding = 65;
+            this.roundedButton121.RoundingEnable = true;
+            this.roundedButton121.Size = new System.Drawing.Size(229, 46);
+            this.roundedButton121.TabIndex = 1021;
+            this.roundedButton121.Text = "ТАБЛИЦЯ ІЗОТОПІВ";
+            this.roundedButton121.TextHover = null;
+            this.roundedButton121.UseDownPressEffectOnClick = true;
+            this.roundedButton121.UseRippleEffect = false;
+            this.roundedButton121.UseZoomEffectOnHover = false;
+            this.roundedButton121.Click += new System.EventHandler(this.roundedButton121_Click);
             // 
             // roundedButton120
             // 
@@ -1450,411 +1998,6 @@
             this.roundedButton88.UseRippleEffect = false;
             this.roundedButton88.UseZoomEffectOnHover = false;
             this.roundedButton88.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton72
-            // 
-            this.roundedButton72.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton72.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton72.BackColorGradientEnabled = true;
-            this.roundedButton72.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton72.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton72.BorderColorEnabled = false;
-            this.roundedButton72.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton72.BorderColorOnHoverEnabled = false;
-            this.roundedButton72.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton72.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton72.ForeColor = System.Drawing.Color.White;
-            this.roundedButton72.Location = new System.Drawing.Point(6, 43);
-            this.roundedButton72.Name = "roundedButton72";
-            this.roundedButton72.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton72.Rounding = 65;
-            this.roundedButton72.RoundingEnable = true;
-            this.roundedButton72.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton72.TabIndex = 64;
-            this.roundedButton72.Text = "Tb";
-            this.roundedButton72.TextHover = null;
-            this.roundedButton72.UseDownPressEffectOnClick = true;
-            this.roundedButton72.UseRippleEffect = false;
-            this.roundedButton72.UseZoomEffectOnHover = false;
-            this.roundedButton72.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton71
-            // 
-            this.roundedButton71.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton71.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton71.BackColorGradientEnabled = true;
-            this.roundedButton71.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton71.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton71.BorderColorEnabled = false;
-            this.roundedButton71.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton71.BorderColorOnHoverEnabled = false;
-            this.roundedButton71.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton71.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton71.ForeColor = System.Drawing.Color.White;
-            this.roundedButton71.Location = new System.Drawing.Point(235, 42);
-            this.roundedButton71.Name = "roundedButton71";
-            this.roundedButton71.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton71.Rounding = 65;
-            this.roundedButton71.RoundingEnable = true;
-            this.roundedButton71.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton71.TabIndex = 70;
-            this.roundedButton71.Text = "Lu";
-            this.roundedButton71.TextHover = null;
-            this.roundedButton71.UseDownPressEffectOnClick = true;
-            this.roundedButton71.UseRippleEffect = false;
-            this.roundedButton71.UseZoomEffectOnHover = false;
-            this.roundedButton71.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton58
-            // 
-            this.roundedButton58.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton58.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton58.BackColorGradientEnabled = true;
-            this.roundedButton58.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton58.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton58.BorderColorEnabled = false;
-            this.roundedButton58.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton58.BorderColorOnHoverEnabled = false;
-            this.roundedButton58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton58.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton58.ForeColor = System.Drawing.Color.White;
-            this.roundedButton58.Location = new System.Drawing.Point(7, 4);
-            this.roundedButton58.Name = "roundedButton58";
-            this.roundedButton58.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton58.Rounding = 65;
-            this.roundedButton58.RoundingEnable = true;
-            this.roundedButton58.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton58.TabIndex = 56;
-            this.roundedButton58.Text = "La";
-            this.roundedButton58.TextHover = null;
-            this.roundedButton58.UseDownPressEffectOnClick = true;
-            this.roundedButton58.UseRippleEffect = false;
-            this.roundedButton58.UseZoomEffectOnHover = false;
-            this.roundedButton58.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton70
-            // 
-            this.roundedButton70.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton70.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton70.BackColorGradientEnabled = true;
-            this.roundedButton70.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton70.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton70.BorderColorEnabled = false;
-            this.roundedButton70.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton70.BorderColorOnHoverEnabled = false;
-            this.roundedButton70.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton70.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton70.ForeColor = System.Drawing.Color.White;
-            this.roundedButton70.Location = new System.Drawing.Point(197, 42);
-            this.roundedButton70.Name = "roundedButton70";
-            this.roundedButton70.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton70.Rounding = 65;
-            this.roundedButton70.RoundingEnable = true;
-            this.roundedButton70.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton70.TabIndex = 69;
-            this.roundedButton70.Text = "Yb";
-            this.roundedButton70.TextHover = null;
-            this.roundedButton70.UseDownPressEffectOnClick = true;
-            this.roundedButton70.UseRippleEffect = false;
-            this.roundedButton70.UseZoomEffectOnHover = false;
-            this.roundedButton70.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton69
-            // 
-            this.roundedButton69.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton69.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton69.BackColorGradientEnabled = true;
-            this.roundedButton69.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton69.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton69.BorderColorEnabled = false;
-            this.roundedButton69.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton69.BorderColorOnHoverEnabled = false;
-            this.roundedButton69.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton69.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton69.ForeColor = System.Drawing.Color.White;
-            this.roundedButton69.Location = new System.Drawing.Point(159, 42);
-            this.roundedButton69.Name = "roundedButton69";
-            this.roundedButton69.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton69.Rounding = 65;
-            this.roundedButton69.RoundingEnable = true;
-            this.roundedButton69.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton69.TabIndex = 68;
-            this.roundedButton69.Text = "Tm";
-            this.roundedButton69.TextHover = null;
-            this.roundedButton69.UseDownPressEffectOnClick = true;
-            this.roundedButton69.UseRippleEffect = false;
-            this.roundedButton69.UseZoomEffectOnHover = false;
-            this.roundedButton69.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton59
-            // 
-            this.roundedButton59.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton59.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton59.BackColorGradientEnabled = true;
-            this.roundedButton59.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton59.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton59.BorderColorEnabled = false;
-            this.roundedButton59.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton59.BorderColorOnHoverEnabled = false;
-            this.roundedButton59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton59.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton59.ForeColor = System.Drawing.Color.White;
-            this.roundedButton59.Location = new System.Drawing.Point(44, 4);
-            this.roundedButton59.Name = "roundedButton59";
-            this.roundedButton59.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton59.Rounding = 65;
-            this.roundedButton59.RoundingEnable = true;
-            this.roundedButton59.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton59.TabIndex = 57;
-            this.roundedButton59.Text = "Ce";
-            this.roundedButton59.TextHover = null;
-            this.roundedButton59.UseDownPressEffectOnClick = true;
-            this.roundedButton59.UseRippleEffect = false;
-            this.roundedButton59.UseZoomEffectOnHover = false;
-            this.roundedButton59.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton68
-            // 
-            this.roundedButton68.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton68.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton68.BackColorGradientEnabled = true;
-            this.roundedButton68.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton68.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton68.BorderColorEnabled = false;
-            this.roundedButton68.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton68.BorderColorOnHoverEnabled = false;
-            this.roundedButton68.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton68.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton68.ForeColor = System.Drawing.Color.White;
-            this.roundedButton68.Location = new System.Drawing.Point(121, 42);
-            this.roundedButton68.Name = "roundedButton68";
-            this.roundedButton68.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton68.Rounding = 65;
-            this.roundedButton68.RoundingEnable = true;
-            this.roundedButton68.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton68.TabIndex = 67;
-            this.roundedButton68.Text = "Er";
-            this.roundedButton68.TextHover = null;
-            this.roundedButton68.UseDownPressEffectOnClick = true;
-            this.roundedButton68.UseRippleEffect = false;
-            this.roundedButton68.UseZoomEffectOnHover = false;
-            this.roundedButton68.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton60
-            // 
-            this.roundedButton60.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton60.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton60.BackColorGradientEnabled = true;
-            this.roundedButton60.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton60.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton60.BorderColorEnabled = false;
-            this.roundedButton60.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton60.BorderColorOnHoverEnabled = false;
-            this.roundedButton60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton60.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton60.ForeColor = System.Drawing.Color.White;
-            this.roundedButton60.Location = new System.Drawing.Point(83, 4);
-            this.roundedButton60.Name = "roundedButton60";
-            this.roundedButton60.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton60.Rounding = 65;
-            this.roundedButton60.RoundingEnable = true;
-            this.roundedButton60.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton60.TabIndex = 58;
-            this.roundedButton60.Text = "Pr";
-            this.roundedButton60.TextHover = null;
-            this.roundedButton60.UseDownPressEffectOnClick = true;
-            this.roundedButton60.UseRippleEffect = false;
-            this.roundedButton60.UseZoomEffectOnHover = false;
-            this.roundedButton60.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton67
-            // 
-            this.roundedButton67.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton67.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton67.BackColorGradientEnabled = true;
-            this.roundedButton67.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton67.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton67.BorderColorEnabled = false;
-            this.roundedButton67.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton67.BorderColorOnHoverEnabled = false;
-            this.roundedButton67.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton67.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton67.ForeColor = System.Drawing.Color.White;
-            this.roundedButton67.Location = new System.Drawing.Point(83, 42);
-            this.roundedButton67.Name = "roundedButton67";
-            this.roundedButton67.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton67.Rounding = 65;
-            this.roundedButton67.RoundingEnable = true;
-            this.roundedButton67.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton67.TabIndex = 66;
-            this.roundedButton67.Text = "Ho";
-            this.roundedButton67.TextHover = null;
-            this.roundedButton67.UseDownPressEffectOnClick = true;
-            this.roundedButton67.UseRippleEffect = false;
-            this.roundedButton67.UseZoomEffectOnHover = false;
-            this.roundedButton67.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton61
-            // 
-            this.roundedButton61.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton61.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton61.BackColorGradientEnabled = true;
-            this.roundedButton61.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton61.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton61.BorderColorEnabled = false;
-            this.roundedButton61.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton61.BorderColorOnHoverEnabled = false;
-            this.roundedButton61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton61.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton61.ForeColor = System.Drawing.Color.White;
-            this.roundedButton61.Location = new System.Drawing.Point(121, 4);
-            this.roundedButton61.Name = "roundedButton61";
-            this.roundedButton61.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton61.Rounding = 65;
-            this.roundedButton61.RoundingEnable = true;
-            this.roundedButton61.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton61.TabIndex = 59;
-            this.roundedButton61.Text = "Nd";
-            this.roundedButton61.TextHover = null;
-            this.roundedButton61.UseDownPressEffectOnClick = true;
-            this.roundedButton61.UseRippleEffect = false;
-            this.roundedButton61.UseZoomEffectOnHover = false;
-            this.roundedButton61.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton66
-            // 
-            this.roundedButton66.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton66.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton66.BackColorGradientEnabled = true;
-            this.roundedButton66.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton66.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton66.BorderColorEnabled = false;
-            this.roundedButton66.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton66.BorderColorOnHoverEnabled = false;
-            this.roundedButton66.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton66.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton66.ForeColor = System.Drawing.Color.White;
-            this.roundedButton66.Location = new System.Drawing.Point(44, 42);
-            this.roundedButton66.Name = "roundedButton66";
-            this.roundedButton66.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton66.Rounding = 65;
-            this.roundedButton66.RoundingEnable = true;
-            this.roundedButton66.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton66.TabIndex = 65;
-            this.roundedButton66.Text = "Dy";
-            this.roundedButton66.TextHover = null;
-            this.roundedButton66.UseDownPressEffectOnClick = true;
-            this.roundedButton66.UseRippleEffect = false;
-            this.roundedButton66.UseZoomEffectOnHover = false;
-            this.roundedButton66.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton62
-            // 
-            this.roundedButton62.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton62.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton62.BackColorGradientEnabled = true;
-            this.roundedButton62.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton62.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton62.BorderColorEnabled = false;
-            this.roundedButton62.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton62.BorderColorOnHoverEnabled = false;
-            this.roundedButton62.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton62.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton62.ForeColor = System.Drawing.Color.White;
-            this.roundedButton62.Location = new System.Drawing.Point(159, 4);
-            this.roundedButton62.Name = "roundedButton62";
-            this.roundedButton62.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton62.Rounding = 65;
-            this.roundedButton62.RoundingEnable = true;
-            this.roundedButton62.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton62.TabIndex = 60;
-            this.roundedButton62.Text = "Pm";
-            this.roundedButton62.TextHover = null;
-            this.roundedButton62.UseDownPressEffectOnClick = true;
-            this.roundedButton62.UseRippleEffect = false;
-            this.roundedButton62.UseZoomEffectOnHover = false;
-            this.roundedButton62.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton65
-            // 
-            this.roundedButton65.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton65.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton65.BackColorGradientEnabled = true;
-            this.roundedButton65.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton65.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton65.BorderColorEnabled = false;
-            this.roundedButton65.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton65.BorderColorOnHoverEnabled = false;
-            this.roundedButton65.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton65.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton65.ForeColor = System.Drawing.Color.White;
-            this.roundedButton65.Location = new System.Drawing.Point(274, 4);
-            this.roundedButton65.Name = "roundedButton65";
-            this.roundedButton65.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton65.Rounding = 65;
-            this.roundedButton65.RoundingEnable = true;
-            this.roundedButton65.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton65.TabIndex = 63;
-            this.roundedButton65.Text = "Gd";
-            this.roundedButton65.TextHover = null;
-            this.roundedButton65.UseDownPressEffectOnClick = true;
-            this.roundedButton65.UseRippleEffect = false;
-            this.roundedButton65.UseZoomEffectOnHover = false;
-            this.roundedButton65.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton63
-            // 
-            this.roundedButton63.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton63.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton63.BackColorGradientEnabled = true;
-            this.roundedButton63.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton63.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton63.BorderColorEnabled = false;
-            this.roundedButton63.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton63.BorderColorOnHoverEnabled = false;
-            this.roundedButton63.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton63.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton63.ForeColor = System.Drawing.Color.White;
-            this.roundedButton63.Location = new System.Drawing.Point(197, 4);
-            this.roundedButton63.Name = "roundedButton63";
-            this.roundedButton63.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton63.Rounding = 65;
-            this.roundedButton63.RoundingEnable = true;
-            this.roundedButton63.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton63.TabIndex = 61;
-            this.roundedButton63.Text = "Sm";
-            this.roundedButton63.TextHover = null;
-            this.roundedButton63.UseDownPressEffectOnClick = true;
-            this.roundedButton63.UseRippleEffect = false;
-            this.roundedButton63.UseZoomEffectOnHover = false;
-            this.roundedButton63.Click += new System.EventHandler(this.OnClickButton_Click);
-            // 
-            // roundedButton64
-            // 
-            this.roundedButton64.BackColor = System.Drawing.Color.MediumOrchid;
-            this.roundedButton64.BackColorAdditional = System.Drawing.Color.DarkMagenta;
-            this.roundedButton64.BackColorGradientEnabled = true;
-            this.roundedButton64.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.roundedButton64.BorderColor = System.Drawing.Color.Tomato;
-            this.roundedButton64.BorderColorEnabled = false;
-            this.roundedButton64.BorderColorOnHover = System.Drawing.Color.Empty;
-            this.roundedButton64.BorderColorOnHoverEnabled = false;
-            this.roundedButton64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton64.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundedButton64.ForeColor = System.Drawing.Color.White;
-            this.roundedButton64.Location = new System.Drawing.Point(235, 4);
-            this.roundedButton64.Name = "roundedButton64";
-            this.roundedButton64.RippleColor = System.Drawing.Color.Empty;
-            this.roundedButton64.Rounding = 65;
-            this.roundedButton64.RoundingEnable = true;
-            this.roundedButton64.Size = new System.Drawing.Size(35, 32);
-            this.roundedButton64.TabIndex = 62;
-            this.roundedButton64.Text = "Eu";
-            this.roundedButton64.TextHover = null;
-            this.roundedButton64.UseDownPressEffectOnClick = true;
-            this.roundedButton64.UseRippleEffect = false;
-            this.roundedButton64.UseZoomEffectOnHover = false;
-            this.roundedButton64.Click += new System.EventHandler(this.OnClickButton_Click);
             // 
             // roundedButton87
             // 
@@ -3804,7 +3947,11 @@
             // 
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1344, 681);
-
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.roundedButton124);
+            this.Controls.Add(this.roundedButton123);
+            this.Controls.Add(this.roundedButton122);
+            this.Controls.Add(this.roundedButton121);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.roundedButton120);
             this.Controls.Add(this.roundedButton119);
@@ -3901,27 +4048,11 @@
             this.Controls.Add(this.izotopbtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button91);
-            this.Controls.Add(this.button90);
-            this.Controls.Add(this.button95);
-            this.Controls.Add(this.button94);
-            this.Controls.Add(this.button93);
-            this.Controls.Add(this.button89);
-            this.Controls.Add(this.button88);
-            this.Controls.Add(this.button87);
-            this.Controls.Add(this.button86);
-            this.Controls.Add(this.button85);
-            this.Controls.Add(this.button84);
             this.Controls.Add(this.button83);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel3);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -3933,6 +4064,8 @@
             this.panel2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3946,18 +4079,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button83;
-        private System.Windows.Forms.Button button85;
-        private System.Windows.Forms.Button button86;
-        private System.Windows.Forms.Button button87;
-        private System.Windows.Forms.Button button88;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Button button93;
-        private System.Windows.Forms.Button button94;
-        private System.Windows.Forms.Button button95;
-        private System.Windows.Forms.Button button90;
         private System.Windows.Forms.Button button91;
-        private System.Windows.Forms.Button button84;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button izotopbtn;
         private System.Windows.Forms.Panel panel1;
@@ -4086,6 +4209,17 @@
         private Physic.RoundedButton roundedButton118;
         private Physic.RoundedButton roundedButton119;
         private Physic.RoundedButton roundedButton120;
+        private Physic.RoundedButton roundedButton121;
+        private Physic.RoundedButton roundedButton122;
+        private Physic.RoundedButton roundedButton123;
+        private Physic.RoundedButton roundedButton124;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
+        private Physic.RoundedButton roundedButton128;
+        private Physic.RoundedButton roundedButton129;
+        private Physic.RoundedButton roundedButton127;
+        private Physic.RoundedButton roundedButton126;
+        private Physic.RoundedButton roundedButton125;
     }
 }
 
